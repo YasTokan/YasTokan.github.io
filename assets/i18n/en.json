@@ -33,7 +33,7 @@
 		},
 		"S4": {
 			"TITLE": "Property Management",
-			"DESC": "Let us handle the day-to-day operations of your property portfolio"
+			"DESC": "Let Me handle the day-to-day operations of your property portfolio"
 		},
 		"S5": {
 			"TITLE": "Market Analysis and Valuation",
@@ -55,7 +55,7 @@
 			"FNAME": "First Name",
 			"LNAME": "Last Name"
 		},
-		"CONTACT": "Contact Us",
+		"CONTACT": "Contact Me",
 		"ADDRESS": "ADDRESS",
 		"LOCACTION": "Dubai - Business bay - Empire Heights - Tower B - office 701 , 702",
 		"EMAIL": "Email",
@@ -82,9 +82,9 @@
 			"PR_ADVISOR_RA": "Is a rising star in sustainable real estate investments, focusing on eco-friendly off-plan developments. She helps environmentally conscious investors find properties that align with their values without compromising on returns. Rana's knowledge of green building certifications and sustainable urban planning is unparalleled. Outside the office, Rana is a certified yoga instructor and advocates for wellness in urban living. She's also passionate about upcycling and often showcases how to repurpose materials in home decor. For investments that are good for your wallet and the planet, connect with Rana Hashish today.",
 			"SALES_MAN": "With a finger on the pulse of the off-plan market with more than 10 years experiene in UAE market, Alaa Saleh helps investors capitalize on pre-construction opportunities. Her extensive network of developers gives clients access to exclusive projects before they're publicly launched. Alaa's meticulous approach to due diligence ensures her clients' investments are secure and profitable. In her spare time, Alaa is a food enthusiast who loves exploring new cuisines. She also volunteers teaching financial literacy to high school students. For unparalleled insights into off-plan investments, reach out to Alaa Saleh.",
 			"PR_ADVISOR": "",
-			"A": "The easiest way to put the full stack into perspective is to imagine a restaurant. The front end encompasses the well-decorated, comfortable seating areas where visitors enjoy their food. The kitchen and pantry make up the “back end” and are typically hidden away from the customer’s view. Chefs (developers) gather permanently stored materials from the pantry (the database) and perform operations on it in the kitchen (the server), and then serve up fully-prepared meals (information) to the user. ",
-			"Y": "The easiest way to put the full stack into perspective is to imagine a restaurant. The front end encompasses the well-decorated, comfortable seating areas where visitors enjoy their food. The kitchen and pantry make up the “back end” and are typically hidden away from the customer’s view. Chefs (developers) gather permanently stored materials from the pantry (the database) and perform operations on it in the kitchen (the server), and then serve up fully-prepared meals (information) to the user. ",
-			"ANN": "The easiest way to put the full stack into perspective is to imagine a restaurant. The front end encompasses the well-decorated, comfortable seating areas where visitors enjoy their food. The kitchen and pantry make up the “back end” and are typically hidden away from the customer’s view. Chefs (developers) gather permanently stored materials from the pantry (the database) and perform operations on it in the kitchen (the server), and then serve up fully-prepared meals (information) to the user. "
+			"A": "The easiest way to put the full stack into perspective is to imagine a restaurant. The front end encompasses the well-decorated, comfortable seating areas where visitors enjoy their food. The kitchen and pantry make up the “back end” and are typically hidden away from the customer’s view. Chefs (developers) gather permanently stored materials from the pantry (the database) and perform operations on it in the kitchen (the server), and then serve up fully-prepared meals (information) to the Meer. ",
+			"Y": "The easiest way to put the full stack into perspective is to imagine a restaurant. The front end encompasses the well-decorated, comfortable seating areas where visitors enjoy their food. The kitchen and pantry make up the “back end” and are typically hidden away from the customer’s view. Chefs (developers) gather permanently stored materials from the pantry (the database) and perform operations on it in the kitchen (the server), and then serve up fully-prepared meals (information) to the Meer. ",
+			"ANN": "The easiest way to put the full stack into perspective is to imagine a restaurant. The front end encompasses the well-decorated, comfortable seating areas where visitors enjoy their food. The kitchen and pantry make up the “back end” and are typically hidden away from the customer’s view. Chefs (developers) gather permanently stored materials from the pantry (the database) and perform operations on it in the kitchen (the server), and then serve up fully-prepared meals (information) to the Meer. "
 		}
 	},
 	"LAYOUTS": {
@@ -114,9 +114,9 @@
 			"DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
 		},
 		"COMPANY_INFO": {
-			"TITLE": "Company information",
-			"LOCATION": "Dubai - Business bay - Empire Heights - Tower B - office 701 , 702",
-			"CALL": "Call Us",
+			"TITLE": "My Location",
+			"LOCATION": "United Arab Emirates, Dubai.",
+			"CALL": "Call Me",
 			"EMAIL": "Email",
 			"FAX": "FAX"
 		},
@@ -139,33 +139,36 @@
 	"FASHION_ONE": {
 		"COLLECTIONS": {
 			"NAK": {
-				"TITLE": "JVC",
-				"DESC": "According to your needs"
+				"TITLE": "Front-End",
+				"DESC": "Crafting the user interface and experience for websites and applications."
 			},
 			"MARINA": {
-				"TITLE": "Marina",
-				"DESC": "We will find you the best"
+				"TITLE": "Back-End",
+				"DESC": "Managing server-side logic, databases, and application functionality behind the scenes."
 			},
 			"FAIR": {
-				"DESC": "Fairmont Ajman",
-				"TITLE": "Ajman"
+				"DESC": "Building and managing both the front-end interface and back-end server components of applications.",
+				"TITLE": "Full Stack"
 			},
 			"HAYAT": {
-				"TITLE": "Dubai",
-				"DESC": "Grand Hyatt Dubai"
+				"TITLE": "Mobile Development",
+				"DESC": "Creating applications specifically designed for mobile devices, focusing on performance and user experience."
 			}
 		}
 	},
+	"CV": "CV",
+	"Resume": "Resume",
+	"Projects": "Projects",
 	"home": "home",
 	"MENU": {
 		"BUY": "Buy",
 		"RENT": "Rent"
 	},
 	"contact": "contact",
-	"about-us": "about us",
+	"about-us": "about Me",
 	"FULL_STACK_DESC": "you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.",
 	"topbar-title": "Welcome to Our store Penta",
-	"call-us": "Call Us",
+	"call-us": "Call Me",
 	"shop": "Shop",
 	"products": "Products",
 	"features": "Features",
