@@ -1,0 +1,77 @@
+<header class="sticky" [ngClass]="class" [class.fixed]="stick && sticky">
+  <div class="mobile-fix-option"></div>
+  <div class="top-header" *ngIf="topbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="header-contact">
+            <ul>
+              <li></li>
+              <li  routerLink="/pages/contact">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                Call Us: 045-578-030 
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 text-end">
+          <ul class="header-dropdown">
+            <li class="mobile-phone">
+              <a  routerLink="/pages/contact" (click)="openDialer()">
+                <i class="pi pi-phone cl-de" aria-hidden="true"></i>
+                
+              </a>
+            </li>
+            <li class="mobile-whatsapp">
+              <a  routerLink="/pages/contact" (click)="openWhatsApp()">
+                <i class="pi pi-whatsapp cl-de" aria-hidden="true"></i>
+                
+              </a>
+            </li>
+            
+            <li class="onhover-dropdown mobile-account">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              {{'TOP_BAR.MA_ACCOUNT' |translate}}
+              <ul class="onhover-show-div">
+                <li>
+                  <a data-lng="en" routerLink="/pages/login">{{'TOP_BAR.LOGIN' |translate}}</a>
+                </li>
+                <li>
+                  <a data-lng="es">{{'TOP_BAR.LOGOUT' |translate}}</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="main-menu">
+          <div class="menu-left">
+            <app-left-menu></app-left-menu>
+
+            <div class="brand-logo">
+              <a routerLink="/home" id="headerlogo">
+                <img [src]="themeLogo" class="img-fluid logo-main" alt="logo" />
+              </a>
+              <a class="ll">
+                <p>{{ 'HEADER.PENTA' | translate }}</p>
+              </a>
+            </div>
+          </div>
+          <div class="menu-right pull-right">
+            <div>
+              <app-menu></app-menu>
+            </div>
+            <div>
+              <app-settings></app-settings>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

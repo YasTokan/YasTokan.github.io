@@ -1,0 +1,111 @@
+<app-breadcrumb [title]="'Register'" [breadcrumb]="'Register'"></app-breadcrumb>
+<!-- section 1 start -->
+<section class="register-page section-b-space" *ngIf="step==1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>create account</h3>
+        <div class="theme-card">
+          <form [formGroup]="sForm" class="theme-form">
+            <input type="hidden" pInputText id="diG" formControlName="nationality" />
+            <input type="hidden" pInputText id="diG" formControlName="phone" />
+            <input type="hidden" pInputText id="rr" formControlName="age" />
+            <input type="hidden" pInputText id="rr" formControlName="fullName" />
+            <div class="row">
+              <div class="col-md-6">
+                <label for="email">First Name</label>
+                <input
+                  type="text"
+                  formControlName="fName"
+                  class="form-control"
+                  id="fname"
+                  placeholder="First Name"
+                  required=""
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="review">Last Name</label>
+                <input
+                  type="text"
+                  formControlName="lName"
+                  class="form-control"
+                  id="lname"
+                  placeholder="Last Name"
+                  required=""
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <label for="email">email</label>
+                <input
+                  type="text"
+                  formControlName="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                  required=""
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="review">Password</label>
+                <input
+                  type="password"
+                  formControlName="password"
+                  class="form-control"
+                  id="review"
+                  placeholder="Enter your password"
+                  required=""
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="review">Confirm password</label>
+                <input
+                  type="password"
+                  formControlName="passwordCon"
+                  class="form-control"
+                  id="review"
+                  placeholder="Enter your password"
+                  required=""
+                />
+              </div>
+            </div>
+            <button class="btn btn-solid" (click)="onSubmit()">create Account</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Section 1 ends-->
+
+<!-- section start -->
+<section class="register-page section-b-space" *ngIf="step==2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Activate account</h3>
+          <div class="theme-card">
+            <form [formGroup]="oForm" class="theme-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="email">OTP Sent By Mail</label>
+                  <input
+                    type="text"
+                    formControlName="otp"
+                    class="form-control"
+                    id="otp"
+                    placeholder="OTP"
+                    required=""
+                  />
+                </div>
+              </div>
+              
+              <button class="btn btn-solid" (click)="onSubmitOTP()">Check Otp</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Section ends-->

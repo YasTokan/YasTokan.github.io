@@ -1,0 +1,248 @@
+{
+	"HOME": {
+		"BTN_TXT": "Read More",
+		"FOUND": "PENTA foundation",
+		"GOAL": {
+			"TITLE": "Glance",
+			"DESC": "A dynamic brokerage firm founded in 2024 by visionary entrepreneur Mr. Ali Ibrahim. We offer unparalleled real estate services in the heart of Dubai's thriving property market."
+		},
+		"BEST_DEAL": "Help you with the best deal",
+		"ACC_NEEDS": "According to your needs",
+		"MAP": "Our Map",
+		"WHERE_WE_ARE": "Our Partners' Offices",
+		"STARTED": "Started",
+		"WELCOME_UAE": "Welcome to UAE",
+		"FIND_BEST": "We will find you the best",
+		"DUBAI": "Dubai",
+		"SHARJAH": "Sharjah",
+		"AJMAN": "Ajman",
+		"DUBAI_BRANCH": "We Will Help you finding the best in Dubai"
+	},
+	"SERVICES": {
+		"S1": {
+			"TITLE": "Residential Sales and Leasing",
+			"DESC": "Find your dream home or investment property in Dubai's vibrant neighborhoods."
+		},
+		"S2": {
+			"TITLE": "Commercial Brokerage",
+			"DESC": "Secure prime business locations to fuel your company's growth and success."
+		},
+		"S3": {
+			"TITLE": "Investment Consulting",
+			"DESC": "Benefit from expert advice to maximize your real estate investment returns."
+		},
+		"S4": {
+			"TITLE": "Property Management",
+			"DESC": "Let us handle the day-to-day operations of your property portfolio"
+		},
+		"S5": {
+			"TITLE": "Market Analysis and Valuation",
+			"DESC": "Gain insights into property trends with our in-depth market research."
+		},
+		"S6": {
+			"TITLE": "Client-Centric Approach",
+			"DESC": "We prioritize our clients' needs, offering personalized solutions for every real estate goal."
+		}
+	},
+	"CONTACT": {
+		"FORM": {
+			"REG_UR_INT": "Register your Interest",
+			"NAME": "Name",
+			"TEL": "Phone number",
+			"EMAIL": "Email",
+			"WRITE_MSG": "Write Your Message",
+			"SEND_MSG": "Send Your Message",
+			"FNAME": "First Name",
+			"LNAME": "Last Name"
+		},
+		"CONTACT": "Contact Us",
+		"ADDRESS": "ADDRESS",
+		"LOCACTION": "Dubai - Business bay - Empire Heights - Tower B - office 701 , 702",
+		"EMAIL": "Email",
+		"FAX": "Fax"
+	},
+	"ABOUT": {
+		"INTRO": {
+			"TITLE": "Our aim is to help clients find the best real estate deal in UAE",
+			"P1": "When looking for the best real estate deal in UAE, there are several factors that customers should consider. Firstly, the location of the property is crucial, as it can significantly affect its value and rental potential. Properties located in prime areas, such as Dubai Marina or Downtown Dubai, tend to be more expensive than those in less popular areas. Secondly, the type and size of the property should be taken into account, as this can impact its suitability for the customer's needs. For example, families may prefer larger properties with multiple bedrooms, while singles or couples may prefer smaller apartments. Lastly, amenities and facilities, such as swimming pools, gyms, and parking spaces, can add value to the property and enhance the customer's experience. To help customers find the best real estate deal in UAE, real estate agents should adopt strategies that are tailored to their clients' needs.",
+			"P2": "Firstly, conducting a needs analysis can help identify the customer's requirements and preferences. This can include factors such as budget, location, property type, and amenities. Secondly, providing a comprehensive overview of the available options, including properties that may not be listed on popular websites, can help customers make informed decisions. Lastly, negotiating with sellers to get the best deal for the customer can be a crucial factor in securing a good real estate deal in UAE. In conclusion, finding the best real estate deal in UAE requires careful consideration of various factors, including location, property type and size, and amenities. Real estate agents should adopt strategies that are tailored to their clients' needs, such as conducting a needs analysis, providing a comprehensive overview of available options, and negotiating with sellers.",
+			"P3": "By following these strategies,we help customers finding the best real estate deal in UAE that meets their requirements and expectations."
+		},
+		"TEAM": {
+			"TITLE": "Our Team",
+			"CEO": "Ali Ibrahim is a distinguished figure in the UAE real estate market, bringing over a decade of expertise and innovation to the industry. As the founder and CEO of Penta Real Estate, he has established himself as a visionary leader in property development and investment. Ali combines his deep understanding of the UAE market dynamics with a forward-thinking approach to real estate investment. His ability to identify lucrative opportunities in emerging neighborhoods and off-plan developments has earned him a reputation as a trusted advisor to investors seeking to maximize their returns.",
+			"CTO": "",
+			"SEN_PR_ADVISOR": "A master of real estate investment strategies with more than 5 years experience in UAE market , brings a wealth of financial acumen to every client interaction. He specializes in creating diverse property portfolios that balance risk and reward. Lawand's ability to foresee market trends makes him invaluable for both seasoned and novice investors. When not crunching numbers, Lawand enjoys long-distance running and has completed several marathons. He's also a mentor for young entrepreneurs interested in real estate. Ready to build a robust investment portfolio? Let Lawand Khouja guide your real estate journey.",
+			"PR_ADVISOR_AL": "A rising star in real estate investment consulting, combines innovative thinking with solid market analysis. She excels in identifying undervalued properties and off-plan projects with high growth potential. Alaa's personalized investment strategies cater to each client's unique financial goals and risk tolerance. Outside the office, Alaa is an amateur botanist and enjoys cultivating rare plants. She's also passionate about sustainable living and often advises on eco-friendly property investments. Looking to grow your wealth through smart property investments? Alaa Hassan is your go-to expert.",
+			"PR_ADVISOR_SH": "A veteran in the off-plan and investment property sector, brings decades of experience to every client interaction. His deep understanding of market cycles and economic indicators allows him to guide investors towards opportunities that withstand market fluctuations. Shakir's track record of successful investments speaks volumes about his expertise. When not advising clients, Shakir is an avid sailor and participates in regional regattas. He also enjoys collecting and restoring vintage watches. For time-tested wisdom in real estate investments, trust Shakir Ibrahim to navigate the market.",
+			"PR_ADVISOR_YO": "Yousef Najjar specializes in high-yield off-plan investments, focusing on emerging markets and up-and-coming neighborhoods. His analytical approach to assessing development projects helps clients maximize their returns. Yousef's expertise in negotiating favorable terms with developers adds significant value to his services. In his leisure time, Yousef is a skilled oud player and often performs at local cultural events. He's also passionate about preserving traditional architecture in modern developments. Ready to explore high-potential off-plan investments? Let Yousef Najjar be your guide.",
+			"PR_ADVISOR_LE": "Excels in crafting bespoke investment strategies for high-net-worth individuals. Her expertise spans both off-plan and existing properties, with a focus on creating balanced, diversified portfolios. Lerwan's discretion and attention to detail make her the preferred consultant for clients seeking privacy and personalized service. Outside of work, Lerwan is an accomplished equestrian and participates in show jumping competitions. She also supports local animal welfare organizations. For tailored, high-end real estate investment advice, connect with Lerwan Al Youseif.",
+			"PR_ADVISOR_AM": "Amer Al Deeb is known for his innovative approach to real estate investments, particularly in the off-plan sector. He leverages cutting-edge market analysis tools and AI-driven predictive models to identify promising opportunities. Amer's forward-thinking strategies help clients stay ahead in a competitive market. When not revolutionizing investment approaches, Amer enjoys drone racing and virtual reality gaming. He's also actively involved in local tech startups focused on property technology. To future-proof your real estate investments, reach out to Amer Al Deeb.",
+			"PR_ADVISOR_JA": "Specializes in commercial real estate investments and off-plan developments. His expertise in analyzing business districts and future urban planning helps investors make informed decisions. Jameel's background in corporate finance adds depth to his investment advice, particularly for business owners looking to diversify. In his free time, Jameel is a history buff and enjoys exploring archaeological sites. He also mentors young professionals in the real estate industry. For strategic commercial property investments, let Jameel Haydar guide your decisions.",
+			"PR_ADVISOR_RA": "Is a rising star in sustainable real estate investments, focusing on eco-friendly off-plan developments. She helps environmentally conscious investors find properties that align with their values without compromising on returns. Rana's knowledge of green building certifications and sustainable urban planning is unparalleled. Outside the office, Rana is a certified yoga instructor and advocates for wellness in urban living. She's also passionate about upcycling and often showcases how to repurpose materials in home decor. For investments that are good for your wallet and the planet, connect with Rana Hashish today.",
+			"SALES_MAN": "With a finger on the pulse of the off-plan market with more than 10 years experiene in UAE market, Alaa Saleh helps investors capitalize on pre-construction opportunities. Her extensive network of developers gives clients access to exclusive projects before they're publicly launched. Alaa's meticulous approach to due diligence ensures her clients' investments are secure and profitable. In her spare time, Alaa is a food enthusiast who loves exploring new cuisines. She also volunteers teaching financial literacy to high school students. For unparalleled insights into off-plan investments, reach out to Alaa Saleh.",
+			"PR_ADVISOR": "",
+			"A": "The easiest way to put the full stack into perspective is to imagine a restaurant. The front end encompasses the well-decorated, comfortable seating areas where visitors enjoy their food. The kitchen and pantry make up the “back end” and are typically hidden away from the customer’s view. Chefs (developers) gather permanently stored materials from the pantry (the database) and perform operations on it in the kitchen (the server), and then serve up fully-prepared meals (information) to the user. ",
+			"Y": "The easiest way to put the full stack into perspective is to imagine a restaurant. The front end encompasses the well-decorated, comfortable seating areas where visitors enjoy their food. The kitchen and pantry make up the “back end” and are typically hidden away from the customer’s view. Chefs (developers) gather permanently stored materials from the pantry (the database) and perform operations on it in the kitchen (the server), and then serve up fully-prepared meals (information) to the user. ",
+			"ANN": "The easiest way to put the full stack into perspective is to imagine a restaurant. The front end encompasses the well-decorated, comfortable seating areas where visitors enjoy their food. The kitchen and pantry make up the “back end” and are typically hidden away from the customer’s view. Chefs (developers) gather permanently stored materials from the pantry (the database) and perform operations on it in the kitchen (the server), and then serve up fully-prepared meals (information) to the user. "
+		}
+	},
+	"LAYOUTS": {
+		"CONTACT": {
+			"ACTION_DESC": "You want to ",
+			"BUY": "Buy",
+			"RENT": "Rent"
+		}
+	},
+	"SETTINGS": {
+		"LANG": "Language",
+		"LANG_MENU": {
+			"EN": "English",
+			"FR": "French",
+			"AR": "Arabic"
+		}
+	},
+	"FOOTER_ONE": {
+		"SUBSCRIBE": {
+			"TITLE": "KNOW IT ALL FIRST!",
+			"DESC": "Never Miss Anything From Penta By Signing Up To Our Newsletter.",
+			"PLC_HOLDER": "Enter your Email",
+			"ACTION": "Subscribe"
+		},
+		"ABOUT_COMPANY": {
+			"TITLE": "About",
+			"DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+		},
+		"COMPANY_INFO": {
+			"TITLE": "Company information",
+			"LOCATION": "Dubai - Business bay - Empire Heights - Tower B - office 701 , 702",
+			"CALL": "Call Us",
+			"EMAIL": "Email",
+			"FAX": "FAX"
+		},
+		"USEFUL_LINKS": "Useful Links"
+	},
+	"TOP_BAR": {
+		"MA_ACCOUNT": "My Account",
+		"LOGIN": "Login",
+		"LOGOUT": "Logout"
+	},
+	"HEADER": {
+		"PENTA": "PENTA"
+	},
+	"META": {
+		"HOME": {
+			"TITLE": "Penta Foundation",
+			"DESCRIPTION": "Your Best Choice to get the best real estate deal in UAE "
+		}
+	},
+	"FASHION_ONE": {
+		"COLLECTIONS": {
+			"NAK": {
+				"TITLE": "JVC",
+				"DESC": "According to your needs"
+			},
+			"MARINA": {
+				"TITLE": "Marina",
+				"DESC": "We will find you the best"
+			},
+			"FAIR": {
+				"DESC": "Fairmont Ajman",
+				"TITLE": "Ajman"
+			},
+			"HAYAT": {
+				"TITLE": "Dubai",
+				"DESC": "Grand Hyatt Dubai"
+			}
+		}
+	},
+	"home": "home",
+	"MENU": {
+		"BUY": "Buy",
+		"RENT": "Rent"
+	},
+	"contact": "contact",
+	"about-us": "about us",
+	"FULL_STACK_DESC": "you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.",
+	"topbar-title": "Welcome to Our store Penta",
+	"call-us": "Call Us",
+	"shop": "Shop",
+	"products": "Products",
+	"features": "Features",
+	"new": "New",
+	"pages": "Pages",
+	"blogs": "Blogs",
+	"clothing": "Clothing",
+	"fashion-01": "Fashion 01",
+	"fashion-02": "Fashion 02",
+	"fashion-03": "Fashion 03",
+	"vegetable": "vegetable",
+	"watch": "watch",
+	"furniture": "furniture",
+	"flower": "flower",
+	"beauty": "beauty",
+	"electronics": "electronics",
+	"pets": "pets",
+	"gym": "gym",
+	"tools": "tools",
+	"shoes": "shoes",
+	"bags": "bags",
+	"sidebar": "sidebar",
+	"left-sidebar": "left sidebar",
+	"right-sidebar": "right sidebar",
+	"no-sidebar": "no sidebar",
+	"three-column": "three olumn",
+	"four-image": "four image",
+	"bundle-product": "bundle product",
+	"image-outside": "image outside",
+	"portfolio": "portfolio",
+	"portfolio-grid-2": "portfolio grid 2",
+	"portfolio-grid-3": "portfolio grid 3",
+	"portfolio-grid-4": "portfolio grid 4",
+	"mesonary-grid-2": "mesonary grid 2",
+	"mesonary-grid-3": "mesonary grid 3",
+	"mesonary-grid-4": "mesonary grid 4",
+	"mesonary-full-width": "mesonary full width",
+	"add-to-cart": "add to cart",
+	"cart-right": "Cart Right",
+	"cart-left": "Cart left",
+	"cart-top": "Cart top",
+	"cart-bottom": "Cart bottom",
+	"cart-modal-popup": "Cart Modal popup",
+	"theme-elements": "Theme elements",
+	"title": "title",
+	"collection-banner": "collection banner",
+	"home-slider": "home slider",
+	"category": "category",
+	"services": "services",
+	"product-elements": "product elements",
+	"product-slider": "product slider",
+	"banners": "banners",
+	"product-tabs": "product tabs",
+	"multi-slider": "multi slider",
+	"email-templates": "email templates",
+	"order-success": "order success",
+	"order-success-2": "order success 2",
+	"email-template": "email template",
+	"email-template-2": "email template 2",
+	"account": "account",
+	"typography": "typography",
+	"review": "review",
+	"lookbook": "lookbook",
+	"login": "login",
+	"register": "register",
+	"logout": "Logout",
+	"search": "search",
+	"wishlist": "wishlist",
+	"cart": "cart",
+	"collection": "collection",
+	"forget-password": "forget password",
+	"checkout": "checkout",
+	"compare": "compare",
+	"compare-1": "compare 1",
+	"compare-2": "compare 2",
+	"coming-soon": "coming soon",
+	"dashboard": "Dashboard",
+	"FAQ": "FAQ",
+	"blog-details": "blog details"
+}

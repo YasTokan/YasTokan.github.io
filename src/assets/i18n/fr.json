@@ -1,0 +1,248 @@
+{
+	"HOME": {
+		"BTN_TXT": "En savoir plus",
+		"FOUND": "Ikar Fondation",
+		"GOAL": {
+			"TITLE": "Notre objectif",
+			"DESC": "Le marché immobilier aux Émirats arabes unis est une industrie complexe qui nécessite une compréhension approfondie de la dynamique du marché, des exigences légales et des risques potentiels. Par conséquent, trouver la meilleure offre immobilière peut être une tâche ardue pour les clients qui manquent d'expérience ou de connaissances dans ce domaine. Notre objectif est de fournir le meilleur service client en adéquation avec ses exigences et ses stratégies pour trouver les meilleures offres immobilières."
+		},
+		"BEST_DEAL": "Nous vous trouverons le meilleur",
+		"ACC_NEEDS": "Selon vos besoins",
+		"MAP": "Notre carte",
+		"WHERE_WE_ARE": "Bureaux de nos partenaires",
+		"STARTED": "Commencé",
+		"WELCOME_UAE": "Bienvenue aux EAU",
+		"FIND_BEST": "Nous vous trouverons le meilleur",
+		"DUBAI": "Dubai",
+		"SHARJAH": "Charjah",
+		"AJMAN": "Ajman",
+		"DUBAI_BRANCH": "Nous vous aiderons à trouver le meilleur à Dubaï"
+	},
+	"SERVICES": {
+		"S1": {
+			"TITLE": "Économise ton argent",
+			"DESC": "Meilleur service au meilleur prix"
+		},
+		"S2": {
+			"TITLE": "Obtenez le meilleur emplacement",
+			"DESC": "Nous fournissons aux clients les meilleurs emplacements en fonction de leurs besoins"
+		},
+		"S3": {
+			"TITLE": "véritable partenariat",
+			"DESC": "à travers notre travail, nous avons établi une relation forte avec nos clients et partenaires"
+		},
+		"S4": {
+			"TITLE": "",
+			"DESC": ""
+		},
+		"S5": {
+			"TITLE": "",
+			"DESC": ""
+		},
+		"S6": {
+			"TITLE": "",
+			"DESC": ""
+		}
+	},
+	"CONTACT": {
+		"FORM": {
+			"REG_UR_INT": "",
+			"NAME": "",
+			"TEL": "Numéro de téléphone",
+			"EMAIL": "Email",
+			"WRITE_MSG": "Rédigez votre message",
+			"SEND_MSG": "Envoyez votre message",
+			"FNAME": "Prénom",
+			"LNAME": "Nom de famille"
+		},
+		"CONTACT": "Contactez-nous",
+		"ADDRESS": "Emails",
+		"LOCACTION": "Complexe de Dubaï, visite près de Khalifa, Dubaï",
+		"EMAIL": "Email",
+		"FAX": "FAx"
+	},
+	"ABOUT": {
+		"INTRO": {
+			"TITLE": "Notre objectif est d'aider les clients à trouver la meilleure offre immobilière aux EAU",
+			"P1": "Lors de la recherche de la meilleure offre immobilière aux EAU, les clients doivent prendre en compte plusieurs facteurs. Premièrement, l'emplacement du bien est crucial, car il peut affecter considérablement sa valeur et son potentiel locatif. Les propriétés situées dans des zones privilégiées, telles que la marina de Dubaï ou le centre-ville de Dubaï, ont tendance à être plus chères que celles situées dans des zones moins populaires. Deuxièmement, le type et la taille de la propriété doivent être pris en compte, car cela peut avoir un impact sur son adéquation aux besoins du client. Par exemple, les familles peuvent préférer des propriétés plus grandes avec plusieurs chambres, tandis que les célibataires ou les couples peuvent préférer des appartements plus petits. Enfin, les commodités et les installations, telles que les piscines, les gymnases et les places de stationnement, peuvent ajouter de la valeur à la propriété et améliorer l'expérience du client. Pour aider les clients à trouver la meilleure offre immobilière aux EAU, les agents immobiliers doivent adopter des stratégies adaptées aux besoins de leurs clients.",
+			"P2": "Tout d'abord, la réalisation d'une analyse des besoins peut aider à identifier les exigences et les préférences du client. Cela peut inclure des facteurs tels que le budget, l'emplacement, le type de propriété et les commodités. Deuxièmement, fournir un aperçu complet des options disponibles, y compris des propriétés qui peuvent ne pas être répertoriées sur des sites Web populaires, peut aider les clients à prendre des décisions éclairées. Enfin, négocier avec les vendeurs pour obtenir la meilleure offre pour le client peut être un facteur crucial pour garantir une bonne affaire immobilière aux EAU. En conclusion, trouver la meilleure affaire immobilière aux EAU nécessite un examen attentif de divers facteurs, notamment l'emplacement, le type et la taille de la propriété et les commodités. Les agents immobiliers devraient adopter des stratégies adaptées aux besoins de leurs clients, telles que la réalisation d'une analyse des besoins, la présentation d'un aperçu complet des options disponibles et la négociation avec les vendeurs.",
+			"P3": "En suivant ces stratégies, nous aidons les clients à trouver la meilleure offre immobilière aux EAU qui répond à leurs exigences et attentes."
+		},
+		"TEAM": {
+			"TITLE": "",
+			"CEO": "",
+			"CTO": "",
+			"SEN_PR_ADVISOR": "",
+			"PR_ADVISOR_AL": "",
+			"PR_ADVISOR_SH": "",
+			"PR_ADVISOR_YO": "",
+			"PR_ADVISOR_LE": "",
+			"PR_ADVISOR_AM": "",
+			"PR_ADVISOR_JA": "",
+			"PR_ADVISOR_RA": "",
+			"SALES_MAN": "",
+			"PR_ADVISOR": "",
+			"A": "La façon la plus simple de mettre la pile complète en perspective est d'imaginer un restaurant. La partie avant comprend les coins salons bien décorés et confortables où les visiteurs apprécient leur nourriture. La cuisine et le garde-manger constituent le « back-end » et sont généralement cachés à la vue du client. Les chefs (développeurs) rassemblent les matériaux stockés en permanence dans le garde-manger (la base de données) et y effectuent des opérations dans la cuisine (le serveur), puis servent des repas entièrement préparés (informations) à l'utilisateur.",
+			"Y": "La façon la plus simple de mettre la pile complète en perspective est d'imaginer un restaurant. La partie avant comprend les coins salons bien décorés et confortables où les visiteurs apprécient leur nourriture. La cuisine et le garde-manger constituent le « back-end » et sont généralement cachés à la vue du client. Les chefs (développeurs) rassemblent les matériaux stockés en permanence dans le garde-manger (la base de données) et y effectuent des opérations dans la cuisine (le serveur), puis servent des repas entièrement préparés (informations) à l'utilisateur.",
+			"ANN": "La façon la plus simple de mettre la pile complète en perspective est d'imaginer un restaurant. La partie avant comprend les coins salons bien décorés et confortables où les visiteurs apprécient leur nourriture. La cuisine et le garde-manger constituent le « back-end » et sont généralement cachés à la vue du client. Les chefs (développeurs) rassemblent les matériaux stockés en permanence dans le garde-manger (la base de données) et y effectuent des opérations dans la cuisine (le serveur), puis servent des repas entièrement préparés (informations) à l'utilisateur."
+		}
+	},
+	"LAYOUTS": {
+		"CONTACT": {
+			"ACTION_DESC": "",
+			"BUY": "",
+			"RENT": ""
+		}
+	},
+	"SETTINGS": {
+		"LANG": "langue",
+		"LANG_MENU": {
+			"EN": "Anglais",
+			"FR": "Française",
+			"AR": "Arabe"
+		}
+	},
+	"FOOTER_ONE": {
+		"SUBSCRIBE": {
+			"TITLE": "SACHEZ TOUT D'ABORD !",
+			"DESC": "Ne manquez rien d'Ikar en vous inscrivant à notre newsletter.",
+			"PLC_HOLDER": "Entrer votre Email",
+			"ACTION": "S'abonner"
+		},
+		"ABOUT_COMPANY": {
+			"TITLE": "À propos",
+			"DESC": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+		},
+		"COMPANY_INFO": {
+			"TITLE": "Informations sur la société",
+			"LOCATION": "Société Ikar, Hilton1 Indiana 345-659",
+			"CALL": "Appelez-nous",
+			"EMAIL": "Email",
+			"FAX": "Fax"
+		},
+		"USEFUL_LINKS": "Liens utiles"
+	},
+	"TOP_BAR": {
+		"MA_ACCOUNT": "",
+		"LOGIN": "",
+		"LOGOUT": ""
+	},
+	"HEADER": {
+		"PENTA": ""
+	},
+	"META": {
+		"HOME": {
+			"TITLE": "Fondation IKAR",
+			"DESCRIPTION": "Votre meilleur choix pour obtenir la meilleure offre immobilière aux EAU"
+		}
+	},
+	"FASHION_ONE": {
+		"COLLECTIONS": {
+			"NAK": {
+				"TITLE": "",
+				"DESC": ""
+			},
+			"MARINA": {
+				"TITLE": "",
+				"DESC": ""
+			},
+			"FAIR": {
+				"DESC": "Grand Hyatt Dubai",
+				"TITLE": "Dubai"
+			},
+			"HAYAT": {
+				"TITLE": "Ajman",
+				"DESC": "Fairmont Ajman"
+			}
+		}
+	},
+	"home": "maison",
+	"MENU": {
+		"BUY": "",
+		"RENT": ""
+	},
+	"contact": "contact",
+	"about-us": "propos de nous",
+	"FULL_STACK_DESC": "",
+	"topbar-title": "Bienvenue dans notre magasin Multikart",
+	"call-us": "Appelez nous",
+	"shop": "boutique",
+	"products": "Des produits",
+	"features": "Caractéristiques",
+	"new": "Nouveau",
+	"pages": "Pages",
+	"blogs": "Blogs",
+	"clothing": "Vêtements",
+	"fashion-01": "Mode 01",
+	"fashion-02": "Mode 02",
+	"fashion-03": "Mode 03",
+	"vegetable": "légume",
+	"watch": "regarder",
+	"furniture": "meubles",
+	"flower": "fleur",
+	"beauty": "beauté",
+	"electronics": "électronique",
+	"pets": "animaux",
+	"gym": "gym",
+	"tools": "outils",
+	"shoes": "chaussures",
+	"bags": "Sacs",
+	"sidebar": "barre latérale",
+	"left-sidebar": "latérale de gauche",
+	"right-sidebar": "latérale droite",
+	"no-sidebar": "pas de barre",
+	"three-column": "trois colonnes",
+	"four-image": "quatre images",
+	"bundle-product": "produit groupé",
+	"image-outside": "image à l'extérieur",
+	"portfolio": "portefeuille",
+	"portfolio-grid-2": "portefeuille 2",
+	"portfolio-grid-3": "portefeuille 3",
+	"portfolio-grid-4": "portefeuille 4",
+	"mesonary-grid-2": "maçonnerie 2",
+	"mesonary-grid-3": "maçonnerie 3",
+	"mesonary-grid-4": "maçonnerie 4",
+	"mesonary-full-width": "mésonaire pleine largeur",
+	"add-to-cart": "ajouter au chariot",
+	"cart-right": "Chariot droit",
+	"cart-left": "Panier gauche",
+	"cart-top": "Dessus de chariot",
+	"cart-bottom": "Fond du chariot",
+	"cart-modal-popup": "Panier Modal popup",
+	"theme-elements": "Éléments de thème",
+	"title": "Titre",
+	"collection-banner": "bannière collection",
+	"home-slider": "curseur maison",
+	"category": "Catégorie",
+	"services": "prestations service",
+	"product-elements": "éléments du produit",
+	"product-slider": "curseur de produit",
+	"banners": "bannières",
+	"product-tabs": "onglets de produit",
+	"multi-slider": "multi curseur",
+	"email-templates": "modèles d'email",
+	"order-success": "succès de commande",
+	"order-success-2": "succès de commande 2",
+	"email-template": "modèle d'email",
+	"email-template-2": "modèle d'email 2",
+	"account": "Compte",
+	"typography": "typographie",
+	"review": "la revue",
+	"lookbook": "lookbook",
+	"login": "s'identifier",
+	"register": "S'inscrire",
+	"logout": "Se déconnecter",
+	"search": "chercher",
+	"wishlist": "liste souhaits",
+	"cart": "Chariot",
+	"collection": "collection",
+	"forget-password": "mot passe oublié",
+	"checkout": "check-out",
+	"compare": "comparer",
+	"compare-1": "comparer 1",
+	"compare-2": "comparer 2",
+	"coming-soon": "Bientôt disponible",
+	"dashboard": "Tableau de bord",
+	"FAQ": "FAQ",
+	"blog-details": "détails du blog"
+}

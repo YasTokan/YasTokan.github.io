@@ -1,0 +1,52 @@
+<owl-carousel-o [options]="HomeSliderConfig" class="home-slider" [ngClass]="class">
+  <ng-container *ngFor="let slider of sliders">
+    <ng-template carouselSlide>
+		<div class="home" [ngClass]="textClass" [ngStyle]="{ 'background-image': 'url(' + slider.image + ')' }"> 
+			<div class="container"> 
+			<div class="row"> 
+			<div class="col-lg-8 col-md-6 col-sm-2 col-xs-2"> 
+			<!-- Text content on the left side --> 
+			<div class="slider-contain"> 
+			<div> 
+			<p class="title">{{ slider.title }}</p> 
+			<p class="sub-title">{{ slider.subTitle }}</p> 
+			<a 
+			[routerLink]="['/pages/contact']" 
+			[queryParams]="{ category: category }" 
+			class="btn btn-solid" 
+			[ngClass]="buttonClass" 
+			> 
+			{{ buttonText }} 
+			</a> 
+			</div> 
+			</div> 
+			</div> 
+			<!-- Form on the right side --> <!-- -->
+			<div class="col-4 col-lg-4 col-md-6 col-sm-10 dis-xs-none"> 
+			<div class="form-container"> 
+			<h3>{{'CONTACT.FORM.REG_UR_INT'|translate}}</h3> 
+			<form> 
+			<div class="form-group"> 
+			<input type="text" class="form-control" placeholder="{{'CONTACT.FORM.NAME'|translate}}" /> 
+			</div> 
+			<div class="form-group"> 
+			<input type="tel" class="form-control" placeholder="{{'CONTACT.FORM.TEL'|translate}}" /> 
+			</div> 
+			<div class="form-group"> 
+			<input type="email" class="form-control" placeholder="{{'CONTACT.FORM.EMAIL'|translate}}" /> 
+			</div> 
+			<div class="form-group"> 
+				<input type="email" class="form-control" placeholder="{{'CONTACT.FORM.WRITE_MSG'|translate}}" /> 
+				</div> 
+			
+			<button type="submit" class="btn btn-primary">{{'CONTACT.FORM.SEND_MSG'|translate}}</button> 
+			</form> 
+			</div> 
+			</div> 
+			</div> 
+			</div> 
+			</div> 
+			
+    </ng-template>
+  </ng-container>
+</owl-carousel-o>

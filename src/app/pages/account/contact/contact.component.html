@@ -1,0 +1,108 @@
+<!-- <app-breadcrumb [title]="'Contact'" [breadcrumb]="'Contact'"></app-breadcrumb> -->
+<!--section start-->
+<section class=" contact-page section-b-space">
+    <div class="container">
+        <div class="row section-b-space">
+            <div class="col-lg-7 map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1805.0421537812097!2d55.2679491!3d25.2003792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f436ecdd5ac1b%3A0x514370e26fb51d4e!2sDream%20Inn%20Hotel%20Apartments!5e0!3m2!1sen!2s!4v1684010596834!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-5">
+                <div class="contact-right">
+                    <ul>
+                        <li>
+                            <div class="contact-icon">
+                                <img src="assets/images/icon/phone.png" alt="Generic placeholder image">
+                                <h6>{{'CONTACT.CONTACT'|translate}}</h6>
+                            </div>
+                            <div class="media-body">
+                                
+                                <p>+971 045-578-030</p>
+                                <p>+971 045-578-030</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <h6>{{'CONTACT.ADDRESS'|translate}}</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>{{'CONTACT.LOCACTION'|translate}} </p>
+                               <!--  <p>UAE 00000</p> -->
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">
+                                <img src="assets/images/icon/email.png" alt="Generic placeholder image">
+                                <h6>{{'CONTACT.EMAIL'|translate}}</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>info&#64;pentadxb.com</p>
+                            </div>
+                        </li>
+                        <!-- <li>
+                            <div class="contact-icon">
+                                <i class="fa fa-fax" aria-hidden="true"></i>
+                                <h6>{{'CONTACT.FAX'|translate}}</h6>
+                            </div>
+                            <div class="media-body">
+                                <p>Info&#64;pentadxb.com</p>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-4">
+                <p class="act-desc">{{ 'LAYOUTS.CONTACT.ACTION_DESC'|translate}}</p>
+            </div>
+            <div
+        class="custom-control custom-checkbox collection-filter-checkbox cu-p col-3"
+        *ngFor="let brand of filterbyBrand; let i = index"
+      >
+        <input
+          type="checkbox"
+          [value]="brand?.idAttVal"
+          [checked]="checked(brand)"
+          [id]="brand?.idAttVal"
+          (change)="appliedFilter($event)"
+          class="custom-control-input"
+        />
+        <label class="custom-control-label mar" for="{{ brand?.idAttVal }}">{{ brand?.val |translate}}</label>
+      </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <form class="theme-form">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="name">{{'CONTACT.FORM.FNAME'|translate}}</label>
+                            <input type="text" class="form-control" id="name" placeholder="{{'CONTACT.FORM.FNAME'|translate}}" required="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">{{'CONTACT.FORM.LNAME'|translate}}</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="{{'CONTACT.FORM.LNAME'|translate}}" required="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="review">{{'CONTACT.FORM.TEL'|translate}}</label>
+                            <input type="text" class="form-control" id="review" placeholder="{{'CONTACT.FORM.TEL'|translate}}" required="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">{{'CONTACT.FORM.EMAIL'|translate}}</label>
+                            <input type="text" class="form-control" id="email" placeholder="{{'CONTACT.FORM.EMAIL'|translate}}" required="">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="review">{{'CONTACT.FORM.WRITE_MSG'|translate}}</label>
+                            <textarea class="form-control" placeholder="{{'CONTACT.FORM.WRITE_MSG'|translate}}" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn btn-solid" type="submit">{{'CONTACT.FORM.SEND_MSG'|translate}}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Section ends-->

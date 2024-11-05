@@ -1,0 +1,284 @@
+@import '../node_modules/primeng/resources/primeng.min.css';
+//* You can add global styles to this file, and also import other style files */
+
+.home-slider .slider-contain h1 {
+  color: white !important;
+}
+.home-slider .slider-contain h2 {
+  color: white !important;
+}
+.home-slider .slider-contain h4 {
+  color: white !important;
+}
+.home-slider .slider-contain h3 {
+  color: white !important;
+}
+.banner-contain h3 {
+  color: white !important;
+}
+.pi {
+  fill: var(--theme-deafult);
+  color: var(--theme-deafult);
+  font-size: 4rem;
+  font-weight: 100 !important;
+}
+.spservice {
+  transition: transform 0.2s !important;
+  margin-right: 1rem;
+}
+.spservice :hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5) !important;
+}
+.main-menu .brand-logo {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+.logo-main {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  aspect-ratio: 2/3 !important;
+}
+.act-desc{
+  font-size: 22px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1100px) {
+  .logo-main {
+    width: 70px;
+    height: 76px;
+    object-fit: contain;
+  }
+  .act-desc{
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 1101px) {
+  .logo-main {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+  }
+  .ll{
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .brand-logo img {
+    height: 55px;
+    width: 50px;
+  }
+  .act-desc{
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+
+}
+@media (max-width: 480px) {
+
+  .form-container {
+    
+    padding: 2px;
+    border-radius: 2px;
+    color: #fff;
+  }
+  
+  
+  .form-container h3 {
+    margin-bottom: 2px;
+  }
+
+}
+/* @media (max-width: 480px) {
+
+  .interest-form{
+    display: none;
+  }
+
+}
+@media only screen and (min-width: 481px) {
+ 
+  .interest-form{
+    display: flex;
+  }
+} */
+.cl-gr{
+  color: green !important;
+  font-size:23px !important;
+  margin-left: 3px;
+  margin-right: 3px;
+
+}
+.cl-de{
+  color: var(--theme-deafult) !important;
+  font-size:23px !important;
+  margin-left: 3px;
+  margin-right: 3px;
+
+}
+.mobile-wishlist{
+  color: green !important;
+  font-size: 23px !important;
+}
+.top-header .header-dropdown .mobile-wishlist i{
+  color: var(--theme-deafult) !important;
+}
+.top-header .header-dropdown .mobile-account i, .top-header .header-dropdown .mobile-wishlist i{
+  color: var(--theme-deafult) !important;
+  font-size: 23px !important;
+}
+.main-menu .menu-right .icon-nav .mobile-setting i{
+  color: var(--theme-deafult) !important;
+  font-weight: 500 !important;
+}
+
+@media (max-width: 577px) {
+  /* .top-header .header-dropdown .mobile-wishlist i:before {
+      content: "\e9d0" ;
+  } */
+}
+@media (max-width: 577px) {
+  .top-header .header-dropdown .mobile-whatsapp {
+      right: 64%;
+  }
+  .top-header .header-dropdown .mobile-phone {
+    right: 40%;
+}
+}
+@media (max-width: 577px) {
+  .top-header .header-dropdown .mobile-whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 72%;
+    font-size: 0;
+    padding: 0;
+    z-index: 9;
+  }
+  .top-header .header-dropdown .mobile-phone{
+    position: fixed;
+    bottom: 20px;
+    right: 52%;
+    font-size: 0;
+    padding: 0;
+    z-index: 9;
+  }
+}
+
+.top-header .header-dropdown .mobile-phone i:before, .top-header .header-dropdown .mobile-phone i:before{
+  content: "\e9b8";
+}
+.top-header .header-dropdown .mobile-whatsapp i:before, .top-header .header-dropdown .mobile-whatsapp i:before{
+  content: "\e9d0";
+}
+
+@media (min-width: 1200px) {
+ 
+  .dis-xs-none{
+    display: flex;
+  }
+}
+
+@media (max-width: 1199px) {
+  .home-slider .slider-contain {
+      height: 70vh;
+  }
+  .dis-xs-none{
+    display: flex;
+  }
+}
+@media (max-width: 991px) {
+  .home-slider .slider-contain {
+      height: 65vh;
+  }
+  .dis-xs-none{
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+    .home-slider .slider-contain .title, .home-slider .slider-contain .sub-title {
+        font-size: 35px;
+        margin-top: 5px;
+    }
+    .home-slider .slider-contain {
+      height: 60vh;
+  }
+  .dis-xs-none{
+    display: none;
+  }
+}
+@media (max-width: 577px) {
+  .home-slider .slider-contain .title, .home-slider .slider-contain .sub-title {
+      font-size: 30px;
+  }
+  .home-slider .slider-contain {
+    height: 58vh;
+}
+.dis-xs-none{
+  display: none;
+}
+}
+@media (max-width: 480px) {
+  .home-slider .slider-contain .title, .home-slider .slider-contain .sub-title {
+      font-size: 28px;
+  }
+  .home-slider .slider-contain {
+    height: 55vh;
+}
+.dis-xs-none{
+  display: none;
+}
+}
+@media (max-width: 420px) {
+  .home-slider .slider-contain .title, .home-slider .slider-contain .sub-title {
+      font-size: 25px;
+      margin-top: 10px;
+  }
+  .dis-xs-none{
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .home-slider .slider-contain .title, .home-slider .slider-contain .sub-title {
+      font-size: 25px;
+  }
+  .home-slider .slider-contain {
+    height: 50%;
+}
+.home-slider .slider-contain, .center-slider .slider-contain{
+  width: 100%;
+  height: 1%;
+  display: flex;
+  align-items: end;
+}
+.dis-xs-none{
+  display: none;
+}
+}
+.home-slider .slider-contain .title , .home-slider .slider-contain .sub-title{
+  color: white !important;
+}
+.home-slider .slider-contain, .center-slider .slider-contain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+}
+.title, .sub-title{
+  width: max-content ;
+}
+.title{
+  font-size: 35px;
+  font-weight: 600;
+}
+.sub-title{
+  font-size: 30px;
+  font-weight: 500;
+}
