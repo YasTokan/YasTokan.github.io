@@ -17,7 +17,11 @@ export class MenuComponent implements OnInit {
       this.navServices.mainMenuToggle = false;
     });
   }
+  visible: boolean = false;
 
+  showDialog() {
+      this.visible = true;
+  }
   ngOnInit(): void {
   }
 

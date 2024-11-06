@@ -56,7 +56,7 @@ export class FashionOneComponent implements OnInit {
       subTitle: 'Marina',
       image: 'assets/images/slider/123/marina.avif',
     }
-   
+
   ];
 
   // Collection banner
@@ -66,14 +66,28 @@ export class FashionOneComponent implements OnInit {
       save: 'Grand Hyatt Dubai',
       title: 'Dubai',
       subTitle: 'Nakhlat Deira',
-      image: 'assets/images/slider/123/dubai-island.jpg',
+      image: 'https://www.namasteui.com/wp-content/uploads/2018/08/front-end-web-development.jpg',
     },
     {
       //image: 'assets/images/collection/hotels/ajm310.jpg',
       save: 'Fairmont Ajman',
       title: 'Marina',
       subTitle: 'We will find you the best',
-      image: 'assets/images/slider/123/marina.avif',
+      image: 'https://saigontechnology.com/assets/media/Blog/typical-process-for-a-successful-mobile-development.jpeg',
+    },
+    {
+      //image: 'assets/images/collection/hotels/ajm310.jpg',
+      save: 'Fairmont Ajman',
+      title: 'Marina',
+      subTitle: 'We will find you the best',
+      image: 'https://plopdo.com/wp-content/uploads/2021/10/What-is-back-end-development-2.jpg',
+    },
+    {
+      //image: 'assets/images/collection/hotels/ajm310.jpg',
+      save: 'Fairmont Ajman',
+      title: 'Marina',
+      subTitle: 'We will find you the best',
+      image: 'https://ik.imagekit.io/mdzi40eohii/tsc/Full_Stack_Image_daa0e85929_mkCd6n2su.png?tr=w-3840,q-75',
     },
   ];
 
@@ -133,7 +147,7 @@ export class FashionOneComponent implements OnInit {
     },
   ];
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
   syncTR() {
     this.sliders[0].title = this.translate.instant('HOME.WELCOME_UAE');
     this.sliders[1].title = this.translate.instant('HOME.FIND_BEST');
@@ -144,10 +158,16 @@ export class FashionOneComponent implements OnInit {
     this.sliders[2].subTitle = this.translate.instant('FASHION_ONE.COLLECTIONS.MARINA.TITLE');
 
 
-this.collections[0].title = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.TITLE');
-this.collections[0].save = this.translate.instant('FASHION_ONE.COLLECTIONS.FAIR.DESC');
-this.collections[1].title = this.translate.instant('FASHION_ONE.COLLECTIONS.HAYAT.TITLE');
-this.collections[1].save = this.translate.instant('FASHION_ONE.COLLECTIONS.HAYAT.DESC');
+    this.collections[0].title = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.TITLE');
+    this.collections[0].save = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.DESC');
+    this.collections[1].title = this.translate.instant('FASHION_ONE.COLLECTIONS.HAYAT.TITLE');
+    this.collections[1].save = this.translate.instant('FASHION_ONE.COLLECTIONS.HAYAT.DESC');
+
+
+    this.collections[3].title = this.translate.instant('FASHION_ONE.COLLECTIONS.FAIR.TITLE');
+    this.collections[3].save = this.translate.instant('FASHION_ONE.COLLECTIONS.FAIR.DESC');
+    this.collections[2].title = this.translate.instant('FASHION_ONE.COLLECTIONS.MARINA.TITLE');
+    this.collections[2].save = this.translate.instant('FASHION_ONE.COLLECTIONS.MARINA.DESC');
 
     this.trSub = this.translate.onLangChange.subscribe((data: any) => {
       this.sliders[0].title = this.translate.instant('HOME.WELCOME_UAE');
@@ -155,13 +175,13 @@ this.collections[1].save = this.translate.instant('FASHION_ONE.COLLECTIONS.HAYAT
       this.sliders[2].title = this.translate.instant('HOME.ACC_NEEDS');
 
       this.sliders[0].subTitle = this.translate.instant('HOME.DUBAI');
-    this.sliders[1].subTitle = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.TITLE');
-    this.sliders[2].subTitle = this.translate.instant('FASHION_ONE.COLLECTIONS.MARINA.TITLE');
+      this.sliders[1].subTitle = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.TITLE');
+      this.sliders[2].subTitle = this.translate.instant('FASHION_ONE.COLLECTIONS.MARINA.TITLE');
 
-    this.collections[0].title = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.TITLE');
-this.collections[0].save = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.DESC');
-this.collections[2].title = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.TITLE');
-this.collections[2].save = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.DESC');
+      this.collections[0].title = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.TITLE');
+      this.collections[0].save = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.DESC');
+      this.collections[2].title = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.TITLE');
+      this.collections[2].save = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.DESC');
 
     });
   }
@@ -173,7 +193,7 @@ this.collections[2].save = this.translate.instant('FASHION_ONE.COLLECTIONS.NAK.D
       }
     });
   }
-  OnDestroy(){
+  OnDestroy() {
     this.trSub = null;
   }
 }

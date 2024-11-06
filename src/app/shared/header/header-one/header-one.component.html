@@ -7,40 +7,42 @@
           <div class="header-contact">
             <ul>
               <li></li>
-              <li  routerLink="/pages/contact">
+              <li routerLink="/pages/contact">
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                Call Us: 045-578-030 
+                Call Me: +971-050 319 8324
               </li>
             </ul>
           </div>
         </div>
         <div class="col-lg-6 text-end">
           <ul class="header-dropdown">
-            <li class="mobile-phone">
-              <a  routerLink="/pages/contact" (click)="openDialer()">
+
+            <li>
+              <a href="mailto:yasineMohammadTokan@gmail.com">
+                <i class="pi pi-envelope cl-de" aria-hidden="true"></i>
+
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/yasine-tokan-733a55147/">
+                <i class="pi pi-linkedin cl-de" aria-hidden="true"></i>
+
+              </a>
+            </li>
+            <li class="mobile-phone" style="padding-left: 0px !important;">
+              <a routerLink="/pages/contact" (click)="openDialer()">
                 <i class="pi pi-phone cl-de" aria-hidden="true"></i>
-                
+
               </a>
             </li>
             <li class="mobile-whatsapp">
-              <a  routerLink="/pages/contact" (click)="openWhatsApp()">
+              <a routerLink="/pages/contact" (click)="openWhatsApp()">
                 <i class="pi pi-whatsapp cl-de" aria-hidden="true"></i>
-                
+
               </a>
             </li>
-            
-            <li class="onhover-dropdown mobile-account">
-              <i class="fa fa-user" aria-hidden="true"></i>
-              {{'TOP_BAR.MA_ACCOUNT' |translate}}
-              <ul class="onhover-show-div">
-                <li>
-                  <a data-lng="en" routerLink="/pages/login">{{'TOP_BAR.LOGIN' |translate}}</a>
-                </li>
-                <li>
-                  <a data-lng="es">{{'TOP_BAR.LOGOUT' |translate}}</a>
-                </li>
-              </ul>
-            </li>
+
+
           </ul>
         </div>
       </div>
@@ -54,11 +56,11 @@
             <app-left-menu></app-left-menu>
 
             <div class="brand-logo">
-              <a routerLink="/home" id="headerlogo">
+              <!-- <a routerLink="/home" id="headerlogo">
                 <img [src]="themeLogo" class="img-fluid logo-main" alt="logo" />
-              </a>
+              </a> -->
               <a class="ll">
-                <p>{{ 'HEADER.PENTA' | translate }}</p>
+                <p><!-- {{ 'HEADER.PENTA' | translate }} --> Yasine Tokan</p>
               </a>
             </div>
           </div>
@@ -75,3 +77,6 @@
     </div>
   </div>
 </header>
+
+
+

@@ -5,7 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BarRatingModule } from "ngx-bar-rating";
-import { LazyLoadImageModule } from 'ng-lazyload-image';
+import { LazyLoadImageModule } from 'ng-lazyload-image'; 
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { TranslateModule } from '@ngx-translate/core';
 
@@ -56,6 +56,9 @@ import { DiscountPipe } from './pipes/discount.pipe';
 import { MessageModule } from 'primeng/message';
 import { MessagesModule } from 'primeng/messages';
 import {ToastModule} from 'primeng/toast';
+
+
+
 @NgModule({
   declarations: [
     HeaderOneComponent,
@@ -91,6 +94,7 @@ import {ToastModule} from 'primeng/toast';
     DiscountPipe
   ],
   imports: [
+  
     CommonModule,
     RouterModule,
     FormsModule,

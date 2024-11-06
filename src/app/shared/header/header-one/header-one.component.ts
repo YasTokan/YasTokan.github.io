@@ -6,35 +6,37 @@ import { Component, OnInit, Input, HostListener } from '@angular/core';
   styleUrls: ['./header-one.component.scss']
 })
 export class HeaderOneComponent implements OnInit {
-  
+
   @Input() class: string;
   @Input() themeLogo: string = 'assets/images/icon/p_logo.png'///'assets/images/icon/logo.png'; // Default Logo
   @Input() topbar: boolean = true; // Default True
   @Input() sticky: boolean = false; // Default false
-  
+
   public stick: boolean = false;
-  phoneNumber: string = '045578030'; // Enter the phone number here (international format without "+")
+  phoneNumber: string = '00971 50 319 8324'; // Enter the phone number here (international format without "+")
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+
   // @HostListener Decorator
   @HostListener("window:scroll", [])
   onWindowScroll() {
     let number = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-  	if (number >= 150 && window.innerWidth > 400) { 
-  	  this.stick = true;
-  	} else {
-  	  this.stick = false;
-  	}
+    if (number >= 150 && window.innerWidth > 400) {
+      this.stick = true;
+    } else {
+      this.stick = false;
+    }
   }
   openWhatsApp(): void {
-    const url = this.isMobileDevice() 
-      ? `whatsapp://send?phone=${this.phoneNumber}`
-      : `https://web.whatsapp.com/send?phone=${this.phoneNumber}`;
-    
+    let phoneNumber = '+971 50 319 8324'
+    const url = this.isMobileDevice()
+      ? `whatsapp://send?phone=${phoneNumber}`
+      : `https://web.whatsapp.com/send?phone=${phoneNumber}`;
+
     window.open(url, '_blank');
   }
   isMobileDevice(): boolean {
