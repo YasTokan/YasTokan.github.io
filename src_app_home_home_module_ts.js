@@ -4595,15 +4595,15 @@ class ServicesComponent {
     }
 }
 ServicesComponent.ɵfac = function ServicesComponent_Factory(t) { return new (t || ServicesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_1__.TranslateService)); };
-ServicesComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ServicesComponent, selectors: [["app-services"]], decls: 50, vars: 18, consts: [[1, "row"], [1, "col-md-4", "service-block"], [1, "media"], [1, "pi", "pi-home", "spservice"], [1, "media-body", 3, "ngClass"], [1, "pi", "pi-briefcase", "spservice"], [1, "pi", "pi-chart-line", "spservice"], [1, "pi", "pi-building", "spservice"], [1, "pi", "pi-search", "spservice"], [1, "pi", "pi-user", "spservice"]], template: function ServicesComponent_Template(rf, ctx) { if (rf & 1) {
+ServicesComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ServicesComponent, selectors: [["app-services"]], decls: 50, vars: 18, consts: [[1, "row"], [1, "col-md-4", "service-block"], [1, "media"], [1, "pi", "pi-chart-line", "spservice"], [1, "media-body", 3, "ngClass"], [1, "pi", "pi-globe", "spservice"], [1, "pi", "pi-link", "spservice"], [1, "pi", "pi-android", "spservice"], [1, "pi", "pi-slack", "spservice"], [1, "pi", "pi-cloud", "spservice", "iconSize"]], template: function ServicesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "i", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4)(6, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " Technical Mentorship & Training");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " Performance Optimization");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Empower Teams with Knowledge Sharing. With a background in teaching web development, I offer mentorship and training to junior developers, helping them grow their skills and excel in projects.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " Enhance Site Speed & Efficiency. By optimizing backend systems, implementing best practices, and using effective debugging, I help boost application speed and performance for a smooth user experience.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 1)(11, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "i", 5);
@@ -4632,10 +4632,10 @@ ServicesComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 1)(35, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "i", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 4)(38, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, " Performance Optimization");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, " Technical Mentorship & Training");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " Enhance Site Speed & Efficiency. By optimizing backend systems, implementing best practices, and using effective debugging, I help boost application speed and performance for a smooth user experience.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " Empower Teams with Knowledge Sharing. With a background in teaching web development, I offer mentorship and training to junior developers, helping them grow their skills and excel in projects.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 1)(43, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "i", 9);
@@ -4658,7 +4658,7 @@ ServicesComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](14, _c0, ctx.lang == "ar"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](16, _c0, ctx.lang == "ar"));
-    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgClass], styles: [".mr2[_ngcontent-%COMP%] {\n  margin-right: 1rem !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZpY2VzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksNkJBQUE7QUFDSiIsImZpbGUiOiJzZXJ2aWNlcy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tcjJ7XG4gICAgbWFyZ2luLXJpZ2h0OiAxcmVtICFpbXBvcnRhbnQ7XG59Il19 */"] });
+    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_2__.NgClass], styles: [".mr2[_ngcontent-%COMP%] {\n  margin-right: 1rem !important;\n}\n\n.iconSize[_ngcontent-%COMP%] {\n  \n  font-size: 4rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZpY2VzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksNkJBQUE7QUFDSjs7QUFFQTtFQUNHLGtCQUFBO0VBQ0EsZUFBQTtBQUNIIiwiZmlsZSI6InNlcnZpY2VzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1yMntcbiAgICBtYXJnaW4tcmlnaHQ6IDFyZW0gIWltcG9ydGFudDtcbn1cblxuLmljb25TaXple1xuICAgLyogIHdpZHRoOiAyMHB4OyAqL1xuICAgZm9udC1zaXplOiA0cmVtXG59Il19 */"] });
 
 
 /***/ }),
