@@ -775,7 +775,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const _c0 = function () { return ["/pages/aboutus"]; };
+const _c0 = function () { return ["/pages/projects"]; };
 function FashionOneComponent_div_20_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 13)(1, "a", 14)(2, "div", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](3, "img", 16)(4, "div", 17);

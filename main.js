@@ -5860,16 +5860,16 @@ class NavService {
             { path: '/pages/contact', title: 'MENU.RENT', type: 'link' },
             { path: '/pages/contact', title: 'MENU.BUY', type: 'link' },
             { path: '/pages/projects', title: 'contact', type: 'link' },
-            { path: '/pages/aboutus', title: 'about-us', type: 'link' },
+            { path: '/pages/aboutme', title: 'about-us', type: 'link' },
         ];
         this.LEFTMENUITEMS = [
             { title: 'home', /* type: 'sub', */ active: true, path: '/home', type: 'link' },
             //{ path: '/pages/review', title: 'review', type: 'link', badge: true, badgeText: 'new' },
             { path: '/pages/contact', title: 'MENU.RENT', type: 'link' },
             { path: '/pages/contact', title: 'MENU.BUY', type: 'link' },
-            { path: '/pages/contact', title: 'contact', type: 'link' },
-            { path: '/pages/aboutus', title: 'about-us', type: 'link' },
-            {
+            { path: '/pages/projects', title: 'contact', type: 'link' },
+            { path: '/pages/aboutme', title: 'about-us', type: 'link' },
+            /* {
                 title: 'account',
                 type: 'sub',
                 active: false,
@@ -5877,7 +5877,7 @@ class NavService {
                     { path: '/pages/login', title: 'login', type: 'link' },
                     { path: '/pages/register', title: 'register', type: 'link' },
                 ],
-            },
+            }, */
         ];
         // Array
         this.items = new rxjs__WEBPACK_IMPORTED_MODULE_1__.BehaviorSubject(this.MENUITEMS);
