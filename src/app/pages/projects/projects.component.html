@@ -1,48 +1,236 @@
 <!-- <app-breadcrumb [title]="'About-us'" [breadcrumb]="'About-us'"></app-breadcrumb> -->
 <!-- about section start -->
 <section class="about-page section-b-space">
-    <div class="container">
-      <div class="row">
-        
-        <div class="col-sm-12">
-          <h4>
-            {{ 'ABOUT.INTRO.TITLE' | translate }} PROJECTS
-          </h4>
-          <p>
-            {{ 'ABOUT.INTRO.P1' | translate }}
-          </p>
-          <br />
-          <p>
-            {{ 'ABOUT.INTRO.P2' | translate }}
-          </p>
-          <br />
-          <p>
-            {{ 'ABOUT.INTRO.P3' | translate }}
-          </p>
-        </div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+        <h4>
+          Full Stack Development
+        </h4>
+        <p>
+          <!--   {{ 'ABOUT.INTRO.P1' | translate }} --> Full stack development allows me to bring projects to life from
+          start to finish, managing everything from the database architecture to the user interface. This holistic
+          approach ensures that each layer of an application works in harmony, providing a seamless experience for
+          users. Whether it's building complex web platforms or scalable solutions for data-heavy applications, I enjoy
+          the challenge of working on both the client and server sides. Below are some standout projects where I applied
+          my full-stack expertise, ensuring everything from data integrity to responsive, user-friendly interfaces.
+        </p>
+
+
       </div>
     </div>
-  </section>
-  <!-- about section end -->
-  <!--Testimonial start-->
-  <section class="testimonial small-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <owl-carousel-o class="slide-2 testimonial-slider no-arrow" [options]="TestimonialSliderConfig">
-            <ng-container *ngFor="let ts of testimonial">
+  </div>
+</section>
+<!-- about section end -->
+<!--Testimonial start-->
+<section class="testimonial small-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <owl-carousel-o class="slide-2 testimonial-slider no-arrow" [options]="TestimonialSliderConfig">
+          <ng-container *ngFor="let ts of FullStackProjects">
+            <ng-template carouselSlide>
+              <div>
+                <div class="media">
+                  <div class="text-center">
+                    <a [href]="ts.designation" target="_blank"> <img [src]="ts.image" alt="image" />
+                      <h5>{{ ts.name }}</h5>
+
+                      <h6>Link</h6>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <!--    <p>{{ 'ABOUT.TEAM.' + ts.usrKey | translate }}</p> -->
+                    <p>{{ ts.description }}</p>
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </ng-container>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Front End Intro-->
+
+<section class="about-page section-b-space">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+        <h4>
+          Mobile App Development
+        </h4>
+        <p>
+          In today’s mobile-first world, creating reliable and engaging mobile applications is key to reaching users wherever they are. I specialize in cross-platform mobile development, focusing on delivering seamless functionality and polished design on both Android and iOS. Working with frameworks like Flutter, Ionic, and NativeScript, I ensure that each app provides an intuitive and engaging experience while optimizing for performance. Below are examples of mobile apps I developed or contributed to, where I integrated backend services, streamlined performance, and refined interfaces to create well-rounded mobile solutions that users can rely on
+        </p>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Front End Projects-->
+
+<section class="testimonial small-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <owl-carousel-o class="slide-2 testimonial-slider no-arrow" [options]="TestimonialSliderConfig">
+          <ng-container *ngFor="let ts of MobileApps">
+            <ng-template carouselSlide>
+              <div>
+                <div class="media">
+                  <div class="text-center">
+                    <a [href]="ts.designation" target="_blank"> <img [src]="ts.image" alt="image" />
+                      <h5>{{ ts.name }}</h5>
+
+                      <h6>Link</h6>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>{{ ts.description }}</p>
+
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </ng-container>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Front End Intro-->
+
+<section class="about-page section-b-space">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+        <h4>
+          Front-End Development
+        </h4>
+        <p>
+          The front end of an application is where users engage directly, so creating a visually engaging and intuitive
+          experience is crucial. I focus on building responsive, accessible interfaces that provide seamless navigation
+          and clear, engaging interactions. I combine my knowledge of design principles with deep technical skills in
+          frameworks like Angular and SCSS to create applications that look great and perform well across devices.
+          Below, you’ll find some of my front-end projects where I prioritized user experience, delivering interactive
+          designs that cater to real-world needs and usage patterns.
+        </p>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Front End Projects-->
+
+<section class="testimonial small-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <owl-carousel-o class="slide-2 testimonial-slider no-arrow" [options]="TestimonialSliderConfig">
+          <ng-container *ngFor="let ts of frontEnd">
+            <ng-template carouselSlide>
+              <div>
+                <div class="media">
+                  <div class="text-center">
+                    <a [href]="ts.designation" target="_blank"> <img [src]="ts.image" alt="image" />
+                      <h5>{{ ts.name }}</h5>
+
+                      <h6>Link</h6>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>{{ ts.description }}</p>
+
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </ng-container>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Back End Intro-->
+
+<section class="about-page section-b-space">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-12">
+        <h4>
+          Back-End Development
+        </h4>
+        <p>
+          A solid backend is the foundation of a reliable application. I’ve worked extensively on creating secure, efficient server-side architectures that power robust applications for a wide range of industries. My back-end work focuses on data handling, business logic, and seamless API integrations to connect systems and services efficiently. From banking platforms to enterprise applications, these back-end projects demonstrate my commitment to building scalable, secure, and high-performing solutions that support complex workflows and deliver consistent results to users.
+        </p>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Back End Projects-->
+
+<section class="testimonial small-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <owl-carousel-o class="slide-2 testimonial-slider no-arrow" [options]="TestimonialSliderConfig">
+          <ng-container *ngFor="let ts of backendProj">
+            <ng-template carouselSlide>
+              <div>
+                <div class="media">
+                  <div class="text-center">
+                    <a [href]="ts.designation" target="_blank"> <img [src]="ts.image" alt="image" />
+                      <h5>{{ ts.name }}</h5>
+
+                      <h6>Link</h6>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>{{ ts.description }}</p>
+
+                  </div>
+                </div>
+              </div>
+            </ng-template>
+          </ng-container>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Testimonial ends-->
+<!--Team start-->
+<!-- <section id="team" class="team section-b-space">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>{{ 'ABOUT.TEAM.TITLE' | translate }}</h2>
+        <div class="team-4">
+          <owl-carousel-o class="team-4" [options]="TeamSliderConfig">
+            <ng-container *ngFor="let tm of team">
               <ng-template carouselSlide>
                 <div>
-                  <div class="media">
-                    <div class="text-center">
-                      <img [src]="ts.image" alt="image" />
-                      <h5>{{ ts.name }}</h5>
-                      <h6>{{ ts.designation }}</h6>
-                    </div>
-                    <div class="media-body">
-                      <p>{{ 'ABOUT.TEAM.' + ts.usrKey | translate }}</p>
-                    </div>
-                  </div>
+                  <img [src]="tm.image" class="img-fluid" alt="image" />
+                  <h4>{{ tm.name }}</h4>
+                  <h6>{{ tm.designation }}</h6>
                 </div>
               </ng-template>
             </ng-container>
@@ -50,29 +238,5 @@
         </div>
       </div>
     </div>
-  </section>
-  <!--Testimonial ends-->
-  <!--Team start-->
-  <section id="team" class="team section-b-space">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h2>{{ 'ABOUT.TEAM.TITLE' | translate }}</h2>
-          <div class="team-4">
-            <owl-carousel-o class="team-4" [options]="TeamSliderConfig">
-              <ng-container *ngFor="let tm of team">
-                <ng-template carouselSlide>
-                  <div>
-                    <img [src]="tm.image" class="img-fluid" alt="image" />
-                    <h4>{{ tm.name }}</h4>
-                    <h6>{{ tm.designation }}</h6>
-                  </div>
-                </ng-template>
-              </ng-container>
-            </owl-carousel-o>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
- 
+  </div>
+</section> -->

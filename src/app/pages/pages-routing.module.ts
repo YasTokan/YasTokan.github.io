@@ -81,6 +81,15 @@ const routes: Routes = [
     component: AboutUsComponent
   },
   {
+    path: 'aboutme',
+    component: AboutUsComponent
+  },
+
+  /*  {
+     path: 'aboutus',
+     component: ProjectsComponent
+   }, */
+  {
     path: 'search',
     component: SearchComponent
   },
