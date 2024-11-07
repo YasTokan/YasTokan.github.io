@@ -1,4 +1,6 @@
 import { Component, OnInit, Input, HostListener } from '@angular/core';
+import { Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser, isPlatformServer } from '@angular/common';
 
 @Component({
   selector: 'app-header-one',
@@ -15,9 +17,22 @@ export class HeaderOneComponent implements OnInit {
   public stick: boolean = false;
   phoneNumber: string = '00971 50 319 8324'; // Enter the phone number here (international format without "+")
 
-  constructor() { }
+  isMobile: boolean = false;
 
-  ngOnInit(): void {
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+    if (isPlatformBrowser(this.platformId)) {
+      this.isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent);
+    }
+  }
+
+  ngOnInit() {
+    if (this.isMobile) {
+      console.log('Running on a mobile device');
+      // Add mobile-specific logic here
+    } else {
+      console.log('Running on a desktop');
+      // Add desktop-specific logic here
+    }
   }
 
 

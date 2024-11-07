@@ -17,13 +17,13 @@
         <div class="col-lg-6 text-end">
           <ul class="header-dropdown">
 
-            <li>
+            <li *ngIf=" !this.isMobile">
               <a href="mailto:yasineMohammadTokan@gmail.com">
                 <i class="pi pi-envelope cl-de" aria-hidden="true"></i>
 
               </a>
             </li>
-            <li>
+            <li *ngIf=" !this.isMobile">
               <a href="https://www.linkedin.com/in/yasine-tokan-733a55147/">
                 <i class="pi pi-linkedin cl-de" aria-hidden="true"></i>
 
@@ -77,6 +77,3 @@
     </div>
   </div>
 </header>
-
-
-
