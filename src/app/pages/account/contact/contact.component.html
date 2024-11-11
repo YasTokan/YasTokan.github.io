@@ -1,13 +1,26 @@
 <!-- <app-breadcrumb [title]="'Contact'" [breadcrumb]="'Contact'"></app-breadcrumb> -->
 <!--section start-->
 
-<p-dialog header="Yasine Tokan CV " [maximizable]="true" [modal]="true" [(visible)]="visible"
+<p-dialog [header]="this.getHeader()" [maximizable]="true" [modal]="true" [(visible)]="visible"
     [style]="{ width: '70rem' ,   'background-color': 'white', 'padding': '1rem' }"
     [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" contentStyleClass="custom-dialog">
 
+    <div *ngIf="this.isCV">
+        <pdf-viewer [src]="cv" style="width: 900px; height: 500px"></pdf-viewer>
 
-    <pdf-viewer [src]="pdfSrc" 
-        style="width: 900px; height: 500px"></pdf-viewer>
+        <button  class="btn btn-solid" style="width: 20%;"> <a [href]="cv" download="YasineTokan_CV.pdf"
+                style="    color: white;">Download </a>
+        </button>
+
+    </div>
+    <div *ngIf="!this.isCV">
+        <pdf-viewer [src]="resume" style="width: 900px; height: 500px"></pdf-viewer>
+        <button class="btn btn-solid" style="width: 20%;"> <a [href]="cv" download="YasineTokan_Resume.pdf"
+                style="    color: white;">Download </a>
+        </button>
+
+
+    </div>
 
 </p-dialog>
 
@@ -19,13 +32,13 @@
 
         </div>
         <div class="col-4 col-md-4">
-            <button class="btn btn-solid" type="submit" style="width: 100%;" (click)="showDialog()">CV</button>
+            <button class="btn btn-solid" type="submit" style="width: 100%;" (click)="showDialog(1)">CV</button>
         </div>
         <div class="col-2">
 
         </div>
         <div class="col-4 col-md-4">
-            <button class="btn btn-solid" type="submit" style="width: 100%;" (click)="showDialog()">Resueme</button>
+            <button class="btn btn-solid" type="submit" style="width: 100%;" (click)="showDialog(2)">Resueme</button>
         </div>
         <div class="col-1">
 

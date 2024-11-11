@@ -597,29 +597,76 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ContactComponent": () => (/* binding */ ContactComponent)
 /* harmony export */ });
-/* harmony import */ var _biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @biesbjerg/ngx-translate-extract-marker */ 85378);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var _biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @biesbjerg/ngx-translate-extract-marker */ 85378);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var primeng_dialog__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! primeng/dialog */ 1837);
 /* harmony import */ var ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ng2-pdf-viewer */ 63940);
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @ngx-translate/core */ 38699);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 94666);
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ngx-translate/core */ 38699);
 
 
 
 
 
+
+function ContactComponent_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "pdf-viewer", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "button", 20)(3, "a", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Download ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx_r0.cv);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx_r0.cv, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
+function ContactComponent_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "pdf-viewer", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "button", 20)(3, "a", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Download ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx_r1.resume);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", ctx_r1.cv, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+} }
 const _c0 = function () { return { width: "70rem", "background-color": "white", "padding": "1rem" }; };
 const _c1 = function () { return { "1199px": "75vw", "575px": "90vw" }; };
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_0__.marker)('LAYOUTS.CONTACT.ACTION_DESC');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_0__.marker)('LAYOUTS.CONTACT.BUY');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_0__.marker)('LAYOUTS.CONTACT.RENT');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('LAYOUTS.CONTACT.ACTION_DESC');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('LAYOUTS.CONTACT.BUY');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('LAYOUTS.CONTACT.RENT');
 class ContactComponent {
     constructor() {
         this.filterbyBrand = [{ val: 'LAYOUTS.CONTACT.BUY' }, { val: 'LAYOUTS.CONTACT.RENT' }];
         this.visible = false;
         this.pdfSrc = '../assets/data/Yasine_Tokan_Full_Stack_Developer_CV.pdf';
+        this.cv = '../assets/data/Yasine_Tokan_Full_Stack_Developer_CV.pdf';
+        this.resume = '../assets/data/Yasine_Tokan_Full_Stack_Developer_Resume.pdf';
+        /*   pdfSrc='https://shoofbook.s3.ap-southeast-1.amazonaws.com/Yasine_Tokan_Full_Stack_Developer_CV.pdf'  Yasine_Tokan_Full_Stack_Developer_Resume.pdf*/
+        this.isCV = true;
     }
-    /*   pdfSrc='https://shoofbook.s3.ap-southeast-1.amazonaws.com/Yasine_Tokan_Full_Stack_Developer_CV.pdf' */
-    showDialog() {
+    downloadFile(data) {
+        const url = window.URL.createObjectURL(data);
+        window.open(url);
+    }
+    getHeader() {
+        if (!this.isCV) {
+            return 'Yasine Tokan Resume';
+        }
+        return 'Yasine Tokan CV';
+    }
+    showDialog(res) {
+        if (res == 2) {
+            this.isCV = false;
+        }
+        else {
+            this.isCV = true;
+        }
         this.visible = true;
     }
     ngOnInit() {
@@ -632,72 +679,75 @@ class ContactComponent {
     }
 }
 ContactComponent.ɵfac = function ContactComponent_Factory(t) { return new (t || ContactComponent)(); };
-ContactComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 50, vars: 21, consts: [["header", "Yasine Tokan CV ", "contentStyleClass", "custom-dialog", 3, "maximizable", "modal", "visible", "breakpoints", "visibleChange"], [2, "width", "900px", "height", "500px", 3, "src"], [1, "contact-page", "section-b-space"], [1, "row", 2, "margin-bottom", "10%"], [1, "col-1"], [1, "col-4", "col-md-4"], ["type", "submit", 1, "btn", "btn-solid", 2, "width", "100%", 3, "click"], [1, "col-2"], [1, "container"], [1, "row", "section-b-space"], [1, "col-lg-7", "map"], ["src", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1805.0421537812097!2d55.2679491!3d25.2003792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f436ecdd5ac1b%3A0x514370e26fb51d4e!2sDream%20Inn%20Hotel%20Apartments!5e0!3m2!1sen!2s!4v1684010596834!5m2!1sen!2s", "width", "600", "height", "450", "allowfullscreen", "", "loading", "lazy", "referrerpolicy", "no-referrer-when-downgrade", 2, "border", "0"], [1, "col-lg-5"], [1, "contact-right"], [1, "contact-icon"], ["src", "assets/images/icon/phone.png", "alt", "Generic placeholder image"], [1, "media-body"], ["aria-hidden", "true", 1, "fa", "fa-map-marker"], ["src", "assets/images/icon/email.png", "alt", "Generic placeholder image"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "p-dialog", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("visibleChange", function ContactComponent_Template_p_dialog_visibleChange_0_listener($event) { return ctx.visible = $event; });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "pdf-viewer", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "section", 2)(3, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "div", 5)(6, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ContactComponent_Template_button_click_6_listener() { return ctx.showDialog(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "CV");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](8, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 5)(10, "button", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function ContactComponent_Template_button_click_10_listener() { return ctx.showDialog(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11, "Resueme");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](12, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](13, "div", 8)(14, "div", 9)(15, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](16, "iframe", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](17, "div", 12)(18, "div", 13)(19, "ul")(20, "li")(21, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](22, "img", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](23, "h6");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](25, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](26, "div", 16)(27, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](28, "+971 050-319-8324");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](29, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](30, "+971 050-319-8324");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](31, "li")(32, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](33, "i", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](34, "h6");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](36, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](37, "div", 16)(38, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](39);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](40, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](41, "li")(42, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](43, "img", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](44, "h6");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](45);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipe"](46, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](47, "div", 16)(48, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, "yasineMohammadTokan@gmail.com");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()()()()()();
+ContactComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ContactComponent, selectors: [["app-contact"]], decls: 51, vars: 23, consts: [["contentStyleClass", "custom-dialog", 3, "header", "maximizable", "modal", "visible", "breakpoints", "visibleChange"], [4, "ngIf"], [1, "contact-page", "section-b-space"], [1, "row", 2, "margin-bottom", "10%"], [1, "col-1"], [1, "col-4", "col-md-4"], ["type", "submit", 1, "btn", "btn-solid", 2, "width", "100%", 3, "click"], [1, "col-2"], [1, "container"], [1, "row", "section-b-space"], [1, "col-lg-7", "map"], ["src", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1805.0421537812097!2d55.2679491!3d25.2003792!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f436ecdd5ac1b%3A0x514370e26fb51d4e!2sDream%20Inn%20Hotel%20Apartments!5e0!3m2!1sen!2s!4v1684010596834!5m2!1sen!2s", "width", "600", "height", "450", "allowfullscreen", "", "loading", "lazy", "referrerpolicy", "no-referrer-when-downgrade", 2, "border", "0"], [1, "col-lg-5"], [1, "contact-right"], [1, "contact-icon"], ["src", "assets/images/icon/phone.png", "alt", "Generic placeholder image"], [1, "media-body"], ["aria-hidden", "true", 1, "fa", "fa-map-marker"], ["src", "assets/images/icon/email.png", "alt", "Generic placeholder image"], [2, "width", "900px", "height", "500px", 3, "src"], [1, "btn", "btn-solid", 2, "width", "20%"], ["download", "YasineTokan_CV.pdf", 2, "color", "white", 3, "href"], ["download", "YasineTokan_Resume.pdf", 2, "color", "white", 3, "href"]], template: function ContactComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p-dialog", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("visibleChange", function ContactComponent_Template_p_dialog_visibleChange_0_listener($event) { return ctx.visible = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, ContactComponent_div_1_Template, 5, 2, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, ContactComponent_div_2_Template, 5, 2, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "section", 2)(4, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5)(7, "button", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ContactComponent_Template_button_click_7_listener() { return ctx.showDialog(1); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "CV");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 5)(11, "button", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function ContactComponent_Template_button_click_11_listener() { return ctx.showDialog(2); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Resueme");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 8)(15, "div", 9)(16, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "iframe", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 12)(19, "div", 13)(20, "ul")(21, "li")(22, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "img", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](26, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 16)(28, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "+971 050-319-8324");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "+971 050-319-8324");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "li")(33, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "i", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](37, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 16)(39, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](41, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "li")(43, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "img", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "h6");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](47, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 16)(49, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "yasineMohammadTokan@gmail.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()()()()();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵstyleMap"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](19, _c0));
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("maximizable", true)("modal", true)("visible", ctx.visible)("breakpoints", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction0"](20, _c1));
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ctx.pdfSrc);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](25, 11, "CONTACT.CONTACT"));
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](36, 13, "CONTACT.ADDRESS"));
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](40, 15, "CONTACT.LOCACTION"), " ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpipeBind1"](46, 17, "CONTACT.EMAIL"));
-    } }, dependencies: [primeng_dialog__WEBPACK_IMPORTED_MODULE_2__.Dialog, ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_3__.PdfViewerComponent, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_4__.TranslatePipe], styles: [".mar[_ngcontent-%COMP%] {\n  margin-left: 5px;\n  margin-right: 5px;\n}\n\n.custom-dialog[_ngcontent-%COMP%]   .p-dialog-content[_ngcontent-%COMP%] {\n  background-color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbnRhY3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0FBQ0o7O0FBSUE7RUFDSSx1QkFBQTtBQURKIiwiZmlsZSI6ImNvbnRhY3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFye1xuICAgIG1hcmdpbi1sZWZ0OiA1cHg7XG4gICAgbWFyZ2luLXJpZ2h0OiA1cHg7XG5cbn1cblxuXG4uY3VzdG9tLWRpYWxvZyAucC1kaWFsb2ctY29udGVudCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gIH0iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](21, _c0));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("header", ctx.getHeader())("maximizable", true)("modal", true)("visible", ctx.visible)("breakpoints", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](22, _c1));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.isCV);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.isCV);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](26, 13, "CONTACT.CONTACT"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](37, 15, "CONTACT.ADDRESS"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](41, 17, "CONTACT.LOCACTION"), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](47, 19, "CONTACT.EMAIL"));
+    } }, dependencies: [primeng_dialog__WEBPACK_IMPORTED_MODULE_2__.Dialog, ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_3__.PdfViewerComponent, _angular_common__WEBPACK_IMPORTED_MODULE_4__.NgIf, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_5__.TranslatePipe], styles: [".mar[_ngcontent-%COMP%] {\n  margin-left: 5px;\n  margin-right: 5px;\n}\n\n.custom-dialog[_ngcontent-%COMP%]   .p-dialog-content[_ngcontent-%COMP%] {\n  background-color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbnRhY3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxnQkFBQTtFQUNBLGlCQUFBO0FBQ0o7O0FBSUE7RUFDSSx1QkFBQTtBQURKIiwiZmlsZSI6ImNvbnRhY3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubWFye1xuICAgIG1hcmdpbi1sZWZ0OiA1cHg7XG4gICAgbWFyZ2luLXJpZ2h0OiA1cHg7XG5cbn1cblxuXG4uY3VzdG9tLWRpYWxvZyAucC1kaWFsb2ctY29udGVudCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gIH0iXX0= */"] });
 
 
 /***/ }),
@@ -4923,9 +4973,9 @@ function ProjectsComponent_ng_container_13_ng_template_1_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h6");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12)(10, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "p", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
     const ts_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
@@ -4934,12 +4984,12 @@ function ProjectsComponent_ng_container_13_ng_template_1_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ts_r4.image, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r4.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r4.description);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", ts_r4.description, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
 } }
 function ProjectsComponent_ng_container_13_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_13_ng_template_1_Template, 12, 4, "ng-template", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_13_ng_template_1_Template, 11, 4, "ng-template", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
 } }
 function ProjectsComponent_ng_container_27_ng_template_1_Template(rf, ctx) { if (rf & 1) {
@@ -4951,9 +5001,9 @@ function ProjectsComponent_ng_container_27_ng_template_1_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h6");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12)(10, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "p", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
     const ts_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
@@ -4962,12 +5012,12 @@ function ProjectsComponent_ng_container_27_ng_template_1_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ts_r7.image, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r7.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r7.description);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", ts_r7.description, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
 } }
 function ProjectsComponent_ng_container_27_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_27_ng_template_1_Template, 12, 4, "ng-template", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_27_ng_template_1_Template, 11, 4, "ng-template", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
 } }
 function ProjectsComponent_ng_container_41_ng_template_1_Template(rf, ctx) { if (rf & 1) {
@@ -4979,9 +5029,9 @@ function ProjectsComponent_ng_container_41_ng_template_1_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h6");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12)(10, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "p", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
     const ts_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
@@ -4990,12 +5040,12 @@ function ProjectsComponent_ng_container_41_ng_template_1_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ts_r10.image, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r10.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r10.description);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", ts_r10.description, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
 } }
 function ProjectsComponent_ng_container_41_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_41_ng_template_1_Template, 12, 4, "ng-template", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_41_ng_template_1_Template, 11, 4, "ng-template", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
 } }
 function ProjectsComponent_ng_container_55_ng_template_1_Template(rf, ctx) { if (rf & 1) {
@@ -5007,9 +5057,9 @@ function ProjectsComponent_ng_container_55_ng_template_1_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h6");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Link");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12)(10, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "p", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
     const ts_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
@@ -5018,12 +5068,12 @@ function ProjectsComponent_ng_container_55_ng_template_1_Template(rf, ctx) { if 
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ts_r13.image, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r13.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r13.description);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", ts_r13.description, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
 } }
 function ProjectsComponent_ng_container_55_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_55_ng_template_1_Template, 12, 4, "ng-template", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_55_ng_template_1_Template, 11, 4, "ng-template", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
 } }
 (0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.CEO');
@@ -5047,79 +5097,159 @@ class ProjectsComponent {
                 image: '../assets/images/APX/logo.png',
                 name: 'UberMe',
                 designation: 'https://uberme-gold.vercel.app/#/',
-                description: 'UberME is a sleek, user-friendly car rental app that connects car owners with people seeking rentals. Right from the start, users choose whether they want to rent a car or list their own, diving into a marketplace of high-end vehicles like Lamborghinis and Ferraris, complete with photos and detailed specs. Advanced filters help renters narrow down options by make, color, horsepower, and more, while a map view shows available cars nearby. The booking process is simple and intuitive: find the car you want, check its details, and hit "Book Now." Car owners can effortlessly list their vehicles, setting rates and highlighting unique features to attract renters. With smooth navigation, personalized profiles, and a demo mode for new users, UberME makes renting or listing a car as exciting and easy as possible. Perfect for anyone who wants a convenient and luxurious car-sharing experience!',
+                description: '<strong>UberME</strong> is a sleek, user-friendly <strong>car rental app</strong> that connects car owners with people seeking rentals. Right from the start, users choose whether they want to <strong>rent a car</strong> or <strong>list their own</strong>, diving into a marketplace of high-end vehicles like <strong>Lamborghinis</strong> and <strong>Ferraris</strong>, complete with photos and detailed specs. <strong>Advanced filters</strong> help renters narrow down options by make, color, horsepower, and more, while a <strong>map view</strong> shows available cars nearby. The <strong>booking process</strong> is simple and intuitive: find the car you want, check its details, and hit "Book Now." Car owners can effortlessly list their vehicles, setting rates and highlighting unique features to attract renters. With <strong>smooth navigation</strong>, personalized profiles, and a <strong>demo mode</strong> for new users, UberME makes renting or listing a car as exciting and easy as possible. Perfect for anyone who wants a <strong>convenient</strong> and <strong>luxurious car-sharing experience</strong>!',
                 usrKey: 'SALES_MAN'
             },
             {
                 image: '../assets/images/APX/chatAI.png',
                 name: 'TSD AI',
                 designation: 'https://www.topspotsdubai.com/',
-                description: ' The "TopSpots x ChatGPT" app is a unique, fully custom-built application that seamlessly integrates advanced AI for exploring top travel destinations. Created entirely from scratch, including the back-end architecture, this app offers a flexible, user-centered chat experience.  At its core, users can select from various interaction modes. Start a text chat for traditional messaging, voice chat powered by 11 Labs for spoken interaction, or engage with a Heygen avatar chat, where an AI-powered avatar converses with you, making the experience even more engaging and lifelike.  The chat experience is versatile and interactive, combining local insights with AI to answer questions about popular locations, relaxing spots, or hidden gems. With each mode, users are guided by their preferred style of interaction, whether they’re looking for quick text replies, immersive voice guidance, or an engaging visual chat with an avatar. This entire system, from the user interface to the complex back-end, was crafted with precision, making it a robust, user-friendly travel companion. For a deeper dive into the back-end functionality, check out the backend projects for detailed insights into the infrastructure supporting this innovative app.',
+                description: 'The "<strong>TopSpots x ChatGPT</strong>" app is a unique, fully custom-built application that seamlessly integrates <strong>advanced AI</strong> for exploring top <strong>travel destinations</strong>. Created entirely from scratch, including the <strong>back-end architecture</strong>, this app offers a <strong>flexible</strong>, user-centered <strong>chat experience</strong>. At its core, users can select from various <strong>interaction modes</strong>. Start a <strong>text chat</strong> for traditional messaging, <strong>voice chat</strong> powered by <strong>11 Labs</strong> for spoken interaction, or engage with a <strong>Heygen avatar chat</strong>, where an AI-powered avatar converses with you, making the experience even more engaging and lifelike. The chat experience is versatile and interactive, combining <strong>local insights</strong> with AI to answer questions about <strong>popular locations</strong>, relaxing spots, or hidden gems. With each mode, users are guided by their preferred style of interaction, whether they’re looking for quick text replies, immersive voice guidance, or an engaging visual chat with an avatar. This entire system, from the <strong>user interface</strong> to the <strong>complex back-end</strong>, was crafted with precision, making it a robust, user-friendly travel companion. For a deeper dive into the <strong>back-end functionality</strong>, check out the backend projects for detailed insights into the infrastructure supporting this innovative app.',
                 usrKey: 'PR_ADVISOR_AL'
             },
         ];
+        /*   public MobileApps = [
+            {
+              image: '../assets/images/APX/logo.png',
+              name: 'UberMe',
+              designation: 'https://uberme-gold.vercel.app/#/',
+              description: 'UberME is a sleek, user-friendly car rental app that connects car owners with people seeking rentals. Right from the start, users choose whether they want to rent a car or list their own, diving into a marketplace of high-end vehicles like Lamborghinis and Ferraris, complete with photos and detailed specs. Advanced filters help renters narrow down options by make, color, horsepower, and more, while a map view shows available cars nearby. The booking process is simple and intuitive: find the car you want, check its details, and hit "Book Now." Car owners can effortlessly list their vehicles, setting rates and highlighting unique features to attract renters. With smooth navigation, personalized profiles, and a demo mode for new users, UberME makes renting or listing a car as exciting and easy as possible. Perfect for anyone who wants a convenient and luxurious car-sharing experience!',
+              usrKey: 'SALES_MAN'
+            },
+            {
+              image: '../assets/images/APX/chatAI.png',
+              name: 'TSD AI',
+              designation: 'https://www.topspotsdubai.com/',
+              description: ' The "TopSpots x ChatGPT" app is a unique, fully custom-built application that seamlessly integrates advanced AI for exploring top travel destinations. Created entirely from scratch, including the back-end architecture, this app offers a flexible, user-centered chat experience.  At its core, users can select from various interaction modes. Start a text chat for traditional messaging, voice chat powered by 11 Labs for spoken interaction, or engage with a Heygen avatar chat, where an AI-powered avatar converses with you, making the experience even more engaging and lifelike.  The chat experience is versatile and interactive, combining local insights with AI to answer questions about popular locations, relaxing spots, or hidden gems. With each mode, users are guided by their preferred style of interaction, whether they’re looking for quick text replies, immersive voice guidance, or an engaging visual chat with an avatar. This entire system, from the user interface to the complex back-end, was crafted with precision, making it a robust, user-friendly travel companion. For a deeper dive into the back-end functionality, check out the backend projects for detailed insights into the infrastructure supporting this innovative app.',
+              usrKey: 'PR_ADVISOR_AL'
+            },
+          ] */
         this.frontEnd = [
             {
                 image: 'https://cdn.prod.website-files.com/6231428007cca207d2265464/645c738fa80d019944e577c7_ChatFood%20by%20Deliverect%20Logo%20Color%20-%20Blue.svg',
                 name: 'ChatFood',
                 designation: 'https://www.chatfood.io/',
-                description: 'Chatfood is a platform that empowers businesses to manage online ordering, marketing, and analytics for food services. My role involved creating a responsive, modern interface that caters to both end-users and administrators. Highlights: I utilized Angular and Bootstrap to build dynamic, responsive layouts that look and function well on any device. I worked closely with UX designers to ensure the platform\'s aesthetic matched its functionality, optimizing key areas for mobile performance. Through custom SCSS, I maintained design consistency while allowing easy scaling of the UI components. This project required meticulous attention to usability, as the platform had to support a range of users with varying technical backgrounds. Technologies: Angular 7, SCSS for styling, Bootstrap 4 for responsive layout design.',
+                description: 'Chatfood is a platform that empowers businesses to manage <strong>online ordering</strong>, <strong>marketing</strong>, and <strong>analytics</strong> for food services. My role involved creating a <strong>responsive, modern interface</strong> that caters to both end-users and administrators. Highlights: I utilized <strong>Angular</strong> and <strong>Bootstrap</strong> to build <strong>dynamic, responsive layouts</strong> that look and function well on any device. I worked closely with <strong>UX designers</strong> to ensure the platform\'s aesthetic matched its functionality, optimizing key areas for <strong>mobile performance</strong>. Through custom <strong>SCSS</strong>, I maintained design consistency while allowing easy scaling of the UI components. This project required meticulous attention to <strong>usability</strong>, as the platform had to support a range of users with varying technical backgrounds. Technologies: <strong>Angular 7</strong>, <strong>SCSS</strong> for styling, <strong>Bootstrap 4</strong> for responsive layout design.',
                 usrKey: 'SALES_MAN'
             },
             {
                 image: 'https://au.edu.sy/images/logo-wide-ar.png',
                 name: 'Al Andalus University',
                 designation: 'https://au.edu.sy/en/home',
-                description: ' Al Andalus University is a visually engaging and user-centric platform designed to provide students, faculty, and visitors with easy access to university resources, news, and academic information. Built with a modern, responsive front-end, the website offers seamless navigation across all devices, from desktops to mobile, ensuring a consistent and intuitive user experience. As the front-end developer, you focused on crafting an interface that reflects AIU\'s academic professionalism while remaining approachable for users. The design emphasizes clarity and accessibility, making it simple for prospective students to learn about the university\'s programs, admissions requirements, and campus life. The website also incorporates interactive elements, such as dynamic menus and responsive layouts, to enhance user engagement and ease of use.Your front-end development work leverages the latest technologies to create a fast and reliable experience. Each page loads efficiently, with optimized visuals and well-structured code that aligns with modern web standards. The interface is clean and polished, with thoughtful typography, balanced color schemes, and a layout that guides users effortlessly to essential information, from academic departments to recent news and events.Overall, the Arab International University website stands as a testament to your expertise in front-end development, showcasing a robust, well-crafted online presence that serves the university\’s community and enhances its digital identity.',
+                description: 'Al Andalus University is a <strong>visually engaging</strong> and <strong>user-centric platform</strong> designed to provide <strong>students</strong>, <strong>faculty</strong>, and <strong>visitors</strong> with easy access to university resources, news, and academic information. Built with a <strong>modern, responsive front-end</strong>, the website offers <strong>seamless navigation</strong> across all devices, from desktops to mobile, ensuring a consistent and intuitive user experience. As the <strong>front-end developer</strong>, you focused on crafting an interface that reflects AIU\'s <strong>academic professionalism</strong> while remaining approachable for users. The design emphasizes <strong>clarity</strong> and <strong>accessibility</strong>, making it simple for prospective students to learn about the university\'s programs, admissions requirements, and campus life. The website also incorporates <strong>interactive elements</strong>, such as dynamic menus and responsive layouts, to enhance <strong>user engagement</strong> and ease of use. Your front-end development work leverages the <strong>latest technologies</strong> to create a fast and reliable experience. Each page loads efficiently, with optimized visuals and well-structured code that aligns with <strong>modern web standards</strong>. The interface is clean and polished, with thoughtful typography, balanced color schemes, and a layout that guides users effortlessly to essential information, from academic departments to recent news and events. Overall, the Arab International University website stands as a testament to your expertise in <strong>front-end development</strong>, showcasing a robust, well-crafted online presence that serves the university\’s community and enhances its <strong>digital identity</strong>.',
                 usrKey: 'SALES_MAN'
             },
             {
-                image: 'http://pentadxb.com/home/assets/images/icon/p_logo.png',
+                image: '../assets/images/APX/p_logo.png',
                 name: 'Penta Realestat',
-                designation: 'https://www.chatfood.io/',
-                description: 'As the front-end developer for Penta Brokers, I was tasked with designing a responsive and professional website that reflects Penta’s position as a trusted brokerage firm. The site is crafted to provide clients with a seamless and intuitive experience, showcasing Penta’s services and expertise in the brokerage industry through a sleek, user-friendly interface.With a focus on clarity and accessibility, I developed the front-end to ensure easy navigation and a polished look across all devices, from desktop to mobile. The design features an organized layout, interactive elements, and responsive visuals that guide users effortlessly through Penta’s offerings, from brokerage services to client resources.My work emphasized performance and efficiency, ensuring fast load times and smooth interactions, which are essential for a professional financial services platform. By leveraging the latest front-end technologies, I aimed to create a reliable and visually appealing online presence that strengthens Penta’s brand and supports its client relationships. This project reflects my commitment to building high-quality digital experiences that effectively meet business and client needs.',
+                designation: 'https://penta--one.vercel.app/',
+                description: 'As the <strong>front-end developer</strong> for Penta Brokers, I was tasked with designing a <strong>responsive and professional website</strong> that reflects Penta’s position as a <strong>trusted brokerage firm</strong>. The site is crafted to provide clients with a <strong>seamless</strong> and <strong>intuitive experience</strong>, showcasing Penta’s services and expertise in the brokerage industry through a <strong>sleek, user-friendly interface</strong>. With a focus on <strong>clarity</strong> and <strong>accessibility</strong>, I developed the front-end to ensure <strong>easy navigation</strong> and a polished look across all devices, from desktop to mobile. The design features an <strong>organized layout</strong>, interactive elements, and responsive visuals that guide users effortlessly through Penta’s offerings, from brokerage services to client resources. My work emphasized <strong>performance</strong> and <strong>efficiency</strong>, ensuring fast load times and smooth interactions, which are essential for a professional financial services platform. By leveraging the <strong>latest front-end technologies</strong>, I aimed to create a <strong>reliable</strong> and <strong>visually appealing online presence</strong> that strengthens Penta’s brand and supports its client relationships. This project reflects my commitment to building high-quality digital experiences that effectively meet business and client needs.',
                 usrKey: 'SALES_MAN'
             },
         ];
+        /*  public frontEnd = [
+           {
+             image: 'https://cdn.prod.website-files.com/6231428007cca207d2265464/645c738fa80d019944e577c7_ChatFood%20by%20Deliverect%20Logo%20Color%20-%20Blue.svg',
+             name: 'ChatFood',
+             designation: 'https://www.chatfood.io/',
+             description: 'Chatfood is a platform that empowers businesses to manage online ordering, marketing, and analytics for food services. My role involved creating a responsive, modern interface that caters to both end-users and administrators. Highlights: I utilized Angular and Bootstrap to build dynamic, responsive layouts that look and function well on any device. I worked closely with UX designers to ensure the platform\'s aesthetic matched its functionality, optimizing key areas for mobile performance. Through custom SCSS, I maintained design consistency while allowing easy scaling of the UI components. This project required meticulous attention to usability, as the platform had to support a range of users with varying technical backgrounds. Technologies: Angular 7, SCSS for styling, Bootstrap 4 for responsive layout design.',
+             usrKey: 'SALES_MAN'
+           },
+           {
+             image: 'https://au.edu.sy/images/logo-wide-ar.png',
+             name: 'Al Andalus University',
+             designation: 'https://au.edu.sy/en/home',
+             description: ' Al Andalus University is a visually engaging and user-centric platform designed to provide students, faculty, and visitors with easy access to university resources, news, and academic information. Built with a modern, responsive front-end, the website offers seamless navigation across all devices, from desktops to mobile, ensuring a consistent and intuitive user experience. As the front-end developer, you focused on crafting an interface that reflects AIU\'s academic professionalism while remaining approachable for users. The design emphasizes clarity and accessibility, making it simple for prospective students to learn about the university\'s programs, admissions requirements, and campus life. The website also incorporates interactive elements, such as dynamic menus and responsive layouts, to enhance user engagement and ease of use.Your front-end development work leverages the latest technologies to create a fast and reliable experience. Each page loads efficiently, with optimized visuals and well-structured code that aligns with modern web standards. The interface is clean and polished, with thoughtful typography, balanced color schemes, and a layout that guides users effortlessly to essential information, from academic departments to recent news and events.Overall, the Arab International University website stands as a testament to your expertise in front-end development, showcasing a robust, well-crafted online presence that serves the university\’s community and enhances its digital identity.',
+             usrKey: 'SALES_MAN'
+           },
+           {
+             image: '../assets/images/APX/p_logo.png',
+             name: 'Penta Realestat',
+             designation: 'https://penta--one.vercel.app/',
+             description: 'As the front-end developer for Penta Brokers, I was tasked with designing a responsive and professional website that reflects Penta’s position as a trusted brokerage firm. The site is crafted to provide clients with a seamless and intuitive experience, showcasing Penta’s services and expertise in the brokerage industry through a sleek, user-friendly interface.With a focus on clarity and accessibility, I developed the front-end to ensure easy navigation and a polished look across all devices, from desktop to mobile. The design features an organized layout, interactive elements, and responsive visuals that guide users effortlessly through Penta’s offerings, from brokerage services to client resources.My work emphasized performance and efficiency, ensuring fast load times and smooth interactions, which are essential for a professional financial services platform. By leveraging the latest front-end technologies, I aimed to create a reliable and visually appealing online presence that strengthens Penta’s brand and supports its client relationships. This project reflects my commitment to building high-quality digital experiences that effectively meet business and client needs.',
+             usrKey: 'SALES_MAN'
+           },
+       
+         ] */
         this.backendProj = [
             {
                 image: '../assets/images/APX/chatAI.png',
                 name: 'Top Spots AI',
                 designation: 'https://www.chatfood.io/',
-                description: 'The **TopSpots x ChatGPT** project features a robust back-end architecture designed to deliver a seamless, AI-driven user experience, which I built with advanced integrations and secure data handling. At the core is **ChatGPT-4.0 Turbo**, which processes user queries and, through natural language processing, finds the most relevant answers from a repository of pre-processed data and blogs. This intelligent query handling is complemented by integrations with **11 Labs** for voice streaming, allowing responses to be spoken, and **HeyGen** for avatar interactions, where a virtual character delivers answers through video. The back end supports real-time streaming for both voice and avatars, enhancing user engagement. Built using a modular, cloud-hosted microservices architecture, it ensures scalability, fault tolerance, and optimized performance. Security is a priority, with user queries encrypted and anonymized for privacy, while session management and caching ensure smooth, fast responses. The result is a sophisticated and interactive platform that offers users personalized, real-time answers through text, voice, and avatar, showcasing the capabilities of modern AI to deliver a truly immersive experience.',
+                description: 'The <strong>TopSpots x ChatGPT</strong> project features a robust back-end architecture designed to deliver a seamless, AI-driven user experience, which I built with advanced integrations and secure data handling. At the core is <strong>ChatGPT-4.0 Turbo</strong>, which processes user queries and, through natural language processing, finds the most relevant answers from a repository of pre-processed data and blogs. This intelligent query handling is complemented by integrations with <strong>11 Labs</strong> for voice streaming, allowing responses to be spoken, and <strong>HeyGen</strong> for avatar interactions, where a virtual character delivers answers through video. The back end supports real-time streaming for both voice and avatars, enhancing user engagement. Built using a modular, cloud-hosted microservices architecture, it ensures scalability, fault tolerance, and optimized performance. Security is a priority, with user queries encrypted and anonymized for privacy, while session management and caching ensure smooth, fast responses. The result is a sophisticated and interactive platform that offers users personalized, real-time answers through text, voice, and avatar, showcasing the capabilities of modern AI to deliver a truly immersive experience.',
                 usrKey: 'SALES_MAN'
             },
             {
                 image: '../assets/images/APX/logo.png',
                 name: 'UberME',
                 designation: 'https://uberme-gold.vercel.app/#/',
-                description: 'The **UberME** backend system was expertly developed to support a seamless car rental platform that caters to both types of users: those looking to rent a car and those wanting to list their cars for rent. This backend includes a powerful **admin dashboard** that allows administrators to manage user interactions, oversee bookings, and handle car listings efficiently. The system features a dynamic and complex **filtering mechanism** for renters, enabling them to search through a wide range of options with filters such as make, model, year, horsepower, distance, and more, ensuring users can easily find a car that suits their exact needs. Integrated with **Google Maps** for location-based services, the platform can automatically find the nearest available car for a user’s location. The booking process is fully automated, allowing users to reserve cars in real-time without requiring admin intervention, while the admin dashboard provides visibility over operations with tools for monitoring and troubleshooting if needed. Both the backend and dashboard were designed with a robust, scalable architecture that ensures smooth, responsive, and secure operations, making UberME a reliable and user-centered car-sharing solution.',
+                description: 'The <strong>UberME</strong> backend system was expertly developed to support a seamless car rental platform that caters to both types of users: those looking to rent a car and those wanting to list their cars for rent. This backend includes a powerful <strong>admin dashboard</strong> that allows administrators to manage user interactions, oversee bookings, and handle car listings efficiently. The system features a dynamic and complex <strong>filtering mechanism</strong> for renters, enabling them to search through a wide range of options with filters such as make, model, year, horsepower, distance, and more, ensuring users can easily find a car that suits their exact needs. Integrated with <strong>Google Maps</strong> for location-based services, the platform can automatically find the nearest available car for a user’s location. The booking process is fully automated, allowing users to reserve cars in real-time without requiring admin intervention, while the admin dashboard provides visibility over operations with tools for monitoring and troubleshooting if needed. Both the backend and dashboard were designed with a robust, scalable architecture that ensures smooth, responsive, and secure operations, making UberME a reliable and user-centered car-sharing solution.',
                 usrKey: 'SALES_MAN'
             },
             {
                 image: '../assets/images/APX/icon.png',
                 name: 'ECSC',
                 designation: 'https://www.ecsc-expat.sy/',
-                description: 'The **ECSC** project is a large-scale government platform designed to streamline complex public processes, allowing citizens to perform essential tasks—like obtaining a new trading license or renewing a passport—directly online. As a **backend developer** on a team of around 12 experts, I contributed to building a robust, highly secure system that meticulously manages user data and handles a vast array of government services with flexibility to accommodate intricate workflows and unique exceptions. Developed over three years, this project demanded advanced technologies and significant coordination due to its size and complexity. I worked extensively with **ExpressJS**, **Oracle**, and **Java Spring** to create a scalable, secure backend capable of managing high volumes of data, ensuring smooth, reliable performance. We incorporated numerous security tools and packages to protect sensitive user information, meeting strict government standards for data integrity and privacy. The ECSC platform stands as a powerful example of modern digital governance, making complex government services accessible to users while maintaining the utmost levels of security and data management.',
+                description: 'The <strong>ECSC</strong> project is a large-scale government platform designed to streamline complex public processes, allowing citizens to perform essential tasks—like obtaining a new trading license or renewing a passport—directly online. As a <strong>backend developer</strong> on a team of around 12 experts, I contributed to building a robust, highly secure system that meticulously manages user data and handles a vast array of government services with flexibility to accommodate intricate workflows and unique exceptions. Developed over three years, this project demanded advanced technologies and significant coordination due to its size and complexity. I worked extensively with <strong>ExpressJS</strong>, <strong>Oracle</strong>, and <strong>Java Spring</strong> to create a scalable, secure backend capable of managing high volumes of data, ensuring smooth, reliable performance. We incorporated numerous security tools and packages to protect sensitive user information, meeting strict government standards for data integrity and privacy. The ECSC platform stands as a powerful example of modern digital governance, making complex government services accessible to users while maintaining the utmost levels of security and data management.',
                 usrKey: 'SALES_MAN'
             },
         ];
-        // Testimonial Carousel 
-        this.FullStackProjects = [{
+        /*  public backendProj = [
+           {
+             image: '../assets/images/APX/chatAI.png',
+             name: 'Top Spots AI',
+             designation: 'https://www.chatfood.io/',
+             description: 'The **TopSpots x ChatGPT** project features a robust back-end architecture designed to deliver a seamless, AI-driven user experience, which I built with advanced integrations and secure data handling. At the core is **ChatGPT-4.0 Turbo**, which processes user queries and, through natural language processing, finds the most relevant answers from a repository of pre-processed data and blogs. This intelligent query handling is complemented by integrations with **11 Labs** for voice streaming, allowing responses to be spoken, and **HeyGen** for avatar interactions, where a virtual character delivers answers through video. The back end supports real-time streaming for both voice and avatars, enhancing user engagement. Built using a modular, cloud-hosted microservices architecture, it ensures scalability, fault tolerance, and optimized performance. Security is a priority, with user queries encrypted and anonymized for privacy, while session management and caching ensure smooth, fast responses. The result is a sophisticated and interactive platform that offers users personalized, real-time answers through text, voice, and avatar, showcasing the capabilities of modern AI to deliver a truly immersive experience.',
+             usrKey: 'SALES_MAN'
+           },
+           {
+             image: '../assets/images/APX/logo.png',
+             name: 'UberME',
+             designation: 'https://uberme-gold.vercel.app/#/',
+             description: 'The **UberME** backend system was expertly developed to support a seamless car rental platform that caters to both types of users: those looking to rent a car and those wanting to list their cars for rent. This backend includes a powerful **admin dashboard** that allows administrators to manage user interactions, oversee bookings, and handle car listings efficiently. The system features a dynamic and complex **filtering mechanism** for renters, enabling them to search through a wide range of options with filters such as make, model, year, horsepower, distance, and more, ensuring users can easily find a car that suits their exact needs. Integrated with **Google Maps** for location-based services, the platform can automatically find the nearest available car for a user’s location. The booking process is fully automated, allowing users to reserve cars in real-time without requiring admin intervention, while the admin dashboard provides visibility over operations with tools for monitoring and troubleshooting if needed. Both the backend and dashboard were designed with a robust, scalable architecture that ensures smooth, responsive, and secure operations, making UberME a reliable and user-centered car-sharing solution.',
+             usrKey: 'SALES_MAN'
+           },
+           {
+             image: '../assets/images/APX/icon.png',
+             name: 'ECSC',
+             designation: 'https://www.ecsc-expat.sy/',
+             description: 'The **ECSC** project is a large-scale government platform designed to streamline complex public processes, allowing citizens to perform essential tasks—like obtaining a new trading license or renewing a passport—directly online. As a **backend developer** on a team of around 12 experts, I contributed to building a robust, highly secure system that meticulously manages user data and handles a vast array of government services with flexibility to accommodate intricate workflows and unique exceptions. Developed over three years, this project demanded advanced technologies and significant coordination due to its size and complexity. I worked extensively with **ExpressJS**, **Oracle**, and **Java Spring** to create a scalable, secure backend capable of managing high volumes of data, ensuring smooth, reliable performance. We incorporated numerous security tools and packages to protect sensitive user information, meeting strict government standards for data integrity and privacy. The ECSC platform stands as a powerful example of modern digital governance, making complex government services accessible to users while maintaining the utmost levels of security and data management.',
+             usrKey: 'SALES_MAN'
+           },
+         ] */
+        this.FullStackProjects = [
+            {
                 image: 'https://www.topspotsdubai.com/assets/images/logo.png',
                 name: 'Top Spots Dubai',
                 designation: 'https://www.topspotsdubai.com/',
-                description: 'Top Spots Dubai is a comprehensive platform aimed at enhancing tourism and reservation services in Dubai. I took on a full-stack role, contributing to the entire development lifecycle from initial setup to final deployment.Highlights: I designed and implemented both the front end and back end, focusing on user experience and performance optimization. I enhanced site speed by 65%, which significantly improved user engagement and SEO. Additionally, I integrated various third-party APIs, including payment gateways like N-Genius and location services such as Google Maps, ensuring smooth functionality for users seeking services across the city. The project required ongoing optimization and troubleshooting to ensure compatibility across devices and platforms. Technologies: Angular for the frontend, NodeJS with ExpressJS for the backend, MongoDB for data management, and API integrations for payment and mapping.',
+                description: '<strong>Top Spots Dubai</strong> is a comprehensive platform aimed at enhancing <strong>tourism</strong> and <strong>reservation services</strong> in Dubai. I took on a <strong>full-stack role</strong>, contributing to the entire development lifecycle from initial setup to final deployment. <strong>Highlights</strong>: I designed and implemented both the front end and back end, focusing on <strong>user experience</strong> and <strong>performance optimization</strong>. I enhanced <strong>site speed by 65%</strong>, which significantly improved user engagement and SEO. Additionally, I integrated various <strong>third-party APIs</strong>, including <strong>payment gateways</strong> like <strong>N-Genius</strong> and location services such as <strong>Google Maps</strong>, ensuring smooth functionality for users seeking services across the city. The project required ongoing <strong>optimization</strong> and <strong>troubleshooting</strong> to ensure compatibility across devices and platforms. Technologies: <strong>Angular</strong> for the frontend, <strong>NodeJS</strong> with <strong>ExpressJS</strong> for the backend, <strong>MongoDB</strong> for data management, and <strong>API integrations</strong> for payment and mapping.',
                 usrKey: 'CEO'
             },
             {
                 image: 'http://shoofbook.com/home/assets/images/header/sh-logo-header-large.svg',
                 name: 'ShoofBook',
                 designation: 'http://shoofbook.com/home/',
-                description: 'ShoofBook is a classified advertising platform akin to Dubizzle, built to handle high volumes of user-generated content in real time. Highlights: As the sole developer, I took this project from concept to launch, building a dynamic, scalable platform that allows users to post ads, browse categories, and manage profiles seamlessly. I focused heavily on database efficiency to handle large data volumes and implemented caching strategies to reduce load times. A custom search algorithm was also developed to enhance the accuracy and speed of search results, making it easy for users to find what they’re looking for. Technologies: PrimeNG and Angular for the front end, NodeJS and ExpressJS for the back end, with MongoDB for scalable data storage and Redis for caching.ation is attached.',
+                description: '<strong>ShoofBook</strong> is a classified advertising platform akin to <strong>Dubizzle</strong>, built to handle high volumes of <strong>user-generated content</strong> in <strong>real time</strong>. <strong>Highlights</strong>: As the sole developer, I took this project from <strong>concept to launch</strong>, building a <strong>dynamic, scalable platform</strong> that allows users to post ads, browse categories, and manage profiles seamlessly. I focused heavily on <strong>database efficiency</strong> to handle large data volumes and implemented <strong>caching strategies</strong> to reduce load times. A <strong>custom search algorithm</strong> was also developed to enhance the accuracy and speed of search results, making it easy for users to find what they’re looking for. Technologies: <strong>PrimeNG</strong> and <strong>Angular</strong> for the front end, <strong>NodeJS</strong> and <strong>ExpressJS</strong> for the back end, with <strong>MongoDB</strong> for scalable data storage and <strong>Redis</strong> for caching.',
                 usrKey: 'SEN_PR_ADVISOR'
             },
         ];
+        // Testimonial Carousel  
+        /* public FullStackProjects = [{
+          image: 'https://www.topspotsdubai.com/assets/images/logo.png',
+          name: 'Top Spots Dubai',
+          designation: 'https://www.topspotsdubai.com/',
+          description: 'Top Spots Dubai is a comprehensive platform aimed at enhancing tourism and reservation services in Dubai. I took on a full-stack role, contributing to the entire development lifecycle from initial setup to final deployment.Highlights: I designed and implemented both the front end and back end, focusing on user experience and performance optimization. I enhanced site speed by 65%, which significantly improved user engagement and SEO. Additionally, I integrated various third-party APIs, including payment gateways like N-Genius and location services such as Google Maps, ensuring smooth functionality for users seeking services across the city. The project required ongoing optimization and troubleshooting to ensure compatibility across devices and platforms. Technologies: Angular for the frontend, NodeJS with ExpressJS for the backend, MongoDB for data management, and API integrations for payment and mapping.',
+          usrKey: 'CEO'
+        },
+        {
+          image: 'http://shoofbook.com/home/assets/images/header/sh-logo-header-large.svg',
+          name: 'ShoofBook',
+          designation: 'http://shoofbook.com/home/',
+          description: 'ShoofBook is a classified advertising platform akin to Dubizzle, built to handle high volumes of user-generated content in real time. Highlights: As the sole developer, I took this project from concept to launch, building a dynamic, scalable platform that allows users to post ads, browse categories, and manage profiles seamlessly. I focused heavily on database efficiency to handle large data volumes and implemented caching strategies to reduce load times. A custom search algorithm was also developed to enhance the accuracy and speed of search results, making it easy for users to find what they’re looking for. Technologies: PrimeNG and Angular for the front end, NodeJS and ExpressJS for the back end, with MongoDB for scalable data storage and Redis for caching.ation is attached.',
+          usrKey: 'SEN_PR_ADVISOR'
+        },
+      
+        ] */
         // Testimonial Carousel
         this.testimonial = [{
                 image: 'https://www.topspotsdubai.com/assets/images/logo.png',
@@ -5268,7 +5398,7 @@ class ProjectsComponent {
     }
 }
 ProjectsComponent.ɵfac = function ProjectsComponent_Factory(t) { return new (t || ProjectsComponent)(); };
-ProjectsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 56, vars: 8, consts: [[1, "about-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "testimonial", "small-section"], [1, "slide-2", "testimonial-slider", "no-arrow", 3, "options"], [4, "ngFor", "ngForOf"], ["carouselSlide", ""], [1, "media"], [1, "text-center"], ["target", "_blank", 3, "href"], ["alt", "image", 3, "src"], [1, "media-body"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
+ProjectsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 56, vars: 8, consts: [[1, "about-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "testimonial", "small-section"], [1, "slide-2", "testimonial-slider", "no-arrow", 3, "options"], [4, "ngFor", "ngForOf"], ["carouselSlide", ""], [1, "media"], [1, "text-center"], ["target", "_blank", 3, "href"], ["alt", "image", 3, "src"], [1, "media-body"], [3, "innerHTML"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "h4");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, " Full Stack Development ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();

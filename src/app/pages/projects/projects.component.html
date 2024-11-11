@@ -42,7 +42,8 @@
                   </div>
                   <div class="media-body">
                     <!--    <p>{{ 'ABOUT.TEAM.' + ts.usrKey | translate }}</p> -->
-                    <p>{{ ts.description }}</p>
+                   <!--  <p>{{ ts.description }}</p> -->
+                    <p [innerHTML]="ts.description"> </p>
                   </div>
                 </div>
               </div>
@@ -55,7 +56,7 @@
 </section>
 
 
-<!-- Front End Intro-->
+<!--   Mobile App Development Intro-->
 
 <section class="about-page section-b-space">
   <div class="container">
@@ -66,7 +67,13 @@
           Mobile App Development
         </h4>
         <p>
-          In today’s mobile-first world, creating reliable and engaging mobile applications is key to reaching users wherever they are. I specialize in cross-platform mobile development, focusing on delivering seamless functionality and polished design on both Android and iOS. Working with frameworks like Flutter, Ionic, and NativeScript, I ensure that each app provides an intuitive and engaging experience while optimizing for performance. Below are examples of mobile apps I developed or contributed to, where I integrated backend services, streamlined performance, and refined interfaces to create well-rounded mobile solutions that users can rely on
+          In today’s mobile-first world, creating reliable and engaging mobile applications is key to reaching users
+          wherever they are. I specialize in cross-platform mobile development, focusing on delivering seamless
+          functionality and polished design on both Android and iOS. Working with frameworks like Flutter, Ionic, and
+          NativeScript, I ensure that each app provides an intuitive and engaging experience while optimizing for
+          performance. Below are examples of mobile apps I developed or contributed to, where I integrated backend
+          services, streamlined performance, and refined interfaces to create well-rounded mobile solutions that users
+          can rely on
         </p>
 
 
@@ -74,7 +81,7 @@
     </div>
   </div>
 </section>
-<!-- Front End Projects-->
+<!--   Mobile App Development Projects-->
 
 <section class="testimonial small-section">
   <div class="container">
@@ -93,7 +100,8 @@
                     </a>
                   </div>
                   <div class="media-body">
-                    <p>{{ ts.description }}</p>
+                    <p [innerHTML]="ts.description"></p>
+
 
                   </div>
                 </div>
@@ -150,7 +158,8 @@
                     </a>
                   </div>
                   <div class="media-body">
-                    <p>{{ ts.description }}</p>
+                    <p [innerHTML]="ts.description"></p>
+
 
                   </div>
                 </div>
@@ -176,7 +185,12 @@
           Back-End Development
         </h4>
         <p>
-          A solid backend is the foundation of a reliable application. I’ve worked extensively on creating secure, efficient server-side architectures that power robust applications for a wide range of industries. My back-end work focuses on data handling, business logic, and seamless API integrations to connect systems and services efficiently. From banking platforms to enterprise applications, these back-end projects demonstrate my commitment to building scalable, secure, and high-performing solutions that support complex workflows and deliver consistent results to users.
+          A solid backend is the foundation of a reliable application. I’ve worked extensively on creating secure,
+          efficient server-side architectures that power robust applications for a wide range of industries. My back-end
+          work focuses on data handling, business logic, and seamless API integrations to connect systems and services
+          efficiently. From banking platforms to enterprise applications, these back-end projects demonstrate my
+          commitment to building scalable, secure, and high-performing solutions that support complex workflows and
+          deliver consistent results to users.
         </p>
 
 
@@ -203,7 +217,8 @@
                     </a>
                   </div>
                   <div class="media-body">
-                    <p>{{ ts.description }}</p>
+                    <p [innerHTML]="ts.description"></p>
+                    <!--   <p>{{ ts.description }}</p> -->
 
                   </div>
                 </div>
