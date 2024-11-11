@@ -776,7 +776,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const _c0 = function () { return ["/pages/projects"]; };
-function FashionOneComponent_div_20_Template(rf, ctx) { if (rf & 1) {
+function FashionOneComponent_div_23_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 13)(1, "a", 14)(2, "div", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](3, "img", 16)(4, "div", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
@@ -966,7 +966,7 @@ class FashionOneComponent {
     }
 }
 FashionOneComponent.ɵfac = function FashionOneComponent_Factory(t) { return new (t || FashionOneComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_shared_services_product_service__WEBPACK_IMPORTED_MODULE_1__.ProductService), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslateService)); };
-FashionOneComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({ type: FashionOneComponent, selectors: [["app-fashion-one"]], decls: 22, vars: 5, consts: [[3, "sticky"], [1, "p-0"], [1, "title1", "section-t-space"], [1, "title-inner1"], [1, "container"], [1, "row"], [1, "col-lg-6", "offset-lg-3"], [1, "product-para"], [1, "text-center"], [1, "service", "border-section", "small-section"], [1, "pb-0"], [1, "row", "partition2"], ["class", "col-md-6", 4, "ngFor", "ngForOf"], [1, "col-md-6"], [3, "routerLink"], [1, "collection-banner", "p-right", "text-center"], ["alt", "collection-banner", 1, "img-fluid", 2, "max-height", "300px", 3, "src"], [1, "contain-banner"], [2, "text-align", "center"]], template: function FashionOneComponent_Template(rf, ctx) { if (rf & 1) {
+FashionOneComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({ type: FashionOneComponent, selectors: [["app-fashion-one"]], decls: 25, vars: 5, consts: [[3, "sticky"], [1, "p-0"], [1, "title1", "section-t-space"], [1, "title-inner1"], [1, "container"], [1, "row"], [1, "col-lg-6", "offset-lg-3"], [1, "product-para"], [1, "text-center"], [1, "service", "border-section", "small-section"], [1, "pb-0"], [1, "row", "partition2"], ["class", "col-md-6", 4, "ngFor", "ngForOf"], [1, "col-md-6"], [3, "routerLink"], [1, "collection-banner", "p-right", "text-center"], ["alt", "collection-banner", 1, "img-fluid", 2, "max-height", "300px", 3, "src"], [1, "contain-banner"], [2, "text-align", "center"]], template: function FashionOneComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "app-header-one", 0)(1, "section", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](2, "div", 2)(3, "h4");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](4, " My Foundation ");
@@ -976,20 +976,24 @@ FashionOneComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](7, "translate");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](8, "div", 4)(9, "div", 5)(10, "div", 6)(11, "div", 7)(12, "p", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](13, " I\u2019m Yasine Tokan, a seasoned Full Stack Developer with over nine years of experience in creating high-impact web and mobile applications that drive business success. My expertise lies in developing scalable, responsive solutions using modern frameworks like Angular, NodeJS, and Flutter. I\u2019m passionate about enhancing user experience and optimizing performance through advanced API integrations, real-time communication, and microservices architectures. Throughout my career, I\u2019ve had the privilege of contributing to projects at Top Spots Dubai and TechnoWave, where I worked within agile teams to deliver solutions that truly meet the needs of clients and users alike. I\u2019m constantly expanding my technical skill set, keeping pace with industry trends to bring the most effective and innovative solutions to every project I tackle. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](13, " I\u2019m Yasine Tokan, an Information Technology Engineer specializing in Software Engineering and Data Structures, with over nine years of experience as a Full Stack Developer. My background enables me to create high-impact web and mobile applications that drive business success, focusing on scalable, responsive solutions using modern frameworks like Angular, NodeJS, and Flutter. I\u2019m passionate about enhancing user experience and optimizing performance through advanced API integrations, real-time communication, and microservices architectures. In addition to my technical expertise, I have completed a business training camp, equipping me with a strong understanding of how to align technology solutions with strategic business goals. Throughout my career, I\u2019ve contributed to projects at ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](15, " Top Spots FZE, ShoofBook LLC, and TechnoWave");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, ", collaborating within agile teams to deliver solutions that meet the needs of clients and users alike. Continuously expanding my technical skill set, I stay updated with industry trends to bring innovative and effective solutions to every project I undertake. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "div", 4)(15, "section", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](16, "app-services");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](17, "div", 4)(18, "section", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](19, "app-services");
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](17, "section", 10)(18, "div", 4)(19, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](20, FashionOneComponent_div_20_Template, 8, 4, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](20, "section", 10)(21, "div", 4)(22, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](23, FashionOneComponent_div_23_Template, 8, 4, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](21, "app-footer-one");
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](24, "app-footer-one");
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("sticky", true);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](7, 3, "HOME.GOAL.TITLE"), " ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](17);
         _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx.collections);
     } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _angular_router__WEBPACK_IMPORTED_MODULE_9__.RouterLinkWithHref, _shared_header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_2__.HeaderOneComponent, _shared_footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_3__.FooterOneComponent, _widgets_services_services_component__WEBPACK_IMPORTED_MODULE_4__.ServicesComponent, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslatePipe], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJmYXNoaW9uLW9uZS5jb21wb25lbnQuc2NzcyJ9 */"] });
 
