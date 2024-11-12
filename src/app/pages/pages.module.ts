@@ -46,6 +46,11 @@ import { ButtonModule } from 'primeng/button';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { ContactComponent } from './account/contact/contact.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { MyJournayComponent } from './my-journay/my-journay.component';
+
+import { TimelineModule } from 'primeng/timeline';
+ 
+import { CardModule } from 'primeng/card';
  
 @NgModule({
   declarations: [
@@ -81,12 +86,15 @@ import { ProjectsComponent } from './projects/projects.component';
     MasonryGridThreeComponent,
     MasonryGridFourComponent,
     MasonryFullWidthComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    MyJournayComponent
   ],
   imports: [
     DialogModule,
     PdfViewerModule,
+    TimelineModule,
     ButtonModule,
+    CardModule,
     CommonModule,
     GalleryModule,
     LightboxModule,
