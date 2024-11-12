@@ -10,13 +10,15 @@
             <!--   <ng-template pTemplate="header">
                 <img alt="Card" src="https://primefaces.org/cdn/primeng/images/card-ng.jpg" style="height: 100px;"/>
             </ng-template> -->
-            <p style="font-weight: 600;"> {{event.location}}</p>
+            <a [href]="event.link" style="text-decoration: none;">
+                <p style="font-weight: 600; color: gray;   "> {{event.location}}</p>
+            </a>
             <!--   <img *ngIf="event.image" [src]="'https://primefaces.org/cdn/primeng/images/demo/product/' + event.image"
                 [alt]="event.name" width="200" class="shadow-2" /> -->
             <p>
                 {{event.discreption}}
             </p>
-            <p-button label="Read more" (onClick)="toCV()"></p-button>
+            <p-button label="Learn more" (onClick)="toCV()"></p-button>
             <!--     <p-button label="Read more" /> -->
         </p-card>
     </ng-template>
