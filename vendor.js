@@ -89051,8 +89051,8 @@ NgbAlert.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_2 = goog.getMsg("Close");
-      i18n_1 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_2;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_2 = goog.getMsg("Close");
+      i18n_1 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_2;
     } else {
       i18n_1 = $localize`:@@ngb.alert.close:Close`;
     }
@@ -89773,7 +89773,7 @@ NgbCarousel.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["�
       /**
        * @desc Currently selected slide number read by screen reader
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__5 = goog.getMsg(" Slide {$interpolation} of {$interpolation_1} ", {
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__5 = goog.getMsg(" Slide {$interpolation} of {$interpolation_1} ", {
         "interpolation": "\uFFFD0\uFFFD",
         "interpolation_1": "\uFFFD1\uFFFD"
       }, {
@@ -89782,7 +89782,7 @@ NgbCarousel.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["�
           "interpolation_1": "{{ c }}"
         }
       });
-      i18n_4 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__5;
+      i18n_4 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__5;
     } else {
       i18n_4 = $localize`:Currently selected slide number read by screen reader@@ngb.carousel.slide-number: Slide ${"\uFFFD0\uFFFD"}:INTERPOLATION: of ${"\uFFFD1\uFFFD"}:INTERPOLATION_1: `;
     }
@@ -89793,8 +89793,8 @@ NgbCarousel.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["�
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__7 = goog.getMsg("Previous");
-      i18n_6 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__7;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__7 = goog.getMsg("Previous");
+      i18n_6 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__7;
     } else {
       i18n_6 = $localize`:@@ngb.carousel.previous:Previous`;
     }
@@ -89805,8 +89805,8 @@ NgbCarousel.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["�
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__9 = goog.getMsg("Next");
-      i18n_8 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__9;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__9 = goog.getMsg("Next");
+      i18n_8 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__9;
     } else {
       i18n_8 = $localize`:@@ngb.carousel.next:Next`;
     }
@@ -91455,8 +91455,8 @@ NgbDatepickerNavigationSelect.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPO
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_13 = goog.getMsg("Select month");
-      i18n_12 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_13;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_13 = goog.getMsg("Select month");
+      i18n_12 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_13;
     } else {
       i18n_12 = $localize`:@@ngb.datepicker.select-month:Select month`;
     }
@@ -91467,8 +91467,8 @@ NgbDatepickerNavigationSelect.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPO
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_15 = goog.getMsg("Select month");
-      i18n_14 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_15;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_15 = goog.getMsg("Select month");
+      i18n_14 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_15;
     } else {
       i18n_14 = $localize`:@@ngb.datepicker.select-month:Select month`;
     }
@@ -91479,8 +91479,8 @@ NgbDatepickerNavigationSelect.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPO
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_17 = goog.getMsg("Select year");
-      i18n_16 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_17;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_17 = goog.getMsg("Select year");
+      i18n_16 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_17;
     } else {
       i18n_16 = $localize`:@@ngb.datepicker.select-year:Select year`;
     }
@@ -91491,8 +91491,8 @@ NgbDatepickerNavigationSelect.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPO
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_19 = goog.getMsg("Select year");
-      i18n_18 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_19;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_19 = goog.getMsg("Select year");
+      i18n_18 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_19;
     } else {
       i18n_18 = $localize`:@@ngb.datepicker.select-year:Select year`;
     }
@@ -91656,8 +91656,8 @@ NgbDatepickerNavigation.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_M
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_21 = goog.getMsg("Previous month");
-      i18n_20 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_21;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_21 = goog.getMsg("Previous month");
+      i18n_20 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_21;
     } else {
       i18n_20 = $localize`:@@ngb.datepicker.previous-month:Previous month`;
     }
@@ -91668,8 +91668,8 @@ NgbDatepickerNavigation.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_M
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_23 = goog.getMsg("Previous month");
-      i18n_22 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_23;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_23 = goog.getMsg("Previous month");
+      i18n_22 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_23;
     } else {
       i18n_22 = $localize`:@@ngb.datepicker.previous-month:Previous month`;
     }
@@ -91680,8 +91680,8 @@ NgbDatepickerNavigation.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_M
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_25 = goog.getMsg("Next month");
-      i18n_24 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_25;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_25 = goog.getMsg("Next month");
+      i18n_24 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_25;
     } else {
       i18n_24 = $localize`:@@ngb.datepicker.next-month:Next month`;
     }
@@ -91692,8 +91692,8 @@ NgbDatepickerNavigation.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_M
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_27 = goog.getMsg("Next month");
-      i18n_26 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_27;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_27 = goog.getMsg("Next month");
+      i18n_26 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_27;
     } else {
       i18n_26 = $localize`:@@ngb.datepicker.next-month:Next month`;
     }
@@ -99020,8 +99020,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__35 = goog.getMsg("\xAB\xAB");
-      i18n_34 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__35;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__35 = goog.getMsg("\xAB\xAB");
+      i18n_34 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__35;
     } else {
       i18n_34 = $localize`:@@ngb.pagination.first:««`;
     }
@@ -99032,8 +99032,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__37 = goog.getMsg("\xAB");
-      i18n_36 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__37;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__37 = goog.getMsg("\xAB");
+      i18n_36 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__37;
     } else {
       i18n_36 = $localize`:@@ngb.pagination.previous:«`;
     }
@@ -99044,8 +99044,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__39 = goog.getMsg("\xBB");
-      i18n_38 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__39;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__39 = goog.getMsg("\xBB");
+      i18n_38 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__39;
     } else {
       i18n_38 = $localize`:@@ngb.pagination.next:»`;
     }
@@ -99056,8 +99056,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__41 = goog.getMsg("\xBB\xBB");
-      i18n_40 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__41;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__41 = goog.getMsg("\xBB\xBB");
+      i18n_40 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__41;
     } else {
       i18n_40 = $localize`:@@ngb.pagination.last:»»`;
     }
@@ -99068,8 +99068,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__45 = goog.getMsg("First");
-      i18n_44 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__45;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__45 = goog.getMsg("First");
+      i18n_44 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__45;
     } else {
       i18n_44 = $localize`:@@ngb.pagination.first-aria:First`;
     }
@@ -99080,8 +99080,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__48 = goog.getMsg("Previous");
-      i18n_47 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__48;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__48 = goog.getMsg("Previous");
+      i18n_47 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__48;
     } else {
       i18n_47 = $localize`:@@ngb.pagination.previous-aria:Previous`;
     }
@@ -99092,8 +99092,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__51 = goog.getMsg("Next");
-      i18n_50 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__51;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__51 = goog.getMsg("Next");
+      i18n_50 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__51;
     } else {
       i18n_50 = $localize`:@@ngb.pagination.next-aria:Next`;
     }
@@ -99104,8 +99104,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__53 = goog.getMsg("Last");
-      i18n_52 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__53;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__53 = goog.getMsg("Last");
+      i18n_52 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__53;
     } else {
       i18n_52 = $localize`:@@ngb.pagination.last-aria:Last`;
     }
@@ -100101,14 +100101,14 @@ NgbProgressbar.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__56 = goog.getMsg("{$interpolation}", {
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__56 = goog.getMsg("{$interpolation}", {
         "interpolation": "\uFFFD0\uFFFD"
       }, {
         original_code: {
           "interpolation": "{{ getValue() / max | percent }}"
         }
       });
-      i18n_55 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__56;
+      i18n_55 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__56;
     } else {
       i18n_55 = $localize`:@@ngb.progressbar.value:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
     }
@@ -101127,8 +101127,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_58 = goog.getMsg("HH");
-      i18n_57 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_58;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_58 = goog.getMsg("HH");
+      i18n_57 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_58;
     } else {
       i18n_57 = $localize`:@@ngb.timepicker.HH:HH`;
     }
@@ -101139,8 +101139,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_60 = goog.getMsg("Hours");
-      i18n_59 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_60;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_60 = goog.getMsg("Hours");
+      i18n_59 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_60;
     } else {
       i18n_59 = $localize`:@@ngb.timepicker.hours:Hours`;
     }
@@ -101151,8 +101151,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_62 = goog.getMsg("MM");
-      i18n_61 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_62;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_62 = goog.getMsg("MM");
+      i18n_61 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_62;
     } else {
       i18n_61 = $localize`:@@ngb.timepicker.MM:MM`;
     }
@@ -101163,8 +101163,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_64 = goog.getMsg("Minutes");
-      i18n_63 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_64;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_64 = goog.getMsg("Minutes");
+      i18n_63 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_64;
     } else {
       i18n_63 = $localize`:@@ngb.timepicker.minutes:Minutes`;
     }
@@ -101175,8 +101175,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__66 = goog.getMsg("Increment hours");
-      i18n_65 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__66;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__66 = goog.getMsg("Increment hours");
+      i18n_65 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__66;
     } else {
       i18n_65 = $localize`:@@ngb.timepicker.increment-hours:Increment hours`;
     }
@@ -101187,8 +101187,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__68 = goog.getMsg("Decrement hours");
-      i18n_67 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__68;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__68 = goog.getMsg("Decrement hours");
+      i18n_67 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__68;
     } else {
       i18n_67 = $localize`:@@ngb.timepicker.decrement-hours:Decrement hours`;
     }
@@ -101199,8 +101199,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__70 = goog.getMsg("Increment minutes");
-      i18n_69 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__70;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__70 = goog.getMsg("Increment minutes");
+      i18n_69 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__70;
     } else {
       i18n_69 = $localize`:@@ngb.timepicker.increment-minutes:Increment minutes`;
     }
@@ -101211,8 +101211,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__72 = goog.getMsg("Decrement minutes");
-      i18n_71 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__72;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__72 = goog.getMsg("Decrement minutes");
+      i18n_71 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__72;
     } else {
       i18n_71 = $localize`:@@ngb.timepicker.decrement-minutes:Decrement minutes`;
     }
@@ -101223,8 +101223,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__74 = goog.getMsg("SS");
-      i18n_73 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__74;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__74 = goog.getMsg("SS");
+      i18n_73 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__74;
     } else {
       i18n_73 = $localize`:@@ngb.timepicker.SS:SS`;
     }
@@ -101235,8 +101235,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__76 = goog.getMsg("Seconds");
-      i18n_75 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__76;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__76 = goog.getMsg("Seconds");
+      i18n_75 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__76;
     } else {
       i18n_75 = $localize`:@@ngb.timepicker.seconds:Seconds`;
     }
@@ -101247,8 +101247,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___78 = goog.getMsg("Increment seconds");
-      i18n_77 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___78;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___78 = goog.getMsg("Increment seconds");
+      i18n_77 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___78;
     } else {
       i18n_77 = $localize`:@@ngb.timepicker.increment-seconds:Increment seconds`;
     }
@@ -101259,8 +101259,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___80 = goog.getMsg("Decrement seconds");
-      i18n_79 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___80;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___80 = goog.getMsg("Decrement seconds");
+      i18n_79 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___80;
     } else {
       i18n_79 = $localize`:@@ngb.timepicker.decrement-seconds:Decrement seconds`;
     }
@@ -101271,14 +101271,14 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___82 = goog.getMsg("{$interpolation}", {
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___82 = goog.getMsg("{$interpolation}", {
         "interpolation": "\uFFFD0\uFFFD"
       }, {
         original_code: {
           "interpolation": "{{\n\t\t\t\t\t\t\ti18n.getAfternoonPeriod()\n\t\t\t\t\t\t}}"
         }
       });
-      i18n_81 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___82;
+      i18n_81 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___82;
     } else {
       i18n_81 = $localize`:@@ngb.timepicker.PM:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
     }
@@ -101289,14 +101289,14 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___84 = goog.getMsg("{$interpolation}", {
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___84 = goog.getMsg("{$interpolation}", {
         "interpolation": "\uFFFD0\uFFFD"
       }, {
         original_code: {
           "interpolation": "{{ i18n.getMorningPeriod() }}"
         }
       });
-      i18n_83 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___84;
+      i18n_83 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___84;
     } else {
       i18n_83 = $localize`:@@ngb.timepicker.AM:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
     }
@@ -101914,8 +101914,8 @@ NgbToast.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__86 = goog.getMsg("Close");
-      i18n_85 = MSG_C__WORK_PERSONAL_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__86;
+      const MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__86 = goog.getMsg("Close");
+      i18n_85 = MSG_C__WORK_PERSONAL_N_YASTOKAN_GITHUB_IO_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__86;
     } else {
       i18n_85 = $localize`:@@ngb.toast.close-aria:Close`;
     }

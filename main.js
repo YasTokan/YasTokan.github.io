@@ -1718,7 +1718,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "CartModalComponent": () => (/* binding */ CartModalComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 94666);
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 34534);
@@ -1871,7 +1871,7 @@ class CartModalComponent {
   openModal(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield _this.productService.getProducts.subscribe(response => _this.products = response);
       _this.products = yield _this.products.filter(items => items.category == product.category && items.id != product.id);
       const status = yield _this.productService.addToCart(product);
@@ -2267,7 +2267,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "QuickViewComponent": () => (/* binding */ QuickViewComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 94666);
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 34534);
@@ -2583,7 +2583,7 @@ class QuickViewComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this.counter || 1;
       const status = yield _this.productService.addToCart(product);
       if (status) _this.router.navigate(['/shop/cart']);
@@ -5432,7 +5432,7 @@ class HeaderOneComponent {
 HeaderOneComponent.ɵfac = function HeaderOneComponent_Factory(t) { return new (t || HeaderOneComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_3__.PLATFORM_ID)); };
 HeaderOneComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: HeaderOneComponent, selectors: [["app-header-one"]], hostBindings: function HeaderOneComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("scroll", function HeaderOneComponent_scroll_HostBindingHandler() { return ctx.onWindowScroll(); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵresolveWindow"]);
-    } }, inputs: { class: "class", themeLogo: "themeLogo", topbar: "topbar", sticky: "sticky" }, decls: 18, vars: 4, consts: [[1, "sticky", 3, "ngClass"], [1, "mobile-fix-option"], ["class", "top-header", 4, "ngIf"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "main-menu"], [1, "menu-left"], [1, "brand-logo"], [1, "ll"], [1, "menu-right", "pull-right"], [1, "top-header"], [1, "col-lg-6"], [1, "header-contact"], ["routerLink", "/pages/contact"], ["aria-hidden", "true", 1, "fa", "fa-phone"], [1, "col-lg-6", "text-end"], [1, "header-dropdown"], [4, "ngIf"], [1, "mobile-phone", 2, "padding-left", "0px !important"], ["routerLink", "/pages/contact", 3, "click"], ["aria-hidden", "true", 1, "pi", "pi-phone", "cl-de"], [1, "mobile-whatsapp"], ["aria-hidden", "true", 1, "pi", "pi-whatsapp", "cl-de"], ["href", "mailto:YasTokan@gmail.com"], ["aria-hidden", "true", 1, "pi", "pi-envelope", "cl-de"], ["href", "https://www.linkedin.com/in/yasine-tokan-733a55147/"], ["aria-hidden", "true", 1, "pi", "pi-linkedin", "cl-de"]], template: function HeaderOneComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, inputs: { class: "class", themeLogo: "themeLogo", topbar: "topbar", sticky: "sticky" }, decls: 18, vars: 4, consts: [[1, "sticky", 3, "ngClass"], [1, "mobile-fix-option"], ["class", "top-header", 4, "ngIf"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "main-menu"], [1, "menu-left"], [1, "brand-logo"], [1, "ll"], [1, "menu-right", "pull-right"], [1, "top-header"], [1, "col-lg-6"], [1, "header-contact"], ["routerLink", "/pages/contact"], ["aria-hidden", "true", 1, "fa", "fa-phone"], [1, "col-lg-6", "text-end"], [1, "header-dropdown"], [4, "ngIf"], [1, "mobile-phone", 2, "padding-left", "0px !important"], ["routerLink", "/pages/contact", 3, "click"], ["aria-hidden", "true", 1, "pi", "pi-phone", "cl-de"], [1, "mobile-whatsapp"], ["aria-hidden", "true", 1, "pi", "pi-whatsapp", "cl-de"], ["href", "mailto:yastokan@gmail.com"], ["aria-hidden", "true", 1, "pi", "pi-envelope", "cl-de"], ["href", "https://www.linkedin.com/in/yasine-tokan-733a55147/"], ["aria-hidden", "true", 1, "pi", "pi-linkedin", "cl-de"]], template: function HeaderOneComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "header", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](2, HeaderOneComponent_div_2_Template, 20, 2, "div", 2);

@@ -63,7 +63,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Resolver": () => (/* binding */ Resolver)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ 60124);
 /* harmony import */ var _product_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./product.service */ 90773);
@@ -83,7 +83,7 @@ class Resolver {
   resolve(route) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield new Promise(resolve => setTimeout(resolve, 1000));
 
       _this.productService.getProductBySlug(route.params.slug).subscribe(product => {
@@ -2889,7 +2889,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "CompareComponent": () => (/* binding */ CompareComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 60124);
 /* harmony import */ var _shared_services_product_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/services/product.service */ 90773);
@@ -3070,7 +3070,7 @@ class CompareComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const status = yield _this.productService.addToCart(product);
 
       if (status) {
@@ -3129,7 +3129,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "BundleProductComponent": () => (/* binding */ BundleProductComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _shared_data_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../shared/data/slider */ 53225);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ 60124);
@@ -3481,7 +3481,7 @@ class BundleProductComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this.counter || 1;
       const status = yield _this.productService.addToCart(product);
       if (status) _this.router.navigate(['/shop/cart']);
@@ -3492,7 +3492,7 @@ class BundleProductComponent {
   buyNow(product) {
     var _this2 = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this2.counter || 1;
       const status = yield _this2.productService.addToCart(product);
       if (status) _this2.router.navigate(['/shop/checkout']);
@@ -3740,7 +3740,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "FourImageComponent": () => (/* binding */ FourImageComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/router */ 60124);
 /* harmony import */ var _shared_services_product_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../shared/services/product.service */ 90773);
@@ -4015,7 +4015,7 @@ class FourImageComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this.counter || 1;
       const status = yield _this.productService.addToCart(product);
       if (status) _this.router.navigate(['/shop/cart']);
@@ -4026,7 +4026,7 @@ class FourImageComponent {
   buyNow(product) {
     var _this2 = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this2.counter || 1;
       const status = yield _this2.productService.addToCart(product);
       if (status) _this2.router.navigate(['/shop/checkout']);
@@ -4223,7 +4223,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ImageOutsideComponent": () => (/* binding */ ImageOutsideComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _shared_data_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../shared/data/slider */ 53225);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ 60124);
@@ -4593,7 +4593,7 @@ class ImageOutsideComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this.counter || 1;
       const status = yield _this.productService.addToCart(product);
       if (status) _this.router.navigate(['/shop/cart']);
@@ -4604,7 +4604,7 @@ class ImageOutsideComponent {
   buyNow(product) {
     var _this2 = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this2.counter || 1;
       const status = yield _this2.productService.addToCart(product);
       if (status) _this2.router.navigate(['/shop/checkout']);
@@ -4813,7 +4813,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ProductLeftSidebarComponent": () => (/* binding */ ProductLeftSidebarComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _shared_data_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../shared/data/slider */ 53225);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ 60124);
@@ -5194,7 +5194,7 @@ class ProductLeftSidebarComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this.counter || 1;
       const status = yield _this.productService.addToCart(product);
       if (status) _this.router.navigate(['/shop/cart']);
@@ -5205,7 +5205,7 @@ class ProductLeftSidebarComponent {
   buyNow(product) {
     var _this2 = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this2.counter || 1;
       const status = yield _this2.productService.addToCart(product);
       if (status) _this2.router.navigate(['/shop/checkout']);
@@ -5448,7 +5448,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ProductNoSidebarComponent": () => (/* binding */ ProductNoSidebarComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _shared_data_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../shared/data/slider */ 53225);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/router */ 60124);
@@ -5804,7 +5804,7 @@ class ProductNoSidebarComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this.counter || 1;
       const status = yield _this.productService.addToCart(product);
       if (status) _this.router.navigate(['/shop/cart']);
@@ -5815,7 +5815,7 @@ class ProductNoSidebarComponent {
   buyNow(product) {
     var _this2 = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this2.counter || 1;
       const status = yield _this2.productService.addToCart(product);
       if (status) _this2.router.navigate(['/shop/checkout']);
@@ -6030,7 +6030,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ProductRightSidebarComponent": () => (/* binding */ ProductRightSidebarComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _shared_data_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../shared/data/slider */ 53225);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ 60124);
@@ -6393,7 +6393,7 @@ class ProductRightSidebarComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this.counter || 1;
       const status = yield _this.productService.addToCart(product);
       if (status) _this.router.navigate(['/shop/cart']);
@@ -6404,7 +6404,7 @@ class ProductRightSidebarComponent {
   buyNow(product) {
     var _this2 = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this2.counter || 1;
       const status = yield _this2.productService.addToCart(product);
       if (status) _this2.router.navigate(['/shop/checkout']);
@@ -6650,7 +6650,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ThreeColumnComponent": () => (/* binding */ ThreeColumnComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _shared_data_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../shared/data/slider */ 53225);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/router */ 60124);
@@ -7016,7 +7016,7 @@ class ThreeColumnComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this.counter || 1;
       const status = yield _this.productService.addToCart(product);
       if (status) _this.router.navigate(['/shop/cart']);
@@ -7027,7 +7027,7 @@ class ThreeColumnComponent {
   buyNow(product) {
     var _this2 = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       product.quantity = _this2.counter || 1;
       const status = yield _this2.productService.addToCart(product);
       if (status) _this2.router.navigate(['/shop/checkout']);
@@ -7862,7 +7862,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "WishlistComponent": () => (/* binding */ WishlistComponent)
 /* harmony export */ });
-/* harmony import */ var C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
+/* harmony import */ var C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 71670);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 60124);
 /* harmony import */ var _shared_services_product_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/services/product.service */ 90773);
@@ -8054,7 +8054,7 @@ class WishlistComponent {
   addToCart(product) {
     var _this = this;
 
-    return (0,C_Work_personal_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Work_personal_n_YasTokan_github_io_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const status = yield _this.productService.addToCart(product);
 
       if (status) {

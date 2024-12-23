@@ -829,32 +829,32 @@ class FashionOneComponent {
         // Collection banner
         this.collections = [
             {
-                //image: 'assets/images/collection/hotels/gh310.jpg',
+                //image: 'assets/images/collection/hotels/gh310.jpg', assets/images/slider/123/marina.avif https://www.namasteui.com/wp-content/uploads/2018/08/front-end-web-development.jpg
                 save: 'Grand Hyatt Dubai',
                 title: 'Dubai',
                 subTitle: 'Nakhlat Deira',
-                image: 'https://www.namasteui.com/wp-content/uploads/2018/08/front-end-web-development.jpg',
+                image: 'assets/images/APX/yas/fee.jpg',
             },
             {
                 //image: 'assets/images/collection/hotels/ajm310.jpg',
                 save: 'Fairmont Ajman',
                 title: 'Marina',
                 subTitle: 'We will find you the best',
-                image: 'https://saigontechnology.com/assets/media/Blog/typical-process-for-a-successful-mobile-development.jpeg',
+                image: 'assets/images/APX/yas/md.jpeg',
             },
             {
                 //image: 'assets/images/collection/hotels/ajm310.jpg',
                 save: 'Fairmont Ajman',
                 title: 'Marina',
                 subTitle: 'We will find you the best',
-                image: 'https://plopdo.com/wp-content/uploads/2021/10/What-is-back-end-development-2.jpg',
+                image: 'assets/images/APX/yas/be.webp',
             },
             {
                 //image: 'assets/images/collection/hotels/ajm310.jpg',
                 save: 'Fairmont Ajman',
                 title: 'Marina',
                 subTitle: 'We will find you the best',
-                image: 'https://ik.imagekit.io/mdzi40eohii/tsc/Full_Stack_Image_daa0e85929_mkCd6n2su.png?tr=w-3840,q-75',
+                image: 'assets/images/APX/yas/fs.webp',
             },
         ];
         // Blog
