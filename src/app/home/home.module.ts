@@ -26,6 +26,11 @@ import { LogoComponent } from './widgets/logo/logo.component';
 import { ServicesComponent } from './widgets/services/services.component';
 import { CollectionComponent } from './widgets/collection/collection.component';
 
+
+import { ChartModule } from 'primeng/chart';
+import { MySkillsComponent } from './my-skills/my-skills.component';
+
+
 @NgModule({
   declarations: [
     FashionOneComponent,
@@ -48,12 +53,17 @@ import { CollectionComponent } from './widgets/collection/collection.component';
     BlogComponent,
     LogoComponent,
     ServicesComponent,
-    CollectionComponent
+    CollectionComponent,
+    MySkillsComponent
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    SharedModule,
+    ChartModule
+  ],
+  exports:[
+    MySkillsComponent
   ]
 })
 export class HomeModule { }

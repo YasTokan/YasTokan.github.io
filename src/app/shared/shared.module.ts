@@ -5,7 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { BarRatingModule } from "ngx-bar-rating";
-import { LazyLoadImageModule } from 'ng-lazyload-image'; 
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 import { TranslateModule } from '@ngx-translate/core';
 
@@ -55,8 +55,10 @@ import { TapToTopComponent } from './components/tap-to-top/tap-to-top.component'
 import { DiscountPipe } from './pipes/discount.pipe';
 import { MessageModule } from 'primeng/message';
 import { MessagesModule } from 'primeng/messages';
-import {ToastModule} from 'primeng/toast';
+import { ToastModule } from 'primeng/toast';
+import { MySkillsComponent } from './my-skills/my-skills.component';
 
+import { ChartModule } from 'primeng/chart';
 
 
 @NgModule({
@@ -91,10 +93,11 @@ import {ToastModule} from 'primeng/toast';
     SkeletonProductBoxComponent,
     LayoutBoxComponent,
     TapToTopComponent,
-    DiscountPipe
+    DiscountPipe,
+    MySkillsComponent
   ],
   imports: [
-  
+    ChartModule,
     CommonModule,
     RouterModule,
     FormsModule,
@@ -107,6 +110,7 @@ import {ToastModule} from 'primeng/toast';
     TranslateModule
   ],
   exports: [
+    MySkillsComponent,
     CommonModule,
     FormsModule,
     ReactiveFormsModule,

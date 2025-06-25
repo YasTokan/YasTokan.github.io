@@ -146,8 +146,46 @@ export class FashionOneComponent implements OnInit {
       image: 'assets/images/logos/8.png',
     },
   ];
+radarChartData
+ ngOnInit() {
+    this.radarChartData = {
+      labels: [
+        'Frontend (Angular, Ionic)',
+        'Backend (NodeJS, .NET)',
+        'Databases (SQL/NoSQL)',
+        'Cloud & DevOps',
+        'Mobile Development',
+        'AI & Automation',
+        'APIs & Integration',
+        'Architecture & Security'
+      ],
+      datasets: [
+        {
+          label: 'My Skill Level',
+          data: [95, 90, 85, 80, 85, 80, 90, 85],
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          pointBackgroundColor: 'rgba(54, 162, 235, 1)'
+        }
+      ]
+    };
+  }
 
-  ngOnInit(): void { }
+  radarChartOptions = {
+  responsive: true,
+  plugins: {
+    legend: {
+      position: 'top'
+    }
+  },
+  scales: {
+    r: {
+      suggestedMin: 50,
+      suggestedMax: 100
+    }
+  }
+};
+
   syncTR() {
     this.sliders[0].title = this.translate.instant('HOME.WELCOME_UAE');
     this.sliders[1].title = this.translate.instant('HOME.FIND_BEST');
