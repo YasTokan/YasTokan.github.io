@@ -5671,6 +5671,77 @@ HeaderTwoComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_
 
 /***/ }),
 
+/***/ 75223:
+/*!*********************************************************!*\
+  !*** ./src/app/shared/my-skills/my-skills.component.ts ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MySkillsComponent": () => (/* binding */ MySkillsComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primeng/chart */ 62348);
+
+
+class MySkillsComponent {
+    constructor() {
+        this.radarChartOptions = {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top'
+                }
+            },
+            scales: {
+                r: {
+                    suggestedMin: 50,
+                    suggestedMax: 100
+                }
+            }
+        };
+    }
+    ngOnInit() {
+        this.radarChartData = {
+            labels: [
+                'Frontend (Angular, Ionic)',
+                'Backend (NodeJS, .NET)',
+                'Databases (SQL/NoSQL)',
+                'Cloud & DevOps',
+                'Mobile Development',
+                'AI & Automation',
+                'APIs & Integration',
+                'Architecture & Security'
+            ],
+            datasets: [
+                {
+                    label: 'Technical Skill Overview',
+                    data: [95, 90, 85, 80, 85, 80, 90, 85],
+                    backgroundColor: 'rgba(255, 76, 59, 0.2)',
+                    borderColor: '#ff4c3b',
+                    pointBackgroundColor: '#ff4c3b',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: '#ff4c3b'
+                }
+            ]
+        };
+    }
+}
+MySkillsComponent.ɵfac = function MySkillsComponent_Factory(t) { return new (t || MySkillsComponent)(); };
+MySkillsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MySkillsComponent, selectors: [["app-my-skills"]], decls: 5, vars: 2, consts: [[1, "container"], [1, "row"], [1, "col-lg-6", "offset-lg-3"], [1, "product-para", 2, "margin-top", "5%"], ["type", "radar", 3, "data", "options"]], template: function MySkillsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "p-chart", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("data", ctx.radarChartData)("options", ctx.radarChartOptions);
+    } }, dependencies: [primeng_chart__WEBPACK_IMPORTED_MODULE_1__.UIChart], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJteS1za2lsbHMuY29tcG9uZW50LnNjc3MifQ== */"] });
+
+
+/***/ }),
+
 /***/ 82834:
 /*!***********************************************!*\
   !*** ./src/app/shared/pipes/discount.pipe.ts ***!
@@ -6274,15 +6345,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "SharedModule": () => (/* binding */ SharedModule)
 /* harmony export */ });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/common */ 94666);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/router */ 60124);
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/forms */ 2508);
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 34534);
-/* harmony import */ var ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ngx-owl-carousel-o */ 27135);
-/* harmony import */ var ngx_bar_rating__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ngx-bar-rating */ 59884);
-/* harmony import */ var ng_lazyload_image__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ng-lazyload-image */ 33957);
-/* harmony import */ var ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ngx-skeleton-loader */ 38495);
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! @ngx-translate/core */ 38699);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/common */ 94666);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/router */ 60124);
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @angular/forms */ 2508);
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ 34534);
+/* harmony import */ var ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ngx-owl-carousel-o */ 27135);
+/* harmony import */ var ngx_bar_rating__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ngx-bar-rating */ 59884);
+/* harmony import */ var ng_lazyload_image__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ng-lazyload-image */ 33957);
+/* harmony import */ var ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ngx-skeleton-loader */ 38495);
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! @ngx-translate/core */ 38699);
 /* harmony import */ var _header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header/header-one/header-one.component */ 23618);
 /* harmony import */ var _footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer/footer-one/footer-one.component */ 71965);
 /* harmony import */ var _header_header_two_header_two_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./header/header-two/header-two.component */ 63276);
@@ -6314,10 +6385,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_layout_box_layout_box_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/layout-box/layout-box.component */ 27834);
 /* harmony import */ var _components_tap_to_top_tap_to_top_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/tap-to-top/tap-to-top.component */ 61916);
 /* harmony import */ var _pipes_discount_pipe__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./pipes/discount.pipe */ 82834);
-/* harmony import */ var primeng_message__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! primeng/message */ 73589);
-/* harmony import */ var primeng_messages__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! primeng/messages */ 58547);
-/* harmony import */ var primeng_toast__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! primeng/toast */ 29129);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var primeng_message__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! primeng/message */ 73589);
+/* harmony import */ var primeng_messages__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! primeng/messages */ 58547);
+/* harmony import */ var primeng_toast__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! primeng/toast */ 29129);
+/* harmony import */ var _my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./my-skills/my-skills.component */ 75223);
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! primeng/chart */ 62348);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/core */ 22560);
 
 
 
@@ -6369,32 +6442,35 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 class SharedModule {
 }
 SharedModule.ɵfac = function SharedModule_Factory(t) { return new (t || SharedModule)(); };
-SharedModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵdefineNgModule"]({ type: SharedModule });
-SharedModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵdefineInjector"]({ imports: [_angular_common__WEBPACK_IMPORTED_MODULE_32__.CommonModule,
-        _angular_router__WEBPACK_IMPORTED_MODULE_33__.RouterModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_34__.FormsModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_34__.ReactiveFormsModule,
-        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_35__.NgbModule,
-        ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_36__.CarouselModule,
-        ngx_bar_rating__WEBPACK_IMPORTED_MODULE_37__.BarRatingModule,
-        ng_lazyload_image__WEBPACK_IMPORTED_MODULE_38__.LazyLoadImageModule,
-        ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_39__.NgxSkeletonLoaderModule,
-        _ngx_translate_core__WEBPACK_IMPORTED_MODULE_40__.TranslateModule, _angular_common__WEBPACK_IMPORTED_MODULE_32__.CommonModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_34__.FormsModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_34__.ReactiveFormsModule,
-        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_35__.NgbModule,
-        ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_36__.CarouselModule,
-        ngx_bar_rating__WEBPACK_IMPORTED_MODULE_37__.BarRatingModule,
-        ng_lazyload_image__WEBPACK_IMPORTED_MODULE_38__.LazyLoadImageModule,
-        ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_39__.NgxSkeletonLoaderModule,
-        _ngx_translate_core__WEBPACK_IMPORTED_MODULE_40__.TranslateModule,
-        primeng_messages__WEBPACK_IMPORTED_MODULE_41__.MessagesModule,
-        primeng_message__WEBPACK_IMPORTED_MODULE_42__.MessageModule,
-        primeng_toast__WEBPACK_IMPORTED_MODULE_43__.ToastModule] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_31__["ɵɵsetNgModuleScope"](SharedModule, { declarations: [_header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_0__.HeaderOneComponent,
+SharedModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_32__["ɵɵdefineNgModule"]({ type: SharedModule });
+SharedModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_32__["ɵɵdefineInjector"]({ imports: [primeng_chart__WEBPACK_IMPORTED_MODULE_33__.ChartModule,
+        _angular_common__WEBPACK_IMPORTED_MODULE_34__.CommonModule,
+        _angular_router__WEBPACK_IMPORTED_MODULE_35__.RouterModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_36__.FormsModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_36__.ReactiveFormsModule,
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_37__.NgbModule,
+        ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_38__.CarouselModule,
+        ngx_bar_rating__WEBPACK_IMPORTED_MODULE_39__.BarRatingModule,
+        ng_lazyload_image__WEBPACK_IMPORTED_MODULE_40__.LazyLoadImageModule,
+        ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_41__.NgxSkeletonLoaderModule,
+        _ngx_translate_core__WEBPACK_IMPORTED_MODULE_42__.TranslateModule, _angular_common__WEBPACK_IMPORTED_MODULE_34__.CommonModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_36__.FormsModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_36__.ReactiveFormsModule,
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_37__.NgbModule,
+        ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_38__.CarouselModule,
+        ngx_bar_rating__WEBPACK_IMPORTED_MODULE_39__.BarRatingModule,
+        ng_lazyload_image__WEBPACK_IMPORTED_MODULE_40__.LazyLoadImageModule,
+        ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_41__.NgxSkeletonLoaderModule,
+        _ngx_translate_core__WEBPACK_IMPORTED_MODULE_42__.TranslateModule,
+        primeng_messages__WEBPACK_IMPORTED_MODULE_43__.MessagesModule,
+        primeng_message__WEBPACK_IMPORTED_MODULE_44__.MessageModule,
+        primeng_toast__WEBPACK_IMPORTED_MODULE_45__.ToastModule] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_32__["ɵɵsetNgModuleScope"](SharedModule, { declarations: [_header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_0__.HeaderOneComponent,
         _footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_1__.FooterOneComponent,
         _header_header_two_header_two_component__WEBPACK_IMPORTED_MODULE_2__.HeaderTwoComponent,
         _footer_footer_two_footer_two_component__WEBPACK_IMPORTED_MODULE_3__.FooterTwoComponent,
@@ -6424,24 +6500,27 @@ SharedModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["
         _components_skeleton_skeleton_product_box_skeleton_product_box_component__WEBPACK_IMPORTED_MODULE_27__.SkeletonProductBoxComponent,
         _components_layout_box_layout_box_component__WEBPACK_IMPORTED_MODULE_28__.LayoutBoxComponent,
         _components_tap_to_top_tap_to_top_component__WEBPACK_IMPORTED_MODULE_29__.TapToTopComponent,
-        _pipes_discount_pipe__WEBPACK_IMPORTED_MODULE_30__.DiscountPipe], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_32__.CommonModule,
-        _angular_router__WEBPACK_IMPORTED_MODULE_33__.RouterModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_34__.FormsModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_34__.ReactiveFormsModule,
-        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_35__.NgbModule,
-        ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_36__.CarouselModule,
-        ngx_bar_rating__WEBPACK_IMPORTED_MODULE_37__.BarRatingModule,
-        ng_lazyload_image__WEBPACK_IMPORTED_MODULE_38__.LazyLoadImageModule,
-        ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_39__.NgxSkeletonLoaderModule,
-        _ngx_translate_core__WEBPACK_IMPORTED_MODULE_40__.TranslateModule], exports: [_angular_common__WEBPACK_IMPORTED_MODULE_32__.CommonModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_34__.FormsModule,
-        _angular_forms__WEBPACK_IMPORTED_MODULE_34__.ReactiveFormsModule,
-        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_35__.NgbModule,
-        ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_36__.CarouselModule,
-        ngx_bar_rating__WEBPACK_IMPORTED_MODULE_37__.BarRatingModule,
-        ng_lazyload_image__WEBPACK_IMPORTED_MODULE_38__.LazyLoadImageModule,
-        ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_39__.NgxSkeletonLoaderModule,
-        _ngx_translate_core__WEBPACK_IMPORTED_MODULE_40__.TranslateModule,
+        _pipes_discount_pipe__WEBPACK_IMPORTED_MODULE_30__.DiscountPipe,
+        _my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_31__.MySkillsComponent], imports: [primeng_chart__WEBPACK_IMPORTED_MODULE_33__.ChartModule,
+        _angular_common__WEBPACK_IMPORTED_MODULE_34__.CommonModule,
+        _angular_router__WEBPACK_IMPORTED_MODULE_35__.RouterModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_36__.FormsModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_36__.ReactiveFormsModule,
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_37__.NgbModule,
+        ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_38__.CarouselModule,
+        ngx_bar_rating__WEBPACK_IMPORTED_MODULE_39__.BarRatingModule,
+        ng_lazyload_image__WEBPACK_IMPORTED_MODULE_40__.LazyLoadImageModule,
+        ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_41__.NgxSkeletonLoaderModule,
+        _ngx_translate_core__WEBPACK_IMPORTED_MODULE_42__.TranslateModule], exports: [_my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_31__.MySkillsComponent,
+        _angular_common__WEBPACK_IMPORTED_MODULE_34__.CommonModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_36__.FormsModule,
+        _angular_forms__WEBPACK_IMPORTED_MODULE_36__.ReactiveFormsModule,
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_37__.NgbModule,
+        ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_38__.CarouselModule,
+        ngx_bar_rating__WEBPACK_IMPORTED_MODULE_39__.BarRatingModule,
+        ng_lazyload_image__WEBPACK_IMPORTED_MODULE_40__.LazyLoadImageModule,
+        ngx_skeleton_loader__WEBPACK_IMPORTED_MODULE_41__.NgxSkeletonLoaderModule,
+        _ngx_translate_core__WEBPACK_IMPORTED_MODULE_42__.TranslateModule,
         _header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_0__.HeaderOneComponent,
         _footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_1__.FooterOneComponent,
         _header_header_two_header_two_component__WEBPACK_IMPORTED_MODULE_2__.HeaderTwoComponent,
@@ -6470,9 +6549,9 @@ SharedModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_31__["
         _components_layout_box_layout_box_component__WEBPACK_IMPORTED_MODULE_28__.LayoutBoxComponent,
         _components_tap_to_top_tap_to_top_component__WEBPACK_IMPORTED_MODULE_29__.TapToTopComponent,
         _pipes_discount_pipe__WEBPACK_IMPORTED_MODULE_30__.DiscountPipe,
-        primeng_messages__WEBPACK_IMPORTED_MODULE_41__.MessagesModule,
-        primeng_message__WEBPACK_IMPORTED_MODULE_42__.MessageModule,
-        primeng_toast__WEBPACK_IMPORTED_MODULE_43__.ToastModule] }); })();
+        primeng_messages__WEBPACK_IMPORTED_MODULE_43__.MessagesModule,
+        primeng_message__WEBPACK_IMPORTED_MODULE_44__.MessageModule,
+        primeng_toast__WEBPACK_IMPORTED_MODULE_45__.ToastModule] }); })();
 
 
 /***/ }),

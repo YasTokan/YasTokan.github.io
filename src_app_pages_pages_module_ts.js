@@ -12,23 +12,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "AboutUsComponent": () => (/* binding */ AboutUsComponent)
 /* harmony export */ });
 /* harmony import */ var _shared_data_slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared/data/slider */ 53225);
-/* harmony import */ var _biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @biesbjerg/ngx-translate-extract-marker */ 85378);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var _biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @biesbjerg/ngx-translate-extract-marker */ 85378);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var _shared_my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../shared/my-skills/my-skills.component */ 75223);
 
 
 
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.CEO');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.CTO');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.SEN_PR_ADVISOR');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.PR_ADVISOR_AL');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.PR_ADVISOR_SH');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.PR_ADVISOR_YO');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.PR_ADVISOR_LE');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.PR_ADVISOR_AM');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.PR_ADVISOR_JA');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.PR_ADVISOR_RA');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.SALES_MAN');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_1__.marker)('ABOUT.TEAM.PR_ADVISOR');
+
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.CEO');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.CTO');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.SEN_PR_ADVISOR');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_AL');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_SH');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_YO');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_LE');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_AM');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_JA');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_RA');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.SALES_MAN');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR');
 class AboutUsComponent {
     constructor() {
         this.TeamSliderConfig = _shared_data_slider__WEBPACK_IMPORTED_MODULE_0__.TeamSlider;
@@ -182,91 +184,93 @@ class AboutUsComponent {
     }
 }
 AboutUsComponent.ɵfac = function AboutUsComponent_Factory(t) { return new (t || AboutUsComponent)(); };
-AboutUsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: AboutUsComponent, selectors: [["app-about-us"]], decls: 66, vars: 0, consts: [[1, "about-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "col-lg-12"], [1, "banner-section"], ["src", "assets/images/APX/about-me1.png", "alt", "about-us", 1, "img-fluid"]], template: function AboutUsComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, " Where Innovation Meets Precision in Full Stack Development ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7, " I am a seasoned ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](9, "Full Stack Developer");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](10, " and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](11, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](12, "Information Technology Engineer");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](13, " with over nine years of experience in creating scalable, high-performance applications. With deep expertise in ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](15, "Angular, NodeJS, ExpressJS, MongoDB, Java Spring");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](16, ", and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](17, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](18, "Oracle");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](19, ", I\u2019m skilled in building both the front-end and back-end systems that make for seamless, engaging user experiences across web and mobile platforms. One of my most impactful projects is ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](20, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](21, "Top Spots Dubai");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, ", a comprehensive platform designed to enhance tourism and reservation services in Dubai. As the lead full-stack developer, I contributed across the entire development lifecycle, from initial architecture to final deployment. I implemented performance enhancements that improved site speed by 65%, significantly boosting user engagement and SEO. Additionally, I integrated third-party APIs, such as N-Genius for payment processing and Google Maps for location-based services, allowing users to easily discover and book experiences around Dubai. The project required extensive optimization to ensure smooth functionality across all devices and platforms, showcasing my dedication to technical excellence and user-focused design. Another major accomplishment is ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](24, "ShoofBook");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](25, ", a real-time classified advertising platform that I developed independently from concept to launch. Designed to support high volumes of user-generated content, ShoofBook allows users to post ads, browse categories, and manage profiles effortlessly. I focused heavily on data efficiency by utilizing ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](26, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](27, "MongoDB");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](28, " for storage and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](29, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](30, "Redis caching");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](31, " to minimize load times, ensuring the platform could scale as user activity grew. I also developed a custom search algorithm, enhancing the accuracy and speed of search results so users can quickly find exactly what they\u2019re looking for. ShoofBook reflects my ability to take a project from a simple idea to a fully functional, dynamic platform that meets users' needs effectively. In addition to these projects, I\u2019ve contributed to other large-scale applications, such as ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](32, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](33, "UberME");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](34, ", a streamlined car rental platform. In UberME, I developed an advanced admin dashboard that automates the booking process, includes a complex filtering mechanism, and supports location-based searches, giving users real-time access to car rentals nearby. Another key project, ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](35, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](36, "ECSC");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](37, ", is a government platform that enables citizens to manage essential services like licensing and passport renewals online. As a part of a 12-member development team, I focused on creating a secure, efficient back end using ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](38, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "ExpressJS");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](40, ", ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](41, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](42, "Java Spring");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](43, ", and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](44, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](45, "Oracle");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](46, ", ensuring the platform\u2019s compliance with strict government standards. With a strong foundation in ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](47, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](48, "algorithms");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](49, " and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](50, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](51, "data structures");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](52, ", I am driven by a passion for crafting solutions that improve business efficiency and user experience. I enjoy tackling complex technical challenges and continuously strive to enhance application performance, whether by optimizing front-end interfaces or managing large datasets on the back end. Outside of development, I am an avid reader (favorites include ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](53, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](54, "The Song of Ice and Fire");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](55, ", ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](56, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](57, "The Hunchback of Notre-Dame");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](58, ", and ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](59, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](60, "The Toilers of the Sea");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](61, "), a gardening enthusiast, and a video game lover. I am always exploring ways to connect technology with creativity, bringing this curiosity and dedication to every project I undertake. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](62, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](63, "div", 4)(64, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](65, "img", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhYm91dC11cy5jb21wb25lbnQuc2NzcyJ9 */"] });
+AboutUsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: AboutUsComponent, selectors: [["app-about-us"]], decls: 67, vars: 0, consts: [[1, "about-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "col-lg-12"], [1, "banner-section"], ["src", "assets/images/APX/about-me1.png", "alt", "about-us", 1, "img-fluid"]], template: function AboutUsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "section", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "app-my-skills");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 1)(3, "div", 2)(4, "div", 3)(5, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](6, " Where Innovation Meets Precision in Full Stack Development ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](7, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](8, " I am a seasoned ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](9, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](10, "Full Stack Developer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](11, " and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](12, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](13, "Information Technology Engineer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14, " with over nine years of experience in creating scalable, high-performance applications. With deep expertise in ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](15, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](16, "Angular, NodeJS, ExpressJS, MongoDB, .NET Core");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](17, ", and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](18, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, "Oracle");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](20, ", I\u2019m skilled in building both the front-end and back-end systems that make for seamless, engaging user experiences across web and mobile platforms. One of my most impactful projects is ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](21, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](22, "Top Spots Dubai");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](23, ", a comprehensive platform designed to enhance tourism and reservation services in Dubai. As the lead full-stack developer, I contributed across the entire development lifecycle, from initial architecture to final deployment. I implemented performance enhancements that improved site speed by 65%, significantly boosting user engagement and SEO. Additionally, I integrated third-party APIs, such as N-Genius for payment processing and Google Maps for location-based services, allowing users to easily discover and book experiences around Dubai. The project required extensive optimization to ensure smooth functionality across all devices and platforms, showcasing my dedication to technical excellence and user-focused design. Another major accomplishment is ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](24, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](25, "ShoofBook");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](26, ", a real-time classified advertising platform that I developed independently from concept to launch. Designed to support high volumes of user-generated content, ShoofBook allows users to post ads, browse categories, and manage profiles effortlessly. I focused heavily on data efficiency by utilizing ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](27, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](28, "MongoDB");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](29, " for storage and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](30, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](31, "Redis caching");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](32, " to minimize load times, ensuring the platform could scale as user activity grew. I also developed a custom search algorithm, enhancing the accuracy and speed of search results so users can quickly find exactly what they\u2019re looking for. ShoofBook reflects my ability to take a project from a simple idea to a fully functional, dynamic platform that meets users' needs effectively. In addition to these projects, I\u2019ve contributed to other large-scale applications, such as ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](33, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](34, "UberME");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](35, ", a streamlined car rental platform. In UberME, I developed an advanced admin dashboard that automates the booking process, includes a complex filtering mechanism, and supports location-based searches, giving users real-time access to car rentals nearby. Another key project, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](36, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](37, "ECSC");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](38, ", is a government platform that enables citizens to manage essential services like licensing and passport renewals online. As a part of a 12-member development team, I focused on creating a secure, efficient back end using ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](39, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](40, "ExpressJS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](41, ", ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](42, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](43, " .NET Core");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](44, ", and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](45, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](46, "Oracle");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](47, ", ensuring the platform\u2019s compliance with strict government standards. With a strong foundation in ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](48, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](49, "algorithms");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](50, " and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](51, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](52, "data structures");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](53, ", I am driven by a passion for crafting solutions that improve business efficiency and user experience. I enjoy tackling complex technical challenges and continuously strive to enhance application performance, whether by optimizing front-end interfaces or managing large datasets on the back end. Outside of development, I am an avid reader (favorites include ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](54, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](55, "The Song of Ice and Fire");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](56, ", ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](57, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](58, "The Hunchback of Notre-Dame");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](59, ", and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](60, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](61, "The Toilers of the Sea");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](62, "), a gardening enthusiast, and a video game lover. I am always exploring ways to connect technology with creativity, bringing this curiosity and dedication to every project I undertake. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](63, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](64, "div", 4)(65, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](66, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()();
+    } }, dependencies: [_shared_my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_1__.MySkillsComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhYm91dC11cy5jb21wb25lbnQuc2NzcyJ9 */"] });
 
 
 /***/ }),
@@ -5471,7 +5475,8 @@ class ProjectsComponent {
                 image: '../assets/images/APX/icon.png',
                 name: 'ECSC',
                 designation: 'https://www.ecsc-expat.sy/',
-                description: 'The <strong>ECSC</strong> project is a large-scale government platform designed to streamline complex public processes, allowing citizens to perform essential tasks—like obtaining a new trading license or renewing a passport—directly online. As a <strong>backend developer</strong> on a team of around 12 experts, I contributed to building a robust, highly secure system that meticulously manages user data and handles a vast array of government services with flexibility to accommodate intricate workflows and unique exceptions. Developed over three years, this project demanded advanced technologies and significant coordination due to its size and complexity. I worked extensively with <strong>ExpressJS</strong>, <strong>Oracle</strong>, and <strong>Java Spring</strong> to create a scalable, secure backend capable of managing high volumes of data, ensuring smooth, reliable performance. We incorporated numerous security tools and packages to protect sensitive user information, meeting strict government standards for data integrity and privacy. The ECSC platform stands as a powerful example of modern digital governance, making complex government services accessible to users while maintaining the utmost levels of security and data management.',
+                //description: 'The <strong>ECSC</strong> project is a large-scale government platform designed to streamline complex public processes, allowing citizens to perform essential tasks—like obtaining a new trading license or renewing a passport—directly online. As a <strong>backend developer</strong> on a team of around 12 experts, I contributed to building a robust, highly secure system that meticulously manages user data and handles a vast array of government services with flexibility to accommodate intricate workflows and unique exceptions. Developed over three years, this project demanded advanced technologies and significant coordination due to its size and complexity. I worked extensively with <strong>ExpressJS</strong>, <strong>Oracle</strong>, and <strong>Java Spring</strong> to create a scalable, secure backend capable of managing high volumes of data, ensuring smooth, reliable performance. We incorporated numerous security tools and packages to protect sensitive user information, meeting strict government standards for data integrity and privacy. The ECSC platform stands as a powerful example of modern digital governance, making complex government services accessible to users while maintaining the utmost levels of security and data management.',
+                description: 'The <strong>ECSC</strong> project is a large-scale government platform designed to streamline complex public processes, allowing citizens to perform essential tasks—like obtaining a new trading license or renewing a passport—directly online. As a <strong>backend developer</strong> on a team of around 12 experts, I contributed to building a robust, highly secure system that meticulously manages user data and handles a vast array of government services with flexibility to accommodate intricate workflows and unique exceptions. Developed over three years, this project demanded advanced technologies and significant coordination due to its size and complexity. I worked extensively with <strong>ExpressJS</strong>, <strong>Oracle</strong>, and <strong>.NET Core</strong> to create a scalable, secure backend capable of managing high volumes of data, ensuring smooth, reliable performance. We incorporated numerous security tools and packages to protect sensitive user information, meeting strict government standards for data integrity and privacy. The ECSC platform stands as a powerful example of modern digital governance, making complex government services accessible to users while maintaining the utmost levels of security and data management.',
                 usrKey: 'SALES_MAN'
             },
         ];
@@ -5507,11 +5512,19 @@ class ProjectsComponent {
                 usrKey: 'CEO'
             },
             {
-                image: 'http://shoofbook.com/home/assets/images/header/sh-logo-header-large.svg',
+                image: './assets/images/APX/sb-logo.svg',
                 name: 'ShoofBook',
                 designation: 'http://shoofbook.com/home/',
                 description: '<strong>ShoofBook</strong> is a classified advertising platform akin to <strong>Dubizzle</strong>, built to handle high volumes of <strong>user-generated content</strong> in <strong>real time</strong>. <strong>Highlights</strong>: As the sole developer, I took this project from <strong>concept to launch</strong>, building a <strong>dynamic, scalable platform</strong> that allows users to post ads, browse categories, and manage profiles seamlessly. I focused heavily on <strong>database efficiency</strong> to handle large data volumes and implemented <strong>caching strategies</strong> to reduce load times. A <strong>custom search algorithm</strong> was also developed to enhance the accuracy and speed of search results, making it easy for users to find what they’re looking for. Technologies: <strong>PrimeNG</strong> and <strong>Angular</strong> for the front end, <strong>NodeJS</strong> and <strong>ExpressJS</strong> for the back end, with <strong>MongoDB</strong> for scalable data storage and <strong>Redis</strong> for caching.',
                 usrKey: 'SEN_PR_ADVISOR'
+            },
+            {
+                image: '../assets/images/APX/logo.png',
+                name: 'UberMe',
+                designation: 'https://uberme-gold.vercel.app/#/',
+                //  description: '<strong>UberME</strong> is a sleek, user-friendly <strong>car rental app</strong> that connects car owners with people seeking rentals. Right from the start, users choose whether they want to <strong>rent a car</strong> or <strong>list their own</strong>, diving into a marketplace of high-end vehicles like <strong>Lamborghinis</strong> and <strong>Ferraris</strong>, complete with photos and detailed specs. <strong>Advanced filters</strong> help renters narrow down options by make, color, horsepower, and more, while a <strong>map view</strong> shows available cars nearby. The <strong>booking process</strong> is simple and intuitive: find the car you want, check its details, and hit "Book Now." Car owners can effortlessly list their vehicles, setting rates and highlighting unique features to attract renters. With <strong>smooth navigation</strong>, personalized profiles, and a <strong>demo mode</strong> for new users, UberME makes renting or listing a car as exciting and easy as possible. Perfect for anyone who wants a <strong>convenient</strong> and <strong>luxurious car-sharing experience</strong>!',
+                description: '<strong>UberME</strong> is a sleek, user-friendly <strong>car rental app</strong> that connects car owners with people seeking rentals. Right from the start, users choose whether they want to <strong>rent a car</strong> or <strong>list their own</strong>, diving into a marketplace of high-end vehicles like <strong>Lamborghinis</strong> and <strong>Ferraris</strong>, complete with photos and detailed specs. <strong>Advanced filters</strong> help renters narrow down options by make, color, horsepower, and more, while a <strong>map view</strong> shows available cars nearby. The <strong>booking process</strong> is simple and intuitive: find the car you want, check its details, and hit "Book Now." Car owners can effortlessly list their vehicles, setting rates and highlighting unique features to attract renters.<br><br>As a <strong>Full Stack Developer</strong>, I led the backend architecture using <strong>.NET Core</strong> to build a secure, high-performance API that supported real-time listings, bookings, and payment processing. I also worked on the front-end and mobile experience using <strong>Flutter</strong>, ensuring seamless integration across platforms. The backend was designed to scale efficiently and handle user authentication, data validation, and business logic while maintaining clean, modular code. With <strong>smooth navigation</strong>, personalized profiles, and a <strong>demo mode</strong> for new users, UberME delivers a <strong>convenient</strong> and <strong>luxurious car-sharing experience</strong> for modern users.',
+                usrKey: 'SALES_MAN'
             },
         ];
         // Testimonial Carousel  
@@ -5523,7 +5536,7 @@ class ProjectsComponent {
           usrKey: 'CEO'
         },
         {
-          image: 'http://shoofbook.com/home/assets/images/header/sh-logo-header-large.svg',
+          image: './assets/images/APX/sb-logo.svg',
           name: 'ShoofBook',
           designation: 'http://shoofbook.com/home/',
           description: 'ShoofBook is a classified advertising platform akin to Dubizzle, built to handle high volumes of user-generated content in real time. Highlights: As the sole developer, I took this project from concept to launch, building a dynamic, scalable platform that allows users to post ads, browse categories, and manage profiles seamlessly. I focused heavily on database efficiency to handle large data volumes and implemented caching strategies to reduce load times. A custom search algorithm was also developed to enhance the accuracy and speed of search results, making it easy for users to find what they’re looking for. Technologies: PrimeNG and Angular for the front end, NodeJS and ExpressJS for the back end, with MongoDB for scalable data storage and Redis for caching.ation is attached.',
@@ -5540,7 +5553,7 @@ class ProjectsComponent {
                 usrKey: 'CEO'
             },
             {
-                image: 'http://shoofbook.com/home/assets/images/header/sh-logo-header-large.svg',
+                image: './assets/images/APX/sb-logo.svg',
                 name: 'ShoofBook',
                 designation: 'http://shoofbook.com/home/',
                 description: 'ShoofBook is a classified advertising platform akin to Dubizzle, built to handle high volumes of user-generated content in real time. Highlights: As the sole developer, I took this project from concept to launch, building a dynamic, scalable platform that allows users to post ads, browse categories, and manage profiles seamlessly. I focused heavily on database efficiency to handle large data volumes and implemented caching strategies to reduce load times. A custom search algorithm was also developed to enhance the accuracy and speed of search results, making it easy for users to find what they’re looking for. Technologies: PrimeNG and Angular for the front end, NodeJS and ExpressJS for the back end, with MongoDB for scalable data storage and Redis for caching.ation is attached.',
