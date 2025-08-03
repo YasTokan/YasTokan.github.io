@@ -1,0 +1,139 @@
+<div class="meta-info">
+  <p><strong>Created at:</strong> January 3, 2025</p>
+  <p><strong>Last modified:</strong> Febraury, 22, 2025</p>
+</div>
+
+
+
+<div class="article-container">
+  <h3>📊 Hadoop vs Apache Spark: Choosing the Right Big Data Engine</h3>
+
+  <h3>📝 Introduction</h3>
+  <p>
+    As organizations continue to collect massive amounts of data, the need for scalable data processing engines has never been greater. Two of the most widely used frameworks in the Big Data ecosystem are <strong>Apache Hadoop</strong> and <strong>Apache Spark</strong>. While both aim to handle large-scale data processing, they differ significantly in architecture, performance, ease of use, and suitability for different workloads.
+  </p>
+  <p>
+    In this article, we’ll break down the core differences, compare their strengths and weaknesses, and help you understand which one is better suited for your data challenges.
+  </p>
+
+  <h3>⚙️ Architecture Overview</h3>
+
+  <h3>🧱 Apache Hadoop</h3>
+  <ul>
+    <li><strong>Batch-oriented:</strong> Primarily relies on <em>MapReduce</em> for batch processing.</li>
+    <li><strong>Storage:</strong> Uses the <em>Hadoop Distributed File System (HDFS)</em>.</li>
+    <li><strong>Disk-based:</strong> Reads and writes data to disk between MapReduce phases.</li>
+    <li><strong>Modules:</strong> Includes YARN, HDFS, MapReduce, Hive, Pig, etc.</li>
+  </ul>
+
+  <h3>⚡ Apache Spark</h3>
+  <ul>
+    <li><strong>In-memory processing:</strong> Speeds up performance by avoiding disk I/O.</li>
+    <li><strong>Flexible engine:</strong> Supports batch, streaming, ML, and graph processing.</li>
+    <li><strong>Storage:</strong> Can work with HDFS, Cassandra, S3, and more.</li>
+    <li><strong>DAG engine:</strong> Uses Directed Acyclic Graph execution model.</li>
+  </ul>
+
+  <h3>📈 Performance Comparison</h3>
+
+  <table border="1" cellspacing="0" cellpadding="8">
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Hadoop (MapReduce)</th>
+        <th>Apache Spark</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Speed</td>
+        <td>Slower (disk-based)</td>
+        <td>Faster (in-memory)</td>
+      </tr>
+      <tr>
+        <td>Latency</td>
+        <td>High</td>
+        <td>Low</td>
+      </tr>
+      <tr>
+        <td>Fault Tolerance</td>
+        <td>Strong</td>
+        <td>Strong</td>
+      </tr>
+      <tr>
+        <td>Ease of Development</td>
+        <td>Verbose Java code</td>
+        <td>Simpler APIs (Scala, Python)</td>
+      </tr>
+      <tr>
+        <td>Streaming Support</td>
+        <td>Not native</td>
+        <td>Yes (Structured Streaming)</td>
+      </tr>
+      <tr>
+        <td>Machine Learning</td>
+        <td>Mahout (external)</td>
+        <td>Native MLlib</td>
+      </tr>
+      <tr>
+        <td>Community</td>
+        <td>Mature but declining</td>
+        <td>Growing</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>🧪 Use Cases</h3>
+
+  <h4>✅ When to Use Hadoop</h4>
+  <ul>
+    <li>Huge batch jobs</li>
+    <li>Cost-sensitive environments</li>
+    <li>Disk I/O not a bottleneck</li>
+    <li>Strong dependency on Hadoop ecosystem tools</li>
+  </ul>
+
+  <h4>✅ When to Use Spark</h4>
+  <ul>
+    <li>Real-time analytics</li>
+    <li>Machine learning and iterative processing</li>
+    <li>Cloud-native and flexible storage</li>
+    <li>Developer-friendly APIs</li>
+  </ul>
+
+  <h3>📊 Feature Comparison Chart</h3>
+
+  <p-chart type="bar" [data]="sparkVsHadoopChartData" [options]="sparkVsHadoopChartOptions" style="max-width: 600px;"></p-chart>
+
+  <h3>🧠 Pros and Cons Summary</h3>
+
+  <table border="1" cellspacing="0" cellpadding="8">
+    <thead>
+      <tr>
+        <th>Framework</th>
+        <th>Pros</th>
+        <th>Cons</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hadoop</td>
+        <td>Mature, scalable, cost-effective for batch jobs</td>
+        <td>Slow, lacks real-time and ML capabilities</td>
+      </tr>
+      <tr>
+        <td>Spark</td>
+        <td>Fast, versatile, in-memory processing, ML support</td>
+        <td>Higher memory consumption, steeper learning for tuning</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>🧾 Conclusion</h3>
+  <p>
+    Both Hadoop and Spark are powerful tools, but they serve different purposes. <strong>Hadoop</strong> is well-suited for massive batch jobs with a mature ecosystem. <strong>Spark</strong>, on the other hand, is a modern engine designed for speed, flexibility, and real-time processing.
+  </p>
+  <p>
+    For most new projects and modern data pipelines, <strong>Spark</strong> is becoming the preferred option. However, depending on your data infrastructure, team expertise, and use case, Hadoop still holds value — especially in hybrid setups.
+  </p>
+</div>

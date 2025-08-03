@@ -35,6 +35,12 @@ import { MasonryGridFourComponent } from './portfolio/masonry-grid-four/masonry-
 import { MasonryFullWidthComponent } from './portfolio/masonry-full-width/masonry-full-width.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { MyJournayComponent } from './my-journay/my-journay.component';
+import { ArticalsComponent } from './articals/articals.component';
+import { ArticleDetailsComponent } from './articels-list/comparison/comparison.component';
+import { HscComponent } from './articels-list/hsc/hsc.component';
+import { MocComponent } from './articels-list/moc/moc.component';
+import { AvatarAIComponent } from './articels-list/avatar-ai/avatar-ai.component';
+import { BgComponent } from './articels-list/bg/bg.component';
 
 const routes: Routes = [
   {
@@ -76,6 +82,38 @@ const routes: Routes = [
   {
     path: 'projects',
     component: ProjectsComponent
+  },
+  {
+    path: 'articals',
+    component: ArticalsComponent
+  },
+  {
+    path: 'articals1',
+    component: ArticleDetailsComponent
+  },
+  {
+    path: 'articals/0',
+    component: ArticleDetailsComponent
+  },
+   {
+    path: 'articals/2',
+    component: BgComponent
+  },
+  {
+    path: 'articals/3',
+    component: AvatarAIComponent
+  },
+  {
+    path: 'articals/1',
+    component: ArticleDetailsComponent
+  },
+  {
+    path: 'articals/5',
+    component: HscComponent
+  },
+  {
+    path: 'articals/4',
+    component: MocComponent
   },
   {
     path: 'checkout',

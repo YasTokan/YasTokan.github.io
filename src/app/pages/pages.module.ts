@@ -51,6 +51,14 @@ import { MyJournayComponent } from './my-journay/my-journay.component';
 import { TimelineModule } from 'primeng/timeline';
  
 import { CardModule } from 'primeng/card';
+import { ArticalsComponent } from './articals/articals.component';
+import { ChartModule } from 'primeng/chart';
+import { ArticleDetailsComponent } from './articels-list/comparison/comparison.component';
+import { HscComponent } from './articels-list/hsc/hsc.component';
+import { MocComponent } from './articels-list/moc/moc.component';
+import { AvatarAIComponent } from './articels-list/avatar-ai/avatar-ai.component';
+import { BgComponent } from './articels-list/bg/bg.component';
+ 
  
 @NgModule({
   declarations: [
@@ -87,7 +95,14 @@ import { CardModule } from 'primeng/card';
     MasonryGridFourComponent,
     MasonryFullWidthComponent,
     ProjectsComponent,
-    MyJournayComponent
+    MyJournayComponent,
+    ArticalsComponent,
+    CompareOneComponent,
+    ArticleDetailsComponent,
+    HscComponent,
+    MocComponent,
+    AvatarAIComponent,
+    BgComponent
   ],
   imports: [
     DialogModule,
@@ -99,7 +114,8 @@ import { CardModule } from 'primeng/card';
     GalleryModule,
     LightboxModule,
     SharedModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    ChartModule
   ]
 })
 export class PagesModule { }

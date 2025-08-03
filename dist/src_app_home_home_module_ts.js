@@ -756,15 +756,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "FashionOneComponent": () => (/* binding */ FashionOneComponent)
 /* harmony export */ });
 /* harmony import */ var _shared_data_slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../shared/data/slider */ 53225);
-/* harmony import */ var _biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @biesbjerg/ngx-translate-extract-marker */ 85378);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var _biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @biesbjerg/ngx-translate-extract-marker */ 85378);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 22560);
 /* harmony import */ var _shared_services_product_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../shared/services/product.service */ 90773);
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ngx-translate/core */ 38699);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ 94666);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ 60124);
-/* harmony import */ var _shared_header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../shared/header/header-one/header-one.component */ 23618);
-/* harmony import */ var _shared_footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../shared/footer/footer-one/footer-one.component */ 71965);
-/* harmony import */ var _widgets_services_services_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../widgets/services/services.component */ 29313);
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ngx-translate/core */ 38699);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ 94666);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/router */ 60124);
+/* harmony import */ var _shared_my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../shared/my-skills/my-skills.component */ 75223);
+/* harmony import */ var _shared_header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../shared/header/header-one/header-one.component */ 23618);
+/* harmony import */ var _shared_footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../shared/footer/footer-one/footer-one.component */ 71965);
+/* harmony import */ var _widgets_services_services_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../widgets/services/services.component */ 29313);
+
 
 
 
@@ -776,32 +778,32 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const _c0 = function () { return ["/pages/projects"]; };
-function FashionOneComponent_div_23_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](0, "div", 13)(1, "a", 14)(2, "div", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](3, "img", 16)(4, "div", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "h3", 18);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](7, "p");
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
+function FashionOneComponent_div_24_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](0, "div", 13)(1, "a", 14)(2, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](3, "img", 16)(4, "div", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "h3", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](7, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const collection_r1 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpureFunction0"](3, _c0));
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("src", collection_r1.image, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate"](collection_r1.title);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpureFunction0"](3, _c0));
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("src", collection_r1.image, _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate"](collection_r1.title);
 } }
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_6__.marker)('FASHION_ONE.COLLECTIONS.FAIR.TITLE');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_6__.marker)('FASHION_ONE.COLLECTIONS.FAIR.DESC');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_6__.marker)('FASHION_ONE.COLLECTIONS.HAYAT.TITLE');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_6__.marker)('FASHION_ONE.COLLECTIONS.HAYAT.DESC');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_6__.marker)('FASHION_ONE.COLLECTIONS.NAK.TITLE');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_6__.marker)('FASHION_ONE.COLLECTIONS.NAK.DESC');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_6__.marker)('FASHION_ONE.COLLECTIONS.MARINA.TITLE');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_6__.marker)('FASHION_ONE.COLLECTIONS.MARINA.DESC');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_7__.marker)('FASHION_ONE.COLLECTIONS.FAIR.TITLE');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_7__.marker)('FASHION_ONE.COLLECTIONS.FAIR.DESC');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_7__.marker)('FASHION_ONE.COLLECTIONS.HAYAT.TITLE');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_7__.marker)('FASHION_ONE.COLLECTIONS.HAYAT.DESC');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_7__.marker)('FASHION_ONE.COLLECTIONS.NAK.TITLE');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_7__.marker)('FASHION_ONE.COLLECTIONS.NAK.DESC');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_7__.marker)('FASHION_ONE.COLLECTIONS.MARINA.TITLE');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_7__.marker)('FASHION_ONE.COLLECTIONS.MARINA.DESC');
 class FashionOneComponent {
     constructor(productService, translate) {
         this.productService = productService;
@@ -911,6 +913,20 @@ class FashionOneComponent {
                 image: 'assets/images/logos/8.png',
             },
         ];
+        this.radarChartOptions = {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top'
+                }
+            },
+            scales: {
+                r: {
+                    suggestedMin: 50,
+                    suggestedMax: 100
+                }
+            }
+        };
         this.syncTR();
         this.productService.getProducts.subscribe((response) => {
             this.products = response.filter((item) => item.type == 'fashion');
@@ -924,7 +940,29 @@ class FashionOneComponent {
             });
         });
     }
-    ngOnInit() { }
+    ngOnInit() {
+        this.radarChartData = {
+            labels: [
+                'Frontend (Angular, Ionic)',
+                'Backend (NodeJS, .NET)',
+                'Databases (SQL/NoSQL)',
+                'Cloud & DevOps',
+                'Mobile Development',
+                'AI & Automation',
+                'APIs & Integration',
+                'Architecture & Security'
+            ],
+            datasets: [
+                {
+                    label: 'My Skill Level',
+                    data: [95, 90, 85, 80, 85, 80, 90, 85],
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    pointBackgroundColor: 'rgba(54, 162, 235, 1)'
+                }
+            ]
+        };
+    }
     syncTR() {
         this.sliders[0].title = this.translate.instant('HOME.WELCOME_UAE');
         this.sliders[1].title = this.translate.instant('HOME.FIND_BEST');
@@ -965,37 +1003,38 @@ class FashionOneComponent {
         this.trSub = null;
     }
 }
-FashionOneComponent.ɵfac = function FashionOneComponent_Factory(t) { return new (t || FashionOneComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_shared_services_product_service__WEBPACK_IMPORTED_MODULE_1__.ProductService), _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslateService)); };
-FashionOneComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵdefineComponent"]({ type: FashionOneComponent, selectors: [["app-fashion-one"]], decls: 25, vars: 5, consts: [[3, "sticky"], [1, "p-0"], [1, "title1", "section-t-space"], [1, "title-inner1"], [1, "container"], [1, "row"], [1, "col-lg-6", "offset-lg-3"], [1, "product-para"], [1, "text-center"], [1, "service", "border-section", "small-section"], [1, "pb-0"], [1, "row", "partition2"], ["class", "col-md-6", 4, "ngFor", "ngForOf"], [1, "col-md-6"], [3, "routerLink"], [1, "collection-banner", "p-right", "text-center"], ["alt", "collection-banner", 1, "img-fluid", 2, "max-height", "300px", 3, "src"], [1, "contain-banner"], [2, "text-align", "center"]], template: function FashionOneComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](0, "app-header-one", 0)(1, "section", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](2, "div", 2)(3, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](4, " My Foundation ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](5, "h2", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipe"](7, "translate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](8, "div", 4)(9, "div", 5)(10, "div", 6)(11, "div", 7)(12, "p", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](13, " I\u2019m Yasine Tokan, an Information Technology Engineer specializing in Software Engineering and Data Structures, with over nine years of experience as a Full Stack Developer. My background enables me to create high-impact web and mobile applications that drive business success, focusing on scalable, responsive solutions using modern frameworks like Angular, NodeJS, and Flutter. I\u2019m passionate about enhancing user experience and optimizing performance through advanced API integrations, real-time communication, and microservices architectures. In addition to my technical expertise, I have completed a business training camp, equipping me with a strong understanding of how to align technology solutions with strategic business goals. Throughout my career, I\u2019ve contributed to projects at ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](15, " Top Spots FZE, ShoofBook LLC, and TechnoWave");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](16, ", collaborating within agile teams to deliver solutions that meet the needs of clients and users alike. Continuously expanding my technical skill set, I stay updated with industry trends to bring innovative and effective solutions to every project I undertake. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](17, "div", 4)(18, "section", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](19, "app-services");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](20, "section", 10)(21, "div", 4)(22, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](23, FashionOneComponent_div_23_Template, 8, 4, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelement"](24, "app-footer-one");
+FashionOneComponent.ɵfac = function FashionOneComponent_Factory(t) { return new (t || FashionOneComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_shared_services_product_service__WEBPACK_IMPORTED_MODULE_1__.ProductService), _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_8__.TranslateService)); };
+FashionOneComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵdefineComponent"]({ type: FashionOneComponent, selectors: [["app-fashion-one"]], decls: 26, vars: 5, consts: [[3, "sticky"], [1, "p-0"], [1, "title1", "section-t-space"], [1, "title-inner1"], [1, "container"], [1, "row"], [1, "col-lg-6", "offset-lg-3"], [1, "product-para"], [1, "text-center"], [1, "service", "border-section", "small-section"], [1, "pb-0"], [1, "row", "partition2"], ["class", "col-md-6", 4, "ngFor", "ngForOf"], [1, "col-md-6"], [3, "routerLink"], [1, "collection-banner", "p-right", "text-center"], ["alt", "collection-banner", 1, "img-fluid", 2, "max-height", "300px", 3, "src"], [1, "contain-banner"], [2, "text-align", "center"]], template: function FashionOneComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](0, "app-header-one", 0)(1, "section", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](2, "div", 2)(3, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](4, " My Foundation ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](5, "h2", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipe"](7, "translate");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](8, "div", 4)(9, "div", 5)(10, "div", 6)(11, "div", 7)(12, "p", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](13, " I\u2019m Yasine Tokan, an Information Technology Engineer specializing in Software Engineering and Data Structures, with over nine years of experience as a Full Stack Developer. My background enables me to create high-impact web and mobile applications that drive business success, focusing on scalable, responsive solutions using modern frameworks like Angular, NodeJS, .NET Core, and Flutter. I\u2019m passionate about enhancing user experience and optimizing performance through advanced API integrations, real-time communication, and microservices architectures. In addition to my technical expertise, I have completed a business training camp, equipping me with a strong understanding of how to align technology solutions with strategic business goals. Throughout my career, I\u2019ve contributed to projects at ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](14, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](15, "Top Spots FZE, ShoofBook LLC, and TechnoWave");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtext"](16, ", collaborating within agile teams to deliver solutions that meet the needs of clients and users alike. Continuously expanding my technical skill set, I stay updated with industry trends to bring innovative and effective solutions to every project I undertake. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](17, "div", 4)(18, "section", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](19, "app-services");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](20, "app-my-skills");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementStart"](21, "section", 10)(22, "div", 4)(23, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtemplate"](24, FashionOneComponent_div_24_Template, 8, 4, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelementEnd"]()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵelement"](25, "app-footer-one");
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("sticky", true);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵpipeBind1"](7, 3, "HOME.GOAL.TITLE"), " ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵadvance"](17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵproperty"]("ngForOf", ctx.collections);
-    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_8__.NgForOf, _angular_router__WEBPACK_IMPORTED_MODULE_9__.RouterLinkWithHref, _shared_header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_2__.HeaderOneComponent, _shared_footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_3__.FooterOneComponent, _widgets_services_services_component__WEBPACK_IMPORTED_MODULE_4__.ServicesComponent, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_7__.TranslatePipe], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJmYXNoaW9uLW9uZS5jb21wb25lbnQuc2NzcyJ9 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("sticky", true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵpipeBind1"](7, 3, "HOME.GOAL.TITLE"), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵadvance"](18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_6__["ɵɵproperty"]("ngForOf", ctx.collections);
+    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_9__.NgForOf, _angular_router__WEBPACK_IMPORTED_MODULE_10__.RouterLinkWithHref, _shared_my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_2__.MySkillsComponent, _shared_header_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_3__.HeaderOneComponent, _shared_footer_footer_one_footer_one_component__WEBPACK_IMPORTED_MODULE_4__.FooterOneComponent, _widgets_services_services_component__WEBPACK_IMPORTED_MODULE_5__.ServicesComponent, _ngx_translate_core__WEBPACK_IMPORTED_MODULE_8__.TranslatePipe], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJmYXNoaW9uLW9uZS5jb21wb25lbnQuc2NzcyJ9 */"] });
 
 
 /***/ }),
@@ -2312,7 +2351,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "HomeModule": () => (/* binding */ HomeModule)
 /* harmony export */ });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/common */ 94666);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/common */ 94666);
 /* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../shared/shared.module */ 44466);
 /* harmony import */ var _home_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home-routing.module */ 52003);
 /* harmony import */ var _fashion_fashion_one_fashion_one_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./fashion/fashion-one/fashion-one.component */ 86705);
@@ -2335,7 +2374,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _widgets_logo_logo_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./widgets/logo/logo.component */ 93578);
 /* harmony import */ var _widgets_services_services_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./widgets/services/services.component */ 29313);
 /* harmony import */ var _widgets_collection_collection_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./widgets/collection/collection.component */ 42653);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! primeng/chart */ 62348);
+/* harmony import */ var _my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./my-skills/my-skills.component */ 37509);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/core */ 22560);
 
 
 
@@ -2361,14 +2402,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
 class HomeModule {
 }
 HomeModule.ɵfac = function HomeModule_Factory(t) { return new (t || HomeModule)(); };
-HomeModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_22__["ɵɵdefineNgModule"]({ type: HomeModule });
-HomeModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_22__["ɵɵdefineInjector"]({ imports: [_angular_common__WEBPACK_IMPORTED_MODULE_23__.CommonModule,
+HomeModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_23__["ɵɵdefineNgModule"]({ type: HomeModule });
+HomeModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_23__["ɵɵdefineInjector"]({ imports: [_angular_common__WEBPACK_IMPORTED_MODULE_24__.CommonModule,
         _home_routing_module__WEBPACK_IMPORTED_MODULE_1__.HomeRoutingModule,
-        _shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_22__["ɵɵsetNgModuleScope"](HomeModule, { declarations: [_fashion_fashion_one_fashion_one_component__WEBPACK_IMPORTED_MODULE_2__.FashionOneComponent,
+        _shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule,
+        primeng_chart__WEBPACK_IMPORTED_MODULE_25__.ChartModule] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_23__["ɵɵsetNgModuleScope"](HomeModule, { declarations: [_fashion_fashion_one_fashion_one_component__WEBPACK_IMPORTED_MODULE_2__.FashionOneComponent,
         _fashion_fashion_two_fashion_two_component__WEBPACK_IMPORTED_MODULE_3__.FashionTwoComponent,
         _fashion_fashion_three_fashion_three_component__WEBPACK_IMPORTED_MODULE_4__.FashionThreeComponent,
         _vegetable_vegetable_component__WEBPACK_IMPORTED_MODULE_5__.VegetableComponent,
@@ -2388,9 +2432,11 @@ HomeModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_22__["ɵ
         _widgets_blog_blog_component__WEBPACK_IMPORTED_MODULE_18__.BlogComponent,
         _widgets_logo_logo_component__WEBPACK_IMPORTED_MODULE_19__.LogoComponent,
         _widgets_services_services_component__WEBPACK_IMPORTED_MODULE_20__.ServicesComponent,
-        _widgets_collection_collection_component__WEBPACK_IMPORTED_MODULE_21__.CollectionComponent], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_23__.CommonModule,
+        _widgets_collection_collection_component__WEBPACK_IMPORTED_MODULE_21__.CollectionComponent,
+        _my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_22__.MySkillsComponent], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_24__.CommonModule,
         _home_routing_module__WEBPACK_IMPORTED_MODULE_1__.HomeRoutingModule,
-        _shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule] }); })();
+        _shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule,
+        primeng_chart__WEBPACK_IMPORTED_MODULE_25__.ChartModule], exports: [_my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_22__.MySkillsComponent] }); })();
 
 
 /***/ }),
@@ -2733,6 +2779,86 @@ MarijuanaComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_
         _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵclassMap"]("footer-5");
         _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵproperty"]("themeLogo", ctx.themeFooterLogo);
     } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_12__.NgClass, _angular_common__WEBPACK_IMPORTED_MODULE_12__.NgForOf, _angular_common__WEBPACK_IMPORTED_MODULE_12__.NgStyle, _angular_router__WEBPACK_IMPORTED_MODULE_13__.RouterLinkWithHref, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_14__.NgbNavContent, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_14__.NgbNav, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_14__.NgbNavItem, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_14__.NgbNavLink, _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_14__.NgbNavOutlet, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_15__.CarouselComponent, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_15__.CarouselSlideDirective, _shared_footer_footer_two_footer_two_component__WEBPACK_IMPORTED_MODULE_2__.FooterTwoComponent, _shared_header_header_three_header_three_component__WEBPACK_IMPORTED_MODULE_3__.HeaderThreeComponent, _shared_components_product_product_box_three_product_box_three_component__WEBPACK_IMPORTED_MODULE_4__.ProductBoxThreeComponent, _shared_components_modal_cart_variation_cart_variation_component__WEBPACK_IMPORTED_MODULE_5__.CartVariationComponent, _shared_components_modal_age_verification_age_verification_component__WEBPACK_IMPORTED_MODULE_6__.AgeVerificationComponent, _widgets_slider_slider_component__WEBPACK_IMPORTED_MODULE_7__.SliderComponent, _widgets_blog_blog_component__WEBPACK_IMPORTED_MODULE_8__.BlogComponent, _widgets_logo_logo_component__WEBPACK_IMPORTED_MODULE_9__.LogoComponent, _widgets_services_services_component__WEBPACK_IMPORTED_MODULE_10__.ServicesComponent, _angular_common__WEBPACK_IMPORTED_MODULE_12__.SlicePipe], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYXJpanVhbmEuY29tcG9uZW50LnNjc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ 37509:
+/*!*******************************************************!*\
+  !*** ./src/app/home/my-skills/my-skills.component.ts ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MySkillsComponent": () => (/* binding */ MySkillsComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primeng/chart */ 62348);
+
+
+class MySkillsComponent {
+    constructor() {
+        this.radarChartOptions = {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top'
+                }
+            },
+            scales: {
+                r: {
+                    suggestedMin: 50,
+                    suggestedMax: 100
+                }
+            }
+        };
+    }
+    ngOnInit() {
+        this.radarChartData = {
+            labels: [
+                'Frontend (Angular, Ionic)',
+                'Backend (NodeJS, .NET)',
+                'Databases (SQL/NoSQL)',
+                'Cloud & DevOps',
+                'Mobile Development',
+                'AI & Automation',
+                'APIs & Integration',
+                'Architecture & Security'
+            ],
+            /*  datasets: [
+               {
+                 label: 'My Skill Level',
+                 data: [95, 90, 85, 80, 85, 80, 90, 85],
+                 backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                 borderColor: 'rgba(54, 162, 235, 1)',
+                 pointBackgroundColor: 'rgba(54, 162, 235, 1)'
+               }
+             ] */
+            datasets: [
+                {
+                    label: 'My Skill Level',
+                    data: [95, 90, 85, 80, 85, 80, 90, 85],
+                    backgroundColor: 'rgba(255, 76, 59, 0.2)',
+                    borderColor: '#ff4c3b',
+                    pointBackgroundColor: '#ff4c3b',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: '#ff4c3b'
+                }
+            ]
+        };
+    }
+}
+MySkillsComponent.ɵfac = function MySkillsComponent_Factory(t) { return new (t || MySkillsComponent)(); };
+MySkillsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MySkillsComponent, selectors: [["apskills"]], decls: 6, vars: 2, consts: [[1, "container"], [1, "row"], [1, "col-lg-6", "offset-lg-3"], [1, "product-para"], [1, "text-center"], ["type", "radar", 3, "data", "options"]], template: function MySkillsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "p", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "p-chart", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("data", ctx.radarChartData)("options", ctx.radarChartOptions);
+    } }, dependencies: [primeng_chart__WEBPACK_IMPORTED_MODULE_1__.UIChart], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJteS1za2lsbHMuY29tcG9uZW50LnNjc3MifQ== */"] });
 
 
 /***/ }),
