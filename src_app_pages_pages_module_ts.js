@@ -184,7 +184,7 @@ class AboutUsComponent {
     }
 }
 AboutUsComponent.ɵfac = function AboutUsComponent_Factory(t) { return new (t || AboutUsComponent)(); };
-AboutUsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: AboutUsComponent, selectors: [["app-about-us"]], decls: 67, vars: 0, consts: [[1, "about-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "col-lg-12"], [1, "banner-section"], ["src", "assets/images/APX/about-me1.png", "alt", "about-us", 1, "img-fluid"]], template: function AboutUsComponent_Template(rf, ctx) { if (rf & 1) {
+AboutUsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: AboutUsComponent, selectors: [["app-about-us"]], decls: 70, vars: 0, consts: [[1, "about-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "col-lg-12"], [1, "banner-section"], ["src", "assets/images/APX/about-me1.png", "alt", "about-us", 1, "img-fluid"]], template: function AboutUsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "app-my-skills");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 1)(3, "div", 2)(4, "div", 3)(5, "h4");
@@ -201,74 +201,78 @@ AboutUsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3_
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](14, " with over nine years of experience in creating scalable, high-performance applications. With deep expertise in ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](15, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](16, "Angular, NodeJS, ExpressJS, MongoDB, .NET Core");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](16, "Angular, NodeJS, Fastify, MongoDB, .NET Core");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](17, ", and ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](18, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, "Oracle");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19, "MySQL");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](20, ", I\u2019m skilled in building both the front-end and back-end systems that make for seamless, engaging user experiences across web and mobile platforms. One of my most impactful projects is ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](20, ", I\u2019m skilled in building both the front-end and back-end systems that make for seamless, engaging user experiences across web and mobile platforms.\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](21, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](22, "Top Spots Dubai");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](22, "dailypoint\u2122");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](23, ", a comprehensive platform designed to enhance tourism and reservation services in Dubai. As the lead full-stack developer, I contributed across the entire development lifecycle, from initial architecture to final deployment. I implemented performance enhancements that improved site speed by 65%, significantly boosting user engagement and SEO. Additionally, I integrated third-party APIs, such as N-Genius for payment processing and Google Maps for location-based services, allowing users to easily discover and book experiences around Dubai. The project required extensive optimization to ensure smooth functionality across all devices and platforms, showcasing my dedication to technical excellence and user-focused design. Another major accomplishment is ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](23, " is a long\u2011standing enterprise CRM platform with two decades of legacy code. As the lead full\u2011stack developer, I led a modernization effort from AngularJS and .NET Razor Pages toward a contemporary stack. I defined the migration strategy and executed a phased replacement of AngularJS components to reduce risk and keep delivery on track. I also designed and implemented a reusable, Bootstrap\u2011like UI library adopted across modules and companion apps, standardizing UX and accelerating development. On the backend, I refactored Razor Pages integrations to improve maintainability and performance, resolving cross\u2011module and API integration issues that had accumulated over time. One of my most impactful projects is ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](24, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](25, "ShoofBook");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](25, "Top Spots Dubai");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](26, ", a real-time classified advertising platform that I developed independently from concept to launch. Designed to support high volumes of user-generated content, ShoofBook allows users to post ads, browse categories, and manage profiles effortlessly. I focused heavily on data efficiency by utilizing ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](26, ", a comprehensive platform designed to enhance tourism and reservation services in Dubai. As the lead full\u2011stack developer, I delivered high\u2011quality software on time in an Agile team, owning the full lifecycle from architecture through deployment. I improved UX and increased site speed by 65% through responsive design optimizations, boosting engagement and SEO, and ensured smooth, cross\u2011device performance via rigorous debugging and troubleshooting. I integrated key third\u2011party services\u2014N\u2011Genius (payments), Google Maps (location), Firebase, and Dubai Park\u2014to streamline discovery and checkout. Additionally, I deployed a privacy\u2011preserving AI chat assistant on company servers, wrapped with our own API so it runs autonomously; it supports text, voice, and avatar interactions using OpenAI and Ollama, is trained on our company data, and incorporates ElevenLabs and HeyGen for high\u2011quality speech and avatars. Another major accomplishment is ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](27, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](28, "MongoDB");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](28, "ShoofBook");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](29, " for storage and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](29, ", a real-time classified advertising platform that I developed independently from concept to launch. Designed to support high volumes of user-generated content, ShoofBook allows users to post ads, browse categories, and manage profiles effortlessly. I focused heavily on data efficiency by utilizing ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](30, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](31, "Redis caching");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](31, "MongoDB");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](32, " to minimize load times, ensuring the platform could scale as user activity grew. I also developed a custom search algorithm, enhancing the accuracy and speed of search results so users can quickly find exactly what they\u2019re looking for. ShoofBook reflects my ability to take a project from a simple idea to a fully functional, dynamic platform that meets users' needs effectively. In addition to these projects, I\u2019ve contributed to other large-scale applications, such as ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](32, " for storage and ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](33, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](34, "UberME");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](34, "Redis caching");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](35, ", a streamlined car rental platform. In UberME, I developed an advanced admin dashboard that automates the booking process, includes a complex filtering mechanism, and supports location-based searches, giving users real-time access to car rentals nearby. Another key project, ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](35, " to minimize load times, ensuring the platform could scale as user activity grew. I also developed a custom search algorithm, enhancing the accuracy and speed of search results so users can quickly find exactly what they\u2019re looking for. ShoofBook reflects my ability to take a project from a simple idea to a fully functional, dynamic platform that meets users' needs effectively. In addition to these projects, I\u2019ve contributed to other large-scale applications, such as ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](36, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](37, "ECSC");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](37, "UberME");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](38, ", is a government platform that enables citizens to manage essential services like licensing and passport renewals online. As a part of a 12-member development team, I focused on creating a secure, efficient back end using ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](38, ", a streamlined car rental platform. In UberME, I developed an advanced admin dashboard that automates the booking process, includes a complex filtering mechanism, and supports location-based searches, giving users real-time access to car rentals nearby. Another key project, ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](39, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](40, "ExpressJS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](40, "ECSC");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](41, ", ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](41, ", is a government platform that enables citizens to manage essential services like licensing and passport renewals online. As a part of a 12-member development team, I focused on creating a secure, efficient back end using ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](42, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](43, " .NET Core");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](43, "ExpressJS");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](44, ", and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](44, ", ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](45, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](46, "Oracle");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](46, " .NET Core");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](47, ", ensuring the platform\u2019s compliance with strict government standards. With a strong foundation in ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](47, ", and ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](48, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](49, "algorithms");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](49, "Oracle");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](50, " and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](50, ", ensuring the platform\u2019s compliance with strict government standards. With a strong foundation in ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](51, "strong");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](52, "data structures");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](52, "algorithms");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](53, ", I am driven by a passion for crafting solutions that improve business efficiency and user experience. I enjoy tackling complex technical challenges and continuously strive to enhance application performance, whether by optimizing front-end interfaces or managing large datasets on the back end. Outside of development, I am an avid reader (favorites include ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](54, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](55, "The Song of Ice and Fire");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](53, " and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](54, "strong");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](55, "data structures");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](56, ", ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](56, ", I am driven by a passion for crafting solutions that improve business efficiency and user experience. I enjoy tackling complex technical challenges and continuously strive to enhance application performance, whether by optimizing front-end interfaces or managing large datasets on the back end. Outside of development, I am an avid reader (favorites include ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](57, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](58, "The Hunchback of Notre-Dame");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](58, "The Song of Ice and Fire");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](59, ", and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](59, ", ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](60, "i");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](61, "The Toilers of the Sea");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](61, "The Hunchback of Notre-Dame");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](62, "), a gardening enthusiast, and a video game lover. I am always exploring ways to connect technology with creativity, bringing this curiosity and dedication to every project I undertake. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](62, ", and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](63, "i");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](64, "The Toilers of the Sea");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](63, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](65, "), a gardening enthusiast, and a video game lover. I am always exploring ways to connect technology with creativity, bringing this curiosity and dedication to every project I undertake. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](66, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](64, "div", 4)(65, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](66, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](67, "div", 4)(68, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](69, "img", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()();
     } }, dependencies: [_shared_my_skills_my_skills_component__WEBPACK_IMPORTED_MODULE_1__.MySkillsComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhYm91dC11cy5jb21wb25lbnQuc2NzcyJ9 */"] });
 
@@ -4807,9 +4811,28 @@ class MyJournayComponent {
         this.router = router;
         this.events = [
             {
-                status: 'Currently',
+                status: 'Full Stack Developer',
+                location: "dailypoint™",
+                discreption: `
+        • Led modernization of a 20-year legacy CRM built on AngularJS and .NET Razor Pages as the lead full stack developer. \n
+• Defined a migration path to a modern stack and executed a phased replacement of AngularJS components.\n
+• Designed and implemented a reusable, Bootstrap-like UI library from scratch, adopted across modules and apps.\n
+• Refactored .NET Razor Pages integrations to improve maintainability and performance; resolved cross-module/API integration issues.\n`,
+                date: '01/01/2025',
+                icon: 'pi pi-code',
+                color: '#9C27B0',
+                link: 'https://topspotsdubai.com'
+            },
+            {
+                status: 'Full Stack Developer',
                 location: "Top Spots FZE",
-                discreption: "Working as a Full Stack Developer, collaborating in a team using Agile methodologies to ensure high-quality software delivery. Responsible for enhancing user experience with responsive web layouts that improved site speed by 65%. Actively troubleshoot and debug applications to maintain smooth functionality. Integrated multiple APIs such as N-Genius for payments, Google Maps, Firebase, and Dubai's Park API. Spearheaded an AI-powered project using OpenAI, 11 Labs, and HeyGen, creating a multi-modal communication platform that includes text, voice, and avatar interactions.",
+                discreption: `
+        • Delivered high-quality software on time in an Agile team environment.
+• Improved UX and boosted site speed by 65% through responsive design enhancements.
+• Ensured smooth app performance through effective debugging and troubleshooting.
+• Integrated key third-party APIs: N-Genius, Google Maps, Firebase, and Dubai Park.
+• Set up an AI chat system on our company servers and wrapped it with our own API so it runs on its own; supports text, voice, and avatars using OpenAI and Ollama.
+ • Trained the assistant on our company data to keep answers private and useful; integrated 11 Labs and HeyGen.`,
                 date: '01/01/2022',
                 icon: 'pi pi-code',
                 color: '#9C27B0',
@@ -5427,11 +5450,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "PagesModule": () => (/* binding */ PagesModule)
 /* harmony export */ });
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! @angular/common */ 94666);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! @angular/common */ 94666);
 /* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../shared/shared.module */ 44466);
 /* harmony import */ var _pages_routing_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages-routing.module */ 39730);
-/* harmony import */ var ng_gallery__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ng-gallery */ 15854);
-/* harmony import */ var ng_gallery_lightbox__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ng-gallery/lightbox */ 35115);
+/* harmony import */ var ng_gallery__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ng-gallery */ 15854);
+/* harmony import */ var ng_gallery_lightbox__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ng-gallery/lightbox */ 35115);
 /* harmony import */ var _account_wishlist_wishlist_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./account/wishlist/wishlist.component */ 60877);
 /* harmony import */ var _account_cart_cart_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./account/cart/cart.component */ 73945);
 /* harmony import */ var _account_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./account/dashboard/dashboard.component */ 97126);
@@ -5463,22 +5486,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _portfolio_masonry_grid_three_masonry_grid_three_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./portfolio/masonry-grid-three/masonry-grid-three.component */ 88951);
 /* harmony import */ var _portfolio_masonry_grid_four_masonry_grid_four_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./portfolio/masonry-grid-four/masonry-grid-four.component */ 32267);
 /* harmony import */ var _portfolio_masonry_full_width_masonry_full_width_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./portfolio/masonry-full-width/masonry-full-width.component */ 13105);
-/* harmony import */ var primeng_dialog__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! primeng/dialog */ 1837);
-/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! primeng/button */ 73867);
-/* harmony import */ var ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ng2-pdf-viewer */ 63940);
+/* harmony import */ var primeng_dialog__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! primeng/dialog */ 1837);
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! primeng/button */ 73867);
+/* harmony import */ var ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ng2-pdf-viewer */ 63940);
 /* harmony import */ var _account_contact_contact_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./account/contact/contact.component */ 63360);
 /* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./projects/projects.component */ 20796);
 /* harmony import */ var _my_journay_my_journay_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./my-journay/my-journay.component */ 8937);
-/* harmony import */ var primeng_timeline__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! primeng/timeline */ 76687);
-/* harmony import */ var primeng_card__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! primeng/card */ 34357);
+/* harmony import */ var primeng_timeline__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! primeng/timeline */ 76687);
+/* harmony import */ var primeng_card__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! primeng/card */ 34357);
 /* harmony import */ var _articals_articals_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./articals/articals.component */ 803);
-/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! primeng/chart */ 62348);
+/* harmony import */ var primeng_chart__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! primeng/chart */ 62348);
 /* harmony import */ var _articels_list_comparison_comparison_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./articels-list/comparison/comparison.component */ 350);
 /* harmony import */ var _articels_list_hsc_hsc_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./articels-list/hsc/hsc.component */ 99942);
 /* harmony import */ var _articels_list_moc_moc_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./articels-list/moc/moc.component */ 34809);
 /* harmony import */ var _articels_list_avatar_ai_avatar_ai_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./articels-list/avatar-ai/avatar-ai.component */ 71253);
 /* harmony import */ var _articels_list_bg_bg_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./articels-list/bg/bg.component */ 70358);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var _projects_demo_video_demo_video_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./projects/demo-video/demo-video.component */ 18598);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! @angular/core */ 22560);
 
 // import { GalleryModule } from '@ks89/angular-modal-gallery';
 
@@ -5535,22 +5559,23 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 class PagesModule {
 }
 PagesModule.ɵfac = function PagesModule_Factory(t) { return new (t || PagesModule)(); };
-PagesModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_42__["ɵɵdefineNgModule"]({ type: PagesModule });
-PagesModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_42__["ɵɵdefineInjector"]({ imports: [primeng_dialog__WEBPACK_IMPORTED_MODULE_43__.DialogModule,
-        ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_44__.PdfViewerModule,
-        primeng_timeline__WEBPACK_IMPORTED_MODULE_45__.TimelineModule,
-        primeng_button__WEBPACK_IMPORTED_MODULE_46__.ButtonModule,
-        primeng_card__WEBPACK_IMPORTED_MODULE_47__.CardModule,
-        _angular_common__WEBPACK_IMPORTED_MODULE_48__.CommonModule,
-        ng_gallery__WEBPACK_IMPORTED_MODULE_49__.GalleryModule,
-        ng_gallery_lightbox__WEBPACK_IMPORTED_MODULE_50__.LightboxModule,
+PagesModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_43__["ɵɵdefineNgModule"]({ type: PagesModule });
+PagesModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_43__["ɵɵdefineInjector"]({ imports: [primeng_dialog__WEBPACK_IMPORTED_MODULE_44__.DialogModule,
+        ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_45__.PdfViewerModule,
+        primeng_timeline__WEBPACK_IMPORTED_MODULE_46__.TimelineModule,
+        primeng_button__WEBPACK_IMPORTED_MODULE_47__.ButtonModule,
+        primeng_card__WEBPACK_IMPORTED_MODULE_48__.CardModule,
+        _angular_common__WEBPACK_IMPORTED_MODULE_49__.CommonModule,
+        ng_gallery__WEBPACK_IMPORTED_MODULE_50__.GalleryModule,
+        ng_gallery_lightbox__WEBPACK_IMPORTED_MODULE_51__.LightboxModule,
         _shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule,
         _pages_routing_module__WEBPACK_IMPORTED_MODULE_1__.PagesRoutingModule,
-        primeng_chart__WEBPACK_IMPORTED_MODULE_51__.ChartModule] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_42__["ɵɵsetNgModuleScope"](PagesModule, { declarations: [_account_wishlist_wishlist_component__WEBPACK_IMPORTED_MODULE_2__.WishlistComponent,
+        primeng_chart__WEBPACK_IMPORTED_MODULE_52__.ChartModule] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_43__["ɵɵsetNgModuleScope"](PagesModule, { declarations: [_account_wishlist_wishlist_component__WEBPACK_IMPORTED_MODULE_2__.WishlistComponent,
         _account_cart_cart_component__WEBPACK_IMPORTED_MODULE_3__.CartComponent,
         _account_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_4__.DashboardComponent,
         _account_login_login_component__WEBPACK_IMPORTED_MODULE_5__.LoginComponent,
@@ -5590,17 +5615,18 @@ PagesModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_42__["�
         _articels_list_hsc_hsc_component__WEBPACK_IMPORTED_MODULE_38__.HscComponent,
         _articels_list_moc_moc_component__WEBPACK_IMPORTED_MODULE_39__.MocComponent,
         _articels_list_avatar_ai_avatar_ai_component__WEBPACK_IMPORTED_MODULE_40__.AvatarAIComponent,
-        _articels_list_bg_bg_component__WEBPACK_IMPORTED_MODULE_41__.BgComponent], imports: [primeng_dialog__WEBPACK_IMPORTED_MODULE_43__.DialogModule,
-        ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_44__.PdfViewerModule,
-        primeng_timeline__WEBPACK_IMPORTED_MODULE_45__.TimelineModule,
-        primeng_button__WEBPACK_IMPORTED_MODULE_46__.ButtonModule,
-        primeng_card__WEBPACK_IMPORTED_MODULE_47__.CardModule,
-        _angular_common__WEBPACK_IMPORTED_MODULE_48__.CommonModule,
-        ng_gallery__WEBPACK_IMPORTED_MODULE_49__.GalleryModule,
-        ng_gallery_lightbox__WEBPACK_IMPORTED_MODULE_50__.LightboxModule,
+        _articels_list_bg_bg_component__WEBPACK_IMPORTED_MODULE_41__.BgComponent,
+        _projects_demo_video_demo_video_component__WEBPACK_IMPORTED_MODULE_42__.DemoVideoComponent], imports: [primeng_dialog__WEBPACK_IMPORTED_MODULE_44__.DialogModule,
+        ng2_pdf_viewer__WEBPACK_IMPORTED_MODULE_45__.PdfViewerModule,
+        primeng_timeline__WEBPACK_IMPORTED_MODULE_46__.TimelineModule,
+        primeng_button__WEBPACK_IMPORTED_MODULE_47__.ButtonModule,
+        primeng_card__WEBPACK_IMPORTED_MODULE_48__.CardModule,
+        _angular_common__WEBPACK_IMPORTED_MODULE_49__.CommonModule,
+        ng_gallery__WEBPACK_IMPORTED_MODULE_50__.GalleryModule,
+        ng_gallery_lightbox__WEBPACK_IMPORTED_MODULE_51__.LightboxModule,
         _shared_shared_module__WEBPACK_IMPORTED_MODULE_0__.SharedModule,
         _pages_routing_module__WEBPACK_IMPORTED_MODULE_1__.PagesRoutingModule,
-        primeng_chart__WEBPACK_IMPORTED_MODULE_51__.ChartModule] }); })();
+        primeng_chart__WEBPACK_IMPORTED_MODULE_52__.ChartModule] }); })();
 
 
 /***/ }),
@@ -6923,6 +6949,78 @@ MasonryGridTwoComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MO
 
 /***/ }),
 
+/***/ 18598:
+/*!*******************************************************************!*\
+  !*** ./src/app/pages/projects/demo-video/demo-video.component.ts ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "DemoVideoComponent": () => (/* binding */ DemoVideoComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var primeng_dialog__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! primeng/dialog */ 1837);
+/* harmony import */ var primeng_button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! primeng/button */ 73867);
+
+
+
+
+const _c0 = ["videoEl"];
+const _c1 = function () { return { width: "clamp(320px, 90vw, 420px)" }; };
+const _c2 = function () { return { height: "80vh", padding: "0" }; };
+class DemoVideoComponent {
+    constructor() {
+        this.showDemo = false;
+        this.videoSrc = './../../../../assets/videos/ai_demo.mp4';
+    }
+    openDemo() {
+        this.showDemo = true;
+    }
+    onDialogShow() {
+        const v = this.videoRef?.nativeElement;
+        if (!v)
+            return;
+        v.currentTime = 0;
+        v.play().catch(() => {
+            // Autoplay might be blocked if not muted; video is muted in template
+        });
+    }
+    onDialogHide() {
+        const v = this.videoRef?.nativeElement;
+        if (!v)
+            return;
+        v.pause();
+        v.currentTime = 0;
+    }
+}
+DemoVideoComponent.ɵfac = function DemoVideoComponent_Factory(t) { return new (t || DemoVideoComponent)(); };
+DemoVideoComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DemoVideoComponent, selectors: [["app-demo-video"]], viewQuery: function DemoVideoComponent_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵviewQuery"](_c0, 5);
+    } if (rf & 2) {
+        let _t;
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.videoRef = _t.first);
+    } }, decls: 5, vars: 11, consts: [["pButton", "", "type", "button", "label", "View demo", "icon", "pi pi-play custom-icon", 1, "custom-icon", 3, "click"], ["header", "Product demo", 3, "visible", "modal", "dismissableMask", "blockScroll", "closeOnEscape", "contentStyle", "visibleChange", "onShow", "onHide"], [1, "video-wrap"], ["controls", "", "muted", "", "playsinline", "", "preload", "metadata", 3, "src"], ["videoEl", ""]], template: function DemoVideoComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "button", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function DemoVideoComponent_Template_button_click_0_listener() { return ctx.openDemo(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "p-dialog", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("visibleChange", function DemoVideoComponent_Template_p_dialog_visibleChange_1_listener($event) { return ctx.showDemo = $event; })("onShow", function DemoVideoComponent_Template_p_dialog_onShow_1_listener() { return ctx.onDialogShow(); })("onHide", function DemoVideoComponent_Template_p_dialog_onHide_1_listener() { return ctx.onDialogHide(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "video", 3, 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstyleMap"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](9, _c1));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("visible", ctx.showDemo)("modal", true)("dismissableMask", true)("blockScroll", true)("closeOnEscape", true)("contentStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](10, _c2));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", ctx.videoSrc, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    } }, dependencies: [primeng_dialog__WEBPACK_IMPORTED_MODULE_1__.Dialog, primeng_button__WEBPACK_IMPORTED_MODULE_2__.ButtonDirective], styles: [".video-wrap[_ngcontent-%COMP%] {\n  height: 100%;\n  display: block;\n}\n\n.video-wrap[_ngcontent-%COMP%]   video[_ngcontent-%COMP%] {\n  width: 100%;\n  height: 100%;\n  object-fit: contain; \n  display: block;\n  background: #000;\n  border-radius: 8px;\n}\n\n\n\n@media (max-width: 360px) {\n  [_nghost-%COMP%]     .p-dialog {\n    width: 92vw !important;\n  }\n}\n\n.pi.custom-icon[_ngcontent-%COMP%] {\n  fill: var(--theme-deafult);\n  color: var(--theme-deafult);\n  font-size: 1rem !important;\n}\n\n.pi[_ngcontent-%COMP%] {\n  fill: var(--theme-deafult);\n  color: var(--theme-deafult);\n  font-size: 1rem !important;\n  font-weight: 100 !important;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRlbW8tdmlkZW8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFBO0VBQ0EsY0FBQTtBQUNGOztBQUVBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7RUFDQSxtQkFBQSxFQUFBLGlEQUFBO0VBQ0EsY0FBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7QUFDRjs7QUFFQSx5Q0FBQTs7QUFDQTtFQUNFO0lBQ0Usc0JBQUE7RUFDRjtBQUNGOztBQUVBO0VBQ0UsMEJBQUE7RUFDQSwyQkFBQTtFQUNBLDBCQUFBO0FBQUY7O0FBS0E7RUFDSSwwQkFBQTtFQUNBLDJCQUFBO0VBQ0EsMEJBQUE7RUFDQSwyQkFBQTtBQUZKIiwiZmlsZSI6ImRlbW8tdmlkZW8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudmlkZW8td3JhcCB7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG59XHJcblxyXG4udmlkZW8td3JhcCB2aWRlbyB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIG9iamVjdC1maXQ6IGNvbnRhaW47IC8qIG9yICdjb3ZlcicgaWYgeW91IHdhbnQgaXQgdG8gZmlsbCBjb21wbGV0ZWx5ICovXHJcbiAgZGlzcGxheTogYmxvY2s7XHJcbiAgYmFja2dyb3VuZDogIzAwMDtcclxuICBib3JkZXItcmFkaXVzOiA4cHg7XHJcbn1cclxuXHJcbi8qIE9wdGlvbmFsOiB0dW5lIGZvciB2ZXJ5IHNtYWxsIHBob25lcyAqL1xyXG5AbWVkaWEgKG1heC13aWR0aDogMzYwcHgpIHtcclxuICA6aG9zdCA6Om5nLWRlZXAgLnAtZGlhbG9nIHtcclxuICAgIHdpZHRoOiA5MnZ3ICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG59XHJcblxyXG4ucGkuY3VzdG9tLWljb24ge1xyXG4gIGZpbGw6IHZhcigtLXRoZW1lLWRlYWZ1bHQpO1xyXG4gIGNvbG9yOiB2YXIoLS10aGVtZS1kZWFmdWx0KTtcclxuICBmb250LXNpemU6IDFyZW0gIWltcG9ydGFudDtcclxuIFxyXG59XHJcblxyXG5cclxuLnBpIHtcclxuICAgIGZpbGw6IHZhcigtLXRoZW1lLWRlYWZ1bHQpO1xyXG4gICAgY29sb3I6IHZhcigtLXRoZW1lLWRlYWZ1bHQpO1xyXG4gICAgZm9udC1zaXplOiAxcmVtICFpbXBvcnRhbnQ7XHJcbiAgICBmb250LXdlaWdodDogMTAwICFpbXBvcnRhbnQ7XHJcbn1cclxuIl19 */"] });
+
+
+/***/ }),
+
 /***/ 20796:
 /*!******************************************************!*\
   !*** ./src/app/pages/projects/projects.component.ts ***!
@@ -6935,139 +7033,143 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ProjectsComponent": () => (/* binding */ ProjectsComponent)
 /* harmony export */ });
 /* harmony import */ var _shared_data_slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../shared/data/slider */ 53225);
-/* harmony import */ var _biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @biesbjerg/ngx-translate-extract-marker */ 85378);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 22560);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common */ 94666);
-/* harmony import */ var ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-owl-carousel-o */ 27135);
+/* harmony import */ var _biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @biesbjerg/ngx-translate-extract-marker */ 85378);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 22560);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ 94666);
+/* harmony import */ var ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ngx-owl-carousel-o */ 27135);
+/* harmony import */ var _demo_video_demo_video_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./demo-video/demo-video.component */ 18598);
+
 
 
 
 
 
 function ProjectsComponent_ng_container_13_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "div", 9)(3, "a", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "img", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h5");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h6");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Link");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "p", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "div", 9)(3, "a", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](4, "img", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "h5");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "h6");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8, "Link");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "app-demo-video");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](11, "p", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
-    const ts_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ts_r4.designation, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ts_r4.image, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r4.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", ts_r4.description, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
+    const ts_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", ts_r4.designation, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("src", ts_r4.image, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ts_r4.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("innerHTML", ts_r4.description, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeHtml"]);
 } }
 function ProjectsComponent_ng_container_13_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_13_ng_template_1_Template, 11, 4, "ng-template", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, ProjectsComponent_ng_container_13_ng_template_1_Template, 12, 4, "ng-template", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
 } }
 function ProjectsComponent_ng_container_27_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "div", 9)(3, "a", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "img", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h5");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h6");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Link");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "p", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "div", 9)(3, "a", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](4, "img", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "h5");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "h6");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8, "Link");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](10, "p", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
-    const ts_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ts_r7.designation, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ts_r7.image, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r7.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", ts_r7.description, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
+    const ts_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", ts_r7.designation, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("src", ts_r7.image, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ts_r7.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("innerHTML", ts_r7.description, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeHtml"]);
 } }
 function ProjectsComponent_ng_container_27_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_27_ng_template_1_Template, 11, 4, "ng-template", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, ProjectsComponent_ng_container_27_ng_template_1_Template, 11, 4, "ng-template", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
 } }
 function ProjectsComponent_ng_container_41_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "div", 9)(3, "a", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "img", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h5");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h6");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Link");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "p", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "div", 9)(3, "a", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](4, "img", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "h5");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "h6");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8, "Link");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](10, "p", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
-    const ts_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ts_r10.designation, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ts_r10.image, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r10.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", ts_r10.description, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
+    const ts_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", ts_r10.designation, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("src", ts_r10.image, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ts_r10.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("innerHTML", ts_r10.description, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeHtml"]);
 } }
 function ProjectsComponent_ng_container_41_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_41_ng_template_1_Template, 11, 4, "ng-template", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, ProjectsComponent_ng_container_41_ng_template_1_Template, 11, 4, "ng-template", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
 } }
 function ProjectsComponent_ng_container_55_ng_template_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "div", 9)(3, "a", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "img", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h5");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h6");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8, "Link");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "p", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div")(1, "div", 8)(2, "div", 9)(3, "a", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](4, "img", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](5, "h5");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "h6");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8, "Link");
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](9, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](10, "p", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
 } if (rf & 2) {
-    const ts_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]().$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("href", ts_r13.designation, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("src", ts_r13.image, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ts_r13.name);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("innerHTML", ts_r13.description, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeHtml"]);
+    const ts_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵnextContext"]().$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("href", ts_r13.designation, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("src", ts_r13.image, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtextInterpolate"](ts_r13.name);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("innerHTML", ts_r13.description, _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsanitizeHtml"]);
 } }
 function ProjectsComponent_ng_container_55_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, ProjectsComponent_ng_container_55_ng_template_1_Template, 11, 4, "ng-template", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementContainerEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](1, ProjectsComponent_ng_container_55_ng_template_1_Template, 11, 4, "ng-template", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementContainerEnd"]();
 } }
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.CEO');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.CTO');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.SEN_PR_ADVISOR');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_AL');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_SH');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_YO');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_LE');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_AM');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_JA');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR_RA');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.SALES_MAN');
-(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_2__.marker)('ABOUT.TEAM.PR_ADVISOR');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.CEO');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.CTO');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.SEN_PR_ADVISOR');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.PR_ADVISOR_AL');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.PR_ADVISOR_SH');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.PR_ADVISOR_YO');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.PR_ADVISOR_LE');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.PR_ADVISOR_AM');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.PR_ADVISOR_JA');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.PR_ADVISOR_RA');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.SALES_MAN');
+(0,_biesbjerg_ngx_translate_extract_marker__WEBPACK_IMPORTED_MODULE_3__.marker)('ABOUT.TEAM.PR_ADVISOR');
 class ProjectsComponent {
     constructor() {
         this.TeamSliderConfig = _shared_data_slider__WEBPACK_IMPORTED_MODULE_0__.TeamSlider;
@@ -7200,10 +7302,27 @@ class ProjectsComponent {
          ] */
         this.FullStackProjects = [
             {
+                image: 'https://www.dailypoint.com/layout/images/logo.png?65514865365',
+                name: 'dailypoint™',
+                designation: 'https://www.dailypoint.com/the-cdp-for-crm-loyalty',
+                description: `
+      As the lead full‑stack developer,
+           I led a modernization effort from AngularJS and .NET Razor Pages toward a contemporary stack.
+            I defined the migration strategy and executed a phased replacement of AngularJS components to reduce risk and
+             keep delivery on track. I also designed and implemented a reusable, Bootstrap‑like UI library adopted across modules 
+             and companion apps, standardizing UX and accelerating development. On the backend, 
+             I refactored Razor Pages integrations to improve maintainability and performance,
+           resolving cross‑module and API integration issues that had accumulated over time.
+      `,
+                usrKey: 'CEO'
+            },
+            {
                 image: 'https://www.topspotsdubai.com/assets/images/logo.png',
                 name: 'Top Spots Dubai',
                 designation: 'https://www.topspotsdubai.com/',
-                description: '<strong>Top Spots Dubai</strong> is a comprehensive platform aimed at enhancing <strong>tourism</strong> and <strong>reservation services</strong> in Dubai. I took on a <strong>full-stack role</strong>, contributing to the entire development lifecycle from initial setup to final deployment. <strong>Highlights</strong>: I designed and implemented both the front end and back end, focusing on <strong>user experience</strong> and <strong>performance optimization</strong>. I enhanced <strong>site speed by 65%</strong>, which significantly improved user engagement and SEO. Additionally, I integrated various <strong>third-party APIs</strong>, including <strong>payment gateways</strong> like <strong>N-Genius</strong> and location services such as <strong>Google Maps</strong>, ensuring smooth functionality for users seeking services across the city. The project required ongoing <strong>optimization</strong> and <strong>troubleshooting</strong> to ensure compatibility across devices and platforms. Technologies: <strong>Angular</strong> for the frontend, <strong>NodeJS</strong> with <strong>ExpressJS</strong> for the backend, <strong>MongoDB</strong> for data management, and <strong>API integrations</strong> for payment and mapping.',
+                description: `
+       As the lead full‑stack developer, I delivered high‑quality software on time in an Agile team, owning the full lifecycle from architecture through deployment. I improved UX and increased site speed by 65% through responsive design optimizations, boosting engagement and SEO, and ensured smooth, cross‑device performance via rigorous debugging and troubleshooting. I integrated key third‑party services—N‑Genius (payments), Google Maps (location), Firebase, and Dubai Park—to streamline discovery and checkout. Additionally, I deployed a privacy‑preserving AI chat assistant on company servers, wrapped with our own API so it runs autonomously; it supports text, voice, and avatar interactions using OpenAI and Ollama, is trained on our company data, and incorporates ElevenLabs and HeyGen for high‑quality speech and avatars.
+       `,
                 usrKey: 'CEO'
             },
             {
@@ -7218,7 +7337,9 @@ class ProjectsComponent {
                 name: 'UberMe',
                 designation: 'https://uberme-gold.vercel.app/#/',
                 //  description: '<strong>UberME</strong> is a sleek, user-friendly <strong>car rental app</strong> that connects car owners with people seeking rentals. Right from the start, users choose whether they want to <strong>rent a car</strong> or <strong>list their own</strong>, diving into a marketplace of high-end vehicles like <strong>Lamborghinis</strong> and <strong>Ferraris</strong>, complete with photos and detailed specs. <strong>Advanced filters</strong> help renters narrow down options by make, color, horsepower, and more, while a <strong>map view</strong> shows available cars nearby. The <strong>booking process</strong> is simple and intuitive: find the car you want, check its details, and hit "Book Now." Car owners can effortlessly list their vehicles, setting rates and highlighting unique features to attract renters. With <strong>smooth navigation</strong>, personalized profiles, and a <strong>demo mode</strong> for new users, UberME makes renting or listing a car as exciting and easy as possible. Perfect for anyone who wants a <strong>convenient</strong> and <strong>luxurious car-sharing experience</strong>!',
-                description: '<strong>UberME</strong> is a sleek, user-friendly <strong>car rental app</strong> that connects car owners with people seeking rentals. Right from the start, users choose whether they want to <strong>rent a car</strong> or <strong>list their own</strong>, diving into a marketplace of high-end vehicles like <strong>Lamborghinis</strong> and <strong>Ferraris</strong>, complete with photos and detailed specs. <strong>Advanced filters</strong> help renters narrow down options by make, color, horsepower, and more, while a <strong>map view</strong> shows available cars nearby. The <strong>booking process</strong> is simple and intuitive: find the car you want, check its details, and hit "Book Now." Car owners can effortlessly list their vehicles, setting rates and highlighting unique features to attract renters.<br><br>As a <strong>Full Stack Developer</strong>, I led the backend architecture using <strong>.NET Core</strong> to build a secure, high-performance API that supported real-time listings, bookings, and payment processing. I also worked on the front-end and mobile experience using <strong>Flutter</strong>, ensuring seamless integration across platforms. The backend was designed to scale efficiently and handle user authentication, data validation, and business logic while maintaining clean, modular code. With <strong>smooth navigation</strong>, personalized profiles, and a <strong>demo mode</strong> for new users, UberME delivers a <strong>convenient</strong> and <strong>luxurious car-sharing experience</strong> for modern users.',
+                description: `
+      UberME is a car‑rental marketplace with a .NET Core backend and a Flutter client. I built a secure, high‑performance API for real‑time listings, bookings, and payments, with authentication/authorization, strict validation, and centralized business rules (pricing, availability, confirmations). Search supports multi‑criteria filters and geospatial queries for the map view. The booking flow handles detail retrieval, availability checks, and transactional creation. Owners manage listings, rates, photos, and metadata. The Flutter app integrates seamlessly with the API, providing responsive navigation, profiles, and a demo mode. The backend is modular and scalable for low‑latency growth.
+      `,
                 usrKey: 'SALES_MAN'
             },
         ];
@@ -7387,61 +7508,61 @@ class ProjectsComponent {
     }
 }
 ProjectsComponent.ɵfac = function ProjectsComponent_Factory(t) { return new (t || ProjectsComponent)(); };
-ProjectsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 56, vars: 8, consts: [[1, "about-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "testimonial", "small-section"], [1, "slide-2", "testimonial-slider", "no-arrow", 3, "options"], [4, "ngFor", "ngForOf"], ["carouselSlide", ""], [1, "media"], [1, "text-center"], ["target", "_blank", 3, "href"], ["alt", "image", 3, "src"], [1, "media-body"], [3, "innerHTML"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](5, " Full Stack Development ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, " Full stack development allows me to bring projects to life from start to finish, managing everything from the database architecture to the user interface. This holistic approach ensures that each layer of an application works in harmony, providing a seamless experience for users. Whether it's building complex web platforms or scalable solutions for data-heavy applications, I enjoy the challenge of working on both the client and server sides. Below are some standout projects where I applied my full-stack expertise, ensuring everything from data integrity to responsive, user-friendly interfaces. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "section", 4)(9, "div", 1)(10, "div", 2)(11, "div", 3)(12, "owl-carousel-o", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](13, ProjectsComponent_ng_container_13_Template, 2, 0, "ng-container", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "section", 0)(15, "div", 1)(16, "div", 2)(17, "div", 3)(18, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](19, " Mobile App Development ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](20, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](21, " In today\u2019s mobile-first world, creating reliable and engaging mobile applications is key to reaching users wherever they are. I specialize in cross-platform mobile development, focusing on delivering seamless functionality and polished design on both Android and iOS. Working with frameworks like Flutter, Ionic, and NativeScript, I ensure that each app provides an intuitive and engaging experience while optimizing for performance. Below are examples of mobile apps I developed or contributed to, where I integrated backend services, streamlined performance, and refined interfaces to create well-rounded mobile solutions that users can rely on ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](22, "section", 4)(23, "div", 1)(24, "div", 2)(25, "div", 3)(26, "owl-carousel-o", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](27, ProjectsComponent_ng_container_27_Template, 2, 0, "ng-container", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](28, "section", 0)(29, "div", 1)(30, "div", 2)(31, "div", 3)(32, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](33, " Front-End Development ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](34, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](35, " The front end of an application is where users engage directly, so creating a visually engaging and intuitive experience is crucial. I focus on building responsive, accessible interfaces that provide seamless navigation and clear, engaging interactions. I combine my knowledge of design principles with deep technical skills in frameworks like Angular and SCSS to create applications that look great and perform well across devices. Below, you\u2019ll find some of my front-end projects where I prioritized user experience, delivering interactive designs that cater to real-world needs and usage patterns. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](36, "section", 4)(37, "div", 1)(38, "div", 2)(39, "div", 3)(40, "owl-carousel-o", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](41, ProjectsComponent_ng_container_41_Template, 2, 0, "ng-container", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](42, "section", 0)(43, "div", 1)(44, "div", 2)(45, "div", 3)(46, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](47, " Back-End Development ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](48, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](49, " A solid backend is the foundation of a reliable application. I\u2019ve worked extensively on creating secure, efficient server-side architectures that power robust applications for a wide range of industries. My back-end work focuses on data handling, business logic, and seamless API integrations to connect systems and services efficiently. From banking platforms to enterprise applications, these back-end projects demonstrate my commitment to building scalable, secure, and high-performing solutions that support complex workflows and deliver consistent results to users. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](50, "section", 4)(51, "div", 1)(52, "div", 2)(53, "div", 3)(54, "owl-carousel-o", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](55, ProjectsComponent_ng_container_55_Template, 2, 0, "ng-container", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()()();
+ProjectsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({ type: ProjectsComponent, selectors: [["app-projects"]], decls: 56, vars: 8, consts: [[1, "about-page", "section-b-space"], [1, "container"], [1, "row"], [1, "col-sm-12"], [1, "testimonial", "small-section"], [1, "slide-2", "testimonial-slider", "no-arrow", 3, "options"], [4, "ngFor", "ngForOf"], ["carouselSlide", ""], [1, "media"], [1, "text-center"], ["target", "_blank", 3, "href"], ["alt", "image", 3, "src"], [1, "media-body"], [3, "innerHTML"]], template: function ProjectsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "section", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, " Full Stack Development ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7, " Full stack development allows me to bring projects to life from start to finish, managing everything from the database architecture to the user interface. This holistic approach ensures that each layer of an application works in harmony, providing a seamless experience for users. Whether it's building complex web platforms or scalable solutions for data-heavy applications, I enjoy the challenge of working on both the client and server sides. Below are some standout projects where I applied my full-stack expertise, ensuring everything from data integrity to responsive, user-friendly interfaces. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "section", 4)(9, "div", 1)(10, "div", 2)(11, "div", 3)(12, "owl-carousel-o", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](13, ProjectsComponent_ng_container_13_Template, 2, 0, "ng-container", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](14, "section", 0)(15, "div", 1)(16, "div", 2)(17, "div", 3)(18, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](19, " Mobile App Development ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](20, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](21, " In today\u2019s mobile-first world, creating reliable and engaging mobile applications is key to reaching users wherever they are. I specialize in cross-platform mobile development, focusing on delivering seamless functionality and polished design on both Android and iOS. Working with frameworks like Flutter, Ionic, and NativeScript, I ensure that each app provides an intuitive and engaging experience while optimizing for performance. Below are examples of mobile apps I developed or contributed to, where I integrated backend services, streamlined performance, and refined interfaces to create well-rounded mobile solutions that users can rely on ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](22, "section", 4)(23, "div", 1)(24, "div", 2)(25, "div", 3)(26, "owl-carousel-o", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](27, ProjectsComponent_ng_container_27_Template, 2, 0, "ng-container", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](28, "section", 0)(29, "div", 1)(30, "div", 2)(31, "div", 3)(32, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](33, " Front-End Development ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](35, " The front end of an application is where users engage directly, so creating a visually engaging and intuitive experience is crucial. I focus on building responsive, accessible interfaces that provide seamless navigation and clear, engaging interactions. I combine my knowledge of design principles with deep technical skills in frameworks like Angular and SCSS to create applications that look great and perform well across devices. Below, you\u2019ll find some of my front-end projects where I prioritized user experience, delivering interactive designs that cater to real-world needs and usage patterns. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](36, "section", 4)(37, "div", 1)(38, "div", 2)(39, "div", 3)(40, "owl-carousel-o", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](41, ProjectsComponent_ng_container_41_Template, 2, 0, "ng-container", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "section", 0)(43, "div", 1)(44, "div", 2)(45, "div", 3)(46, "h4");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](47, " Back-End Development ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](48, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](49, " A solid backend is the foundation of a reliable application. I\u2019ve worked extensively on creating secure, efficient server-side architectures that power robust applications for a wide range of industries. My back-end work focuses on data handling, business logic, and seamless API integrations to connect systems and services efficiently. From banking platforms to enterprise applications, these back-end projects demonstrate my commitment to building scalable, secure, and high-performing solutions that support complex workflows and deliver consistent results to users. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](50, "section", 4)(51, "div", 1)(52, "div", 2)(53, "div", 3)(54, "owl-carousel-o", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtemplate"](55, ProjectsComponent_ng_container_55_Template, 2, 0, "ng-container", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("options", ctx.TestimonialSliderConfig);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.FullStackProjects);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("options", ctx.TestimonialSliderConfig);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.MobileApps);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("options", ctx.TestimonialSliderConfig);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.frontEnd);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("options", ctx.TestimonialSliderConfig);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.backendProj);
-    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_3__.NgForOf, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_4__.CarouselComponent, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_4__.CarouselSlideDirective], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcm9qZWN0cy5jb21wb25lbnQuc2NzcyJ9 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("options", ctx.TestimonialSliderConfig);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.FullStackProjects);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("options", ctx.TestimonialSliderConfig);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.MobileApps);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("options", ctx.TestimonialSliderConfig);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.frontEnd);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("options", ctx.TestimonialSliderConfig);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("ngForOf", ctx.backendProj);
+    } }, dependencies: [_angular_common__WEBPACK_IMPORTED_MODULE_4__.NgForOf, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_5__.CarouselComponent, ngx_owl_carousel_o__WEBPACK_IMPORTED_MODULE_5__.CarouselSlideDirective, _demo_video_demo_video_component__WEBPACK_IMPORTED_MODULE_1__.DemoVideoComponent], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcm9qZWN0cy5jb21wb25lbnQuc2NzcyJ9 */"] });
 
 
 /***/ }),

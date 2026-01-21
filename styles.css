@@ -35287,7 +35287,7 @@ Fashion-2 Demo Responsive CSS
 }.pi {
   fill: var(--theme-deafult);
   color: var(--theme-deafult);
-  font-size: 4rem;
+  font-size: 1rem;
   font-weight: 100 !important;
 }.spservice {
   transition: transform 0.2s !important;
