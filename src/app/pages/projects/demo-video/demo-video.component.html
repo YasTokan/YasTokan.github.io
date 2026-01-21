@@ -1,0 +1,9 @@
+<button pButton type="button" label="View demo" class="custom-icon" icon="pi pi-play custom-icon" (click)="openDemo()"></button>
+
+<p-dialog [(visible)]="showDemo" [modal]="true" [dismissableMask]="true" [blockScroll]="true" [closeOnEscape]="true"
+    header="Product demo" [style]="{ width: 'clamp(320px, 90vw, 420px)' }"
+    [contentStyle]="{ height: '80vh', padding: '0' }" (onShow)="onDialogShow()" (onHide)="onDialogHide()">
+    <div class="video-wrap">
+        <video #videoEl [src]="videoSrc" controls muted playsinline preload="metadata"></video>
+    </div>
+</p-dialog>

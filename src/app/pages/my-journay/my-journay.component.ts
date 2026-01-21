@@ -19,10 +19,29 @@ export class MyJournayComponent implements OnInit {
   }
   constructor(private router: Router) {
     this.events = [
+        {
+        status: 'Full Stack Developer',
+        location: "dailypoint™",
+        discreption: `
+        • Led modernization of a 20-year legacy CRM built on AngularJS and .NET Razor Pages as the lead full stack developer. \n
+• Defined a migration path to a modern stack and executed a phased replacement of AngularJS components.\n
+• Designed and implemented a reusable, Bootstrap-like UI library from scratch, adopted across modules and apps.\n
+• Refactored .NET Razor Pages integrations to improve maintainability and performance; resolved cross-module/API integration issues.\n`,
+        date: '01/01/2025',
+        icon: 'pi pi-code',
+        color: '#9C27B0',
+        link: 'https://topspotsdubai.com'
+      },
       {
-        status: 'Currently',
+        status: 'Full Stack Developer',
         location: "Top Spots FZE",
-        discreption: "Working as a Full Stack Developer, collaborating in a team using Agile methodologies to ensure high-quality software delivery. Responsible for enhancing user experience with responsive web layouts that improved site speed by 65%. Actively troubleshoot and debug applications to maintain smooth functionality. Integrated multiple APIs such as N-Genius for payments, Google Maps, Firebase, and Dubai's Park API. Spearheaded an AI-powered project using OpenAI, 11 Labs, and HeyGen, creating a multi-modal communication platform that includes text, voice, and avatar interactions.",
+        discreption: `
+        • Delivered high-quality software on time in an Agile team environment.
+• Improved UX and boosted site speed by 65% through responsive design enhancements.
+• Ensured smooth app performance through effective debugging and troubleshooting.
+• Integrated key third-party APIs: N-Genius, Google Maps, Firebase, and Dubai Park.
+• Set up an AI chat system on our company servers and wrapped it with our own API so it runs on its own; supports text, voice, and avatars using OpenAI and Ollama.
+ • Trained the assistant on our company data to keep answers private and useful; integrated 11 Labs and HeyGen.`,
         date: '01/01/2022',
         icon: 'pi pi-code',
         color: '#9C27B0',

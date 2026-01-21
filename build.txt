@@ -1,0 +1,27 @@
+ng build --output-path=dist --base-href https://YasTokan.github.io/
+npx angular-cli-ghpages --dir=dist
+
+Y@sine!23*7snIt()#
+Y@sine!@56#Tok@N&3050$@ion86*42*
+
+Y@sine12#$
+bash ng build --prod --output-path docs --base-href https://YasTokan.github.io/
+	NETORGFT16897663.onmicrosoft.com
+
+
+NETORGFT16897663.onmicrosoft.com
+mongodump --uri="mongodb://topspotsdubai:jpQkFsUczgP5Fp32@cluster0-shard-00-00.069qb.mongodb.net:27017,cluster0-shard-00-01.069qb.mongodb.net:27017,cluster0-shard-00-02.069qb.mongodb.net:27017/topspotsdubai?ssl=true&replicaSet=atlas-98lz0n-shard-0&authSource=admin&retryWrites=true&w=majority" --out=C:\Users\Yasin\OneDrive\Desktop\desk\db
+044478899G
+P$nta#2*933!@
+
+mongodump --uri="mongodb://topspotsdubai:jpQkFsUczgP5Fp32@cluster0-shard-00-00.069qb.mongodb.net:27017,cluster0-shard-00-01.069qb.mongodb.net:27017,cluster0-shard-00-02.069qb.mongodb.net:27017/topspotsdubai?ssl=true&replicaSet=atlas-98lz0n-shard-0&authSource=admin&retryWrites=true&w=majority" --out=C:\Users\Yasin\OneDrive\Desktop\desk\db
+
+"mongoose": "^8.7.2", 6724a7066194696b6bc66c
+^8.7.2"
+
+
+mongodump --uri="mongodb+srv://yasine:yasine@cluster0.lqds1ty.mongodb.net/uberme" --out=C:\Users\Yasin\OneDrive\Desktop\desk\work\UberME\DB
+
+
+
+mongorestore --uri="mongodb+srv://yasine:yasine@cluster0.fsu7hb9.mongodb.net/uberme" --dir=C:\Users\Yasin\OneDrive\Desktop\desk\work\UberME\DB\uberme

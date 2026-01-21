@@ -1,0 +1,35 @@
+.video-wrap {
+  height: 100%;
+  display: block;
+}
+
+.video-wrap video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* or 'cover' if you want it to fill completely */
+  display: block;
+  background: #000;
+  border-radius: 8px;
+}
+
+/* Optional: tune for very small phones */
+@media (max-width: 360px) {
+  :host ::ng-deep .p-dialog {
+    width: 92vw !important;
+  }
+}
+
+.pi.custom-icon {
+  fill: var(--theme-deafult);
+  color: var(--theme-deafult);
+  font-size: 1rem !important;
+ 
+}
+
+
+.pi {
+    fill: var(--theme-deafult);
+    color: var(--theme-deafult);
+    font-size: 1rem !important;
+    font-weight: 100 !important;
+}

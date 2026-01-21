@@ -164,10 +164,29 @@ export class ProjectsComponent implements OnInit {
    ] */
   public FullStackProjects = [
     {
+      image: 'https://www.dailypoint.com/layout/images/logo.png?65514865365',
+      name: 'dailypoint™',
+      designation: 'https://www.dailypoint.com/the-cdp-for-crm-loyalty',
+      description:
+        `
+      As the lead full‑stack developer,
+           I led a modernization effort from AngularJS and .NET Razor Pages toward a contemporary stack.
+            I defined the migration strategy and executed a phased replacement of AngularJS components to reduce risk and
+             keep delivery on track. I also designed and implemented a reusable, Bootstrap‑like UI library adopted across modules 
+             and companion apps, standardizing UX and accelerating development. On the backend, 
+             I refactored Razor Pages integrations to improve maintainability and performance,
+           resolving cross‑module and API integration issues that had accumulated over time.
+      `,
+      usrKey: 'CEO'
+    },
+
+    {
       image: 'https://www.topspotsdubai.com/assets/images/logo.png',
       name: 'Top Spots Dubai',
       designation: 'https://www.topspotsdubai.com/',
-      description: '<strong>Top Spots Dubai</strong> is a comprehensive platform aimed at enhancing <strong>tourism</strong> and <strong>reservation services</strong> in Dubai. I took on a <strong>full-stack role</strong>, contributing to the entire development lifecycle from initial setup to final deployment. <strong>Highlights</strong>: I designed and implemented both the front end and back end, focusing on <strong>user experience</strong> and <strong>performance optimization</strong>. I enhanced <strong>site speed by 65%</strong>, which significantly improved user engagement and SEO. Additionally, I integrated various <strong>third-party APIs</strong>, including <strong>payment gateways</strong> like <strong>N-Genius</strong> and location services such as <strong>Google Maps</strong>, ensuring smooth functionality for users seeking services across the city. The project required ongoing <strong>optimization</strong> and <strong>troubleshooting</strong> to ensure compatibility across devices and platforms. Technologies: <strong>Angular</strong> for the frontend, <strong>NodeJS</strong> with <strong>ExpressJS</strong> for the backend, <strong>MongoDB</strong> for data management, and <strong>API integrations</strong> for payment and mapping.',
+      description: `
+       As the lead full‑stack developer, I delivered high‑quality software on time in an Agile team, owning the full lifecycle from architecture through deployment. I improved UX and increased site speed by 65% through responsive design optimizations, boosting engagement and SEO, and ensured smooth, cross‑device performance via rigorous debugging and troubleshooting. I integrated key third‑party services—N‑Genius (payments), Google Maps (location), Firebase, and Dubai Park—to streamline discovery and checkout. Additionally, I deployed a privacy‑preserving AI chat assistant on company servers, wrapped with our own API so it runs autonomously; it supports text, voice, and avatar interactions using OpenAI and Ollama, is trained on our company data, and incorporates ElevenLabs and HeyGen for high‑quality speech and avatars.
+       `,
       usrKey: 'CEO'
     },
 
@@ -186,7 +205,9 @@ export class ProjectsComponent implements OnInit {
       designation: 'https://uberme-gold.vercel.app/#/',
       //  description: '<strong>UberME</strong> is a sleek, user-friendly <strong>car rental app</strong> that connects car owners with people seeking rentals. Right from the start, users choose whether they want to <strong>rent a car</strong> or <strong>list their own</strong>, diving into a marketplace of high-end vehicles like <strong>Lamborghinis</strong> and <strong>Ferraris</strong>, complete with photos and detailed specs. <strong>Advanced filters</strong> help renters narrow down options by make, color, horsepower, and more, while a <strong>map view</strong> shows available cars nearby. The <strong>booking process</strong> is simple and intuitive: find the car you want, check its details, and hit "Book Now." Car owners can effortlessly list their vehicles, setting rates and highlighting unique features to attract renters. With <strong>smooth navigation</strong>, personalized profiles, and a <strong>demo mode</strong> for new users, UberME makes renting or listing a car as exciting and easy as possible. Perfect for anyone who wants a <strong>convenient</strong> and <strong>luxurious car-sharing experience</strong>!',
 
-      description: '<strong>UberME</strong> is a sleek, user-friendly <strong>car rental app</strong> that connects car owners with people seeking rentals. Right from the start, users choose whether they want to <strong>rent a car</strong> or <strong>list their own</strong>, diving into a marketplace of high-end vehicles like <strong>Lamborghinis</strong> and <strong>Ferraris</strong>, complete with photos and detailed specs. <strong>Advanced filters</strong> help renters narrow down options by make, color, horsepower, and more, while a <strong>map view</strong> shows available cars nearby. The <strong>booking process</strong> is simple and intuitive: find the car you want, check its details, and hit "Book Now." Car owners can effortlessly list their vehicles, setting rates and highlighting unique features to attract renters.<br><br>As a <strong>Full Stack Developer</strong>, I led the backend architecture using <strong>.NET Core</strong> to build a secure, high-performance API that supported real-time listings, bookings, and payment processing. I also worked on the front-end and mobile experience using <strong>Flutter</strong>, ensuring seamless integration across platforms. The backend was designed to scale efficiently and handle user authentication, data validation, and business logic while maintaining clean, modular code. With <strong>smooth navigation</strong>, personalized profiles, and a <strong>demo mode</strong> for new users, UberME delivers a <strong>convenient</strong> and <strong>luxurious car-sharing experience</strong> for modern users.',
+      description: `
+      UberME is a car‑rental marketplace with a .NET Core backend and a Flutter client. I built a secure, high‑performance API for real‑time listings, bookings, and payments, with authentication/authorization, strict validation, and centralized business rules (pricing, availability, confirmations). Search supports multi‑criteria filters and geospatial queries for the map view. The booking flow handles detail retrieval, availability checks, and transactional creation. Owners manage listings, rates, photos, and metadata. The Flutter app integrates seamlessly with the API, providing responsive navigation, profiles, and a demo mode. The backend is modular and scalable for low‑latency growth.
+      `,
 
       usrKey: 'SALES_MAN'
     },

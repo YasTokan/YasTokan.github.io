@@ -5935,6 +5935,7 @@ class NavService {
             { path: '/pages/contact', title: 'MENU.RENT', type: 'link' },
             { path: '/pages/my-journey', title: 'My-journey', type: 'link' },
             /* { path: '/pages/contact', title: 'MENU.BUY', type: 'link' }, */
+            { path: '/pages/articals', title: 'contact', type: 'link' },
             { path: '/pages/projects', title: 'contact', type: 'link' },
             { path: '/pages/aboutme', title: 'about-us', type: 'link' },
         ];
@@ -5944,6 +5945,7 @@ class NavService {
             { path: '/pages/contact', title: 'MENU.RENT', type: 'link' },
             /* { path: '/pages/contact', title: 'MENU.BUY', type: 'link' }, */
             { path: '/pages/my-journey', title: 'My-journey', type: 'link' },
+            { path: '/pages/articals', title: 'contact', type: 'link' },
             { path: '/pages/projects', title: 'contact', type: 'link' },
             { path: '/pages/aboutme', title: 'about-us', type: 'link' },
             /* {
@@ -5970,18 +5972,20 @@ class NavService {
         this.LEFTMENUITEMS[1].title = this.translate.instant('CV');
         this.LEFTMENUITEMS[2].title = this.translate.instant('My Journey');
         /* 	this.LEFTMENUITEMS[2].title = this.translate.instant('Resume'); */
-        this.LEFTMENUITEMS[3].title = this.translate.instant('Projects');
+        this.LEFTMENUITEMS[3].title = this.translate.instant('Articals');
+        this.LEFTMENUITEMS[4].title = this.translate.instant('Projects');
         /* 	this.LEFTMENUITEMS[1].title = this.translate.instant('MENU.BUY');
             this.LEFTMENUITEMS[2].title = this.translate.instant('MENU.RENT');
             this.LEFTMENUITEMS[3].title = this.translate.instant('contact'); */
-        this.LEFTMENUITEMS[4].title = this.translate.instant('about-us');
+        this.LEFTMENUITEMS[5].title = this.translate.instant('about-us');
         this.MENUITEMS[0].title = this.translate.instant('home');
         this.MENUITEMS[1].title = this.translate.instant('CV');
         this.MENUITEMS[2].title = this.translate.instant('My Journey');
         /* this.MENUITEMS[2].title = this.translate.instant('Resume'); */
-        this.MENUITEMS[3].title = this.translate.instant('Projects');
+        this.MENUITEMS[3].title = this.translate.instant('Articals');
+        this.MENUITEMS[4].title = this.translate.instant('Projects');
         /* this.MENUITEMS[3].title = this.translate.instant('contact'); */
-        this.MENUITEMS[4].title = this.translate.instant('about-us');
+        this.MENUITEMS[5].title = this.translate.instant('about-us');
         this.trSub = this.translate.onLangChange.subscribe((data) => {
             this.LEFTMENUITEMS[0].title = this.translate.instant('home');
             this.LEFTMENUITEMS[1].title = this.translate.instant('CV');

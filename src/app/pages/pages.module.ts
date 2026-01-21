@@ -58,7 +58,10 @@ import { HscComponent } from './articels-list/hsc/hsc.component';
 import { MocComponent } from './articels-list/moc/moc.component';
 import { AvatarAIComponent } from './articels-list/avatar-ai/avatar-ai.component';
 import { BgComponent } from './articels-list/bg/bg.component';
+import { DemoVideoComponent } from './projects/demo-video/demo-video.component';
  
+
+
  
 @NgModule({
   declarations: [
@@ -102,7 +105,8 @@ import { BgComponent } from './articels-list/bg/bg.component';
     HscComponent,
     MocComponent,
     AvatarAIComponent,
-    BgComponent
+    BgComponent,
+    DemoVideoComponent
   ],
   imports: [
     DialogModule,
