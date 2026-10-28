@@ -16,11 +16,15 @@ export const person: Person = {
   name: "Yasine Tokan",
   role: "Tech Lead / CTO",
   headline: "Full Stack, Applied AI & Cloud Architecture",
-  lede: "I lead engineering teams that put AI into production on private data, and move large legacy systems forward without stopping the business that runs on them.",
-  location: "Dubai, UAE",
-  yearsOfExperience: "11+ years",
-  summary: [
+  currentRole: "Tech Lead at Sharkhood Tech",
+  intro:
+    "I've been writing software for eleven years. Right now I lead the web and backend teams at Sharkhood, where we run our AI on our own servers so company data never leaves the building.",
+  currently: "Building a self-hosted RAG platform at Sharkhood",
+  previously: ["dailypoint", "Top Spots", "ShoofBook"],
+  description:
     "Technical lead with 11+ years shipping software across web, mobile, and cloud, owning architecture, standards, and delivery across full engineering teams.",
+  location: "Dubai, UAE",
+  summary: [
     "My work tends to land on two kinds of hard problems: moving large legacy systems forward without stopping the business running on top of them, and putting AI into production where the data isn't allowed to leave the building. That means self-hosted RAG platforms and assistants deployed for banking and enterprise clients.",
     "Angular and Next.js up front, NestJS, Node, and .NET Core behind, PostgreSQL and MongoDB underneath. I set the engineering bar, mentor the people who meet it, and stay close enough to the code to defend every decision I make.",
   ],

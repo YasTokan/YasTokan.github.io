@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "@/components/SiteHeader";
 import { person } from "@/content/profile";
 import "./globals.css";
 
@@ -15,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 const title = `${person.name} · ${person.role}`;
-const description = person.summary[0];
+const description = person.description;
 const ogImage = {
   url: "/og.png",
   width: 1200,
@@ -95,7 +97,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
         />
       </head>
-      <body className="min-h-dvh bg-bg font-sans text-ink">{children}</body>
+      <body className="flex min-h-dvh flex-col bg-bg font-sans text-ink">
+        <a
+          href="#main"
+          className="sr-only z-50 rounded-md bg-accent px-4 py-2 text-accent-ink focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
+        >
+          Skip to content
+        </a>
+        <SiteHeader />
+        <div className="flex-1">{children}</div>
+        <SiteFooter />
+      </body>
     </html>
   );
 }

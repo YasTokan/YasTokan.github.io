@@ -2,12 +2,19 @@ export type Person = {
   name: string;
   /** Short role line shown above the name, e.g. "Tech Lead / CTO". */
   role: string;
-  /** Specialisms shown under the name. */
+  /** Specialisms, used in the social preview image. */
   headline: string;
-  /** One-sentence positioning statement for the hero. */
-  lede: string;
+  /** Shown under the name in the intro, e.g. "Tech Lead at Sharkhood Tech". */
+  currentRole: string;
+  /** First-person paragraph at the top of the home page. */
+  intro: string;
+  /** What I'm working on now, shown under "Currently" in the intro. */
+  currently: string;
+  /** Companies listed under "Before" in the intro. */
+  previously: string[];
+  /** Search and social description. */
+  description: string;
   location: string;
-  yearsOfExperience: string;
   summary: string[];
   email: string;
   linkedin: string;
@@ -69,4 +76,14 @@ export type Education = {
 export type Language = {
   name: string;
   level: string;
+};
+
+export type Article = {
+  /** Matches the Markdown file name in src/content/articles/. */
+  slug: string;
+  title: string;
+  summary: string;
+  /** ISO dates (YYYY-MM-DD). */
+  published: string;
+  updated?: string;
 };

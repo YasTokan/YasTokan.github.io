@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { CloseIcon, MenuIcon } from "./icons";
 
@@ -41,15 +42,15 @@ export function MobileMenu({ items }: MobileMenuProps) {
           <ul className="mx-auto max-w-5xl px-4 py-2 sm:px-6">
             {items.map((item) => (
               <li key={item.href}>
-                <a
+                <Link
                   href={item.href}
-                  // Close after the browser has followed the anchor; removing the
-                  // link mid-click cancels the scroll to the section.
+                  // Close after the link has navigated; removing it mid-click
+                  // cancels the scroll to the section.
                   onClick={() => requestAnimationFrame(() => setOpen(false))}
                   className="block py-3 text-base text-ink"
                 >
                   {item.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

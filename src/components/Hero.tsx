@@ -1,53 +1,55 @@
+import Link from "next/link";
 import { person } from "@/content/profile";
-import { ArrowUpRightIcon, DownloadIcon } from "./icons";
+
+const linkClass =
+  "underline decoration-muted/50 decoration-1 underline-offset-4 transition-colors hover:decoration-ink";
 
 export function Hero() {
   return (
-    <section aria-labelledby="hero-heading" className="pt-20 pb-16 sm:pt-28 sm:pb-24">
-      <p className="text-xs font-medium tracking-[0.2em] text-muted uppercase">
-        {person.role}
-      </p>
+    <section aria-labelledby="hero-heading" className="pt-16 pb-16 sm:pt-24 sm:pb-20">
       <h1
         id="hero-heading"
-        className="mt-4 font-serif text-5xl font-semibold tracking-tight sm:text-6xl md:text-7xl"
+        className="font-serif text-4xl font-semibold tracking-tight sm:text-5xl"
       >
         {person.name}
       </h1>
-      <p className="mt-3 text-lg text-muted sm:text-xl">{person.headline}</p>
-
-      <p className="mt-10 max-w-2xl text-xl leading-relaxed sm:text-2xl sm:leading-relaxed">
-        {person.lede}
+      <p className="mt-2 text-lg text-muted">
+        {person.currentRole} ·{" "}
+        <span className="whitespace-nowrap">{person.location}</span>
       </p>
 
-      <p className="mt-6 text-sm text-muted">
-        {person.location} · {person.yearsOfExperience}
+      <p className="mt-8 max-w-2xl text-lg leading-relaxed sm:text-xl sm:leading-relaxed">
+        {person.intro}
       </p>
 
-      <div className="mt-10 flex flex-wrap items-center gap-3">
-        <a
-          href={person.cv}
-          download
-          className="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-accent-ink transition-opacity hover:opacity-90"
-        >
-          <DownloadIcon />
-          Download CV
+      <dl className="mt-8 grid max-w-2xl grid-cols-[5.5rem_1fr] gap-x-4 gap-y-2 sm:grid-cols-[7rem_1fr]">
+        <dt className="text-muted">Currently</dt>
+        <dd>{person.currently}</dd>
+
+        <dt className="text-muted">Before</dt>
+        <dd>{person.previously.join(" · ")}</dd>
+
+        <dt className="text-muted">Writing</dt>
+        <dd>
+          <Link href="/articles/" className={linkClass}>
+            Notes on AI and big data →
+          </Link>
+        </dd>
+      </dl>
+
+      <p className="mt-8 flex flex-wrap gap-x-2 gap-y-1">
+        <a href={`mailto:${person.email}`} className={linkClass}>
+          {person.email}
         </a>
-        <a
-          href="#contact"
-          className="inline-flex items-center gap-2 rounded-full border border-rule px-5 py-2.5 text-sm font-medium transition-colors hover:border-ink"
-        >
-          Get in touch
-        </a>
-        <a
-          href={person.linkedin}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 py-2.5 text-sm text-muted transition-colors hover:text-ink sm:px-3"
-        >
+        <span aria-hidden="true" className="text-muted">·</span>
+        <a href={person.linkedin} target="_blank" rel="noopener noreferrer" className={linkClass}>
           LinkedIn
-          <ArrowUpRightIcon className="size-3.5" />
         </a>
-      </div>
+        <span aria-hidden="true" className="text-muted">·</span>
+        <a href={person.cv} download className={linkClass}>
+          CV (PDF)
+        </a>
+      </p>
     </section>
   );
 }
