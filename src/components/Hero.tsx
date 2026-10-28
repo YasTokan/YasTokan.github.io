@@ -1,4 +1,5 @@
 import { person } from "@/content/profile";
+import { Ornament } from "./Ornament";
 
 const linkClass =
   "underline decoration-muted/50 decoration-1 underline-offset-4 transition-colors hover:decoration-ink";
@@ -14,14 +15,14 @@ export function Hero() {
         {person.name}
       </h1>
       {/* Role and location share a line on larger screens and stack on phones. */}
-      <p className="mt-4 text-lg text-muted">
+      <p className="mt-4 font-serif text-lg text-muted italic sm:text-xl">
         <span className="block sm:inline">{person.currentRole}</span>
         <span className="sr-only">, </span>
         <span aria-hidden="true" className="hidden sm:inline"> · </span>
         <span className="block sm:inline">{person.location}</span>
       </p>
 
-      <hr className="mx-auto mt-8 max-w-xl border-muted/40" />
+      <Ornament className="mx-auto mt-8 max-w-xl" />
 
       <p className="mt-6 flex flex-wrap justify-center gap-x-2 gap-y-1">
         <a href={`mailto:${person.email}`} className={linkClass}>

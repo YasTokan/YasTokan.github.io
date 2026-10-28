@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { formatDate, getArticles } from "@/content/articles";
+import { formatDate, getArticles, getReadingMinutes } from "@/content/articles";
 
 export const metadata: Metadata = {
   title: "Articles · Yasine Tokan",
@@ -8,8 +8,13 @@ export const metadata: Metadata = {
   alternates: { canonical: "/articles/" },
 };
 
-export default function ArticlesPage() {
-  const articles = getArticles();
+export default async function ArticlesPage() {
+  const articles = await Promise.all(
+    getArticles().map(async (article) => ({
+      ...article,
+      minutes: await getReadingMinutes(article.slug),
+    })),
+  );
 
   return (
     <main id="main" className="mx-auto max-w-5xl px-4 pt-16 pb-24 sm:px-6 sm:pt-20">
@@ -31,11 +36,20 @@ export default function ArticlesPage() {
                 {formatDate(article.published)}
               </time>
               <div>
-                <h2 className="font-serif text-xl font-semibold tracking-tight underline-offset-4 group-hover:underline sm:text-2xl">
+                <h2 className="font-serif text-xl font-semibold tracking-tight decoration-accent decoration-1 underline-offset-[6px] group-hover:underline sm:text-2xl">
                   {article.title}
                 </h2>
                 <p className="mt-2 max-w-2xl leading-relaxed text-muted">
                   {article.summary}
+                </p>
+                <p className="mt-3 text-sm text-muted">
+                  <span className="font-serif italic">{article.minutes} min read</span>
+                  <span
+                    aria-hidden="true"
+                    className="ml-2 inline-block text-accent group-hover:translate-x-1 motion-safe:transition-transform"
+                  >
+                    →
+                  </span>
                 </p>
               </div>
             </Link>

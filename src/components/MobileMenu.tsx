@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { CloseIcon, MenuIcon } from "./icons";
+import { isCurrentPath } from "./NavLinks";
 
 type MobileMenuProps = {
   items: { href: string; label: string }[];
@@ -10,6 +12,7 @@ type MobileMenuProps = {
 
 export function MobileMenu({ items }: MobileMenuProps) {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     if (!open) return;
@@ -37,7 +40,8 @@ export function MobileMenu({ items }: MobileMenuProps) {
         <nav
           id="mobile-nav"
           aria-label="Main"
-          className="absolute inset-x-0 top-16 border-b border-rule bg-bg"
+          // Sits just below the header's bottom border.
+          className="absolute inset-x-0 top-[calc(100%+1px)] border-b border-rule bg-bg"
         >
           <ul className="mx-auto max-w-5xl px-4 py-2 sm:px-6">
             {items.map((item) => (
@@ -47,7 +51,8 @@ export function MobileMenu({ items }: MobileMenuProps) {
                   // Close after the link has navigated; removing it mid-click
                   // cancels the scroll to the section.
                   onClick={() => requestAnimationFrame(() => setOpen(false))}
-                  className="block py-3 text-base text-ink"
+                  aria-current={isCurrentPath(pathname, item.href) ? "page" : undefined}
+                  className="block py-3 text-base text-ink decoration-accent underline-offset-[6px] aria-[current=page]:underline"
                 >
                   {item.label}
                 </Link>

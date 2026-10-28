@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { formatDate, getArticle, getArticleHtml, getArticles } from "@/content/articles";
+import { Ornament } from "@/components/Ornament";
+import {
+  formatDate,
+  getArticle,
+  getArticleHtml,
+  getArticles,
+  getReadingMinutes,
+} from "@/content/articles";
 import { person } from "@/content/profile";
 
 // Only the articles in the index exist; required for the static export.
@@ -39,7 +46,10 @@ export default async function ArticlePage(props: PageProps<"/articles/[slug]">) 
   const article = getArticle(slug);
   if (!article) notFound();
 
-  const html = await getArticleHtml(article.slug);
+  const [html, minutes] = await Promise.all([
+    getArticleHtml(article.slug),
+    getReadingMinutes(article.slug),
+  ]);
 
   return (
     <main id="main" className="mx-auto max-w-5xl px-4 pt-12 pb-24 sm:px-6 sm:pt-16">
@@ -59,6 +69,7 @@ export default async function ArticlePage(props: PageProps<"/articles/[slug]">) 
               <time dateTime={article.updated}>{formatDate(article.updated)}</time>
             </>
           )}
+          {` · ${minutes} min read`}
         </p>
 
         {/* Rendered from our own Markdown files at build time. */}
@@ -67,7 +78,8 @@ export default async function ArticlePage(props: PageProps<"/articles/[slug]">) 
           dangerouslySetInnerHTML={{ __html: html }}
         />
 
-        <div className="mt-16 border-t border-rule pt-8">
+        <Ornament className="mx-auto mt-16 max-w-40" />
+        <div className="mt-8 text-center">
           <Link href="/articles/" className="text-sm text-muted transition-colors hover:text-ink">
             ← All articles
           </Link>

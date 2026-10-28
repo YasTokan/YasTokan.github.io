@@ -5,8 +5,10 @@ export function About() {
   return (
     <Section id="about" label="About">
       <div className="max-w-2xl space-y-5 text-base leading-relaxed sm:text-lg sm:leading-relaxed">
-        {person.summary.map((paragraph) => (
-          <p key={paragraph}>{paragraph}</p>
+        {person.summary.map((paragraph, index) => (
+          <p key={paragraph} className={index === 0 ? "drop-cap" : undefined}>
+            {paragraph}
+          </p>
         ))}
       </div>
 

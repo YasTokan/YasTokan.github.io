@@ -14,7 +14,7 @@ export function Section({ id, label, children }: SectionProps) {
     <section
       id={id}
       aria-labelledby={headingId}
-      className="scroll-mt-16 border-t border-rule py-16 sm:py-20"
+      className="scroll-mt-17 border-t border-rule py-16 sm:py-20"
     >
       <div className="grid gap-8 md:grid-cols-[11rem_1fr] md:gap-12">
         <h2

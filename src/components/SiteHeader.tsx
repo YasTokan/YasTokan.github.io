@@ -2,6 +2,7 @@ import Link from "next/link";
 import { person } from "@/content/profile";
 import { DownloadIcon } from "./icons";
 import { MobileMenu } from "./MobileMenu";
+import { NavLinks } from "./NavLinks";
 import { ThemeToggle } from "./ThemeToggle";
 
 export const navItems = [
@@ -13,7 +14,10 @@ export const navItems = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-rule bg-bg/85 backdrop-blur supports-[backdrop-filter]:bg-bg/70">
+    // Solid paper bar with a fine double rule, like a printed masthead. The
+    // second line is drawn separately: a CSS double border collapses into one
+    // line on scaled displays.
+    <header className="sticky top-0 z-40 border-b border-muted/30 bg-bg after:pointer-events-none after:absolute after:inset-x-0 after:bottom-[3px] after:h-px after:bg-muted/30">
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link href="/" className="font-serif text-lg font-semibold tracking-tight">
           {person.name}
@@ -21,18 +25,7 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-1 sm:gap-2">
           <nav aria-label="Main" className="hidden md:block">
-            <ul className="flex items-center gap-1">
-              {navItems.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    className="rounded-md px-3 py-2 text-sm text-muted transition-colors hover:text-ink"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <NavLinks items={navItems} />
           </nav>
 
           <a

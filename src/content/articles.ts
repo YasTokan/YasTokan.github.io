@@ -56,10 +56,20 @@ export function getArticle(slug: string): Article | undefined {
   return articles.find((article) => article.slug === slug);
 }
 
+function readArticle(slug: string): Promise<string> {
+  const file = path.join(process.cwd(), "src", "content", "articles", `${slug}.md`);
+  return readFile(file, "utf8");
+}
+
 /** Reads an article's Markdown and renders it to HTML at build time. */
 export async function getArticleHtml(slug: string): Promise<string> {
-  const file = path.join(process.cwd(), "src", "content", "articles", `${slug}.md`);
-  return marked.parse(await readFile(file, "utf8"));
+  return marked.parse(await readArticle(slug));
+}
+
+/** Estimated reading time in whole minutes, at about 200 words a minute. */
+export async function getReadingMinutes(slug: string): Promise<number> {
+  const words = (await readArticle(slug)).split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(words / 200));
 }
 
 export function formatDate(iso: string): string {

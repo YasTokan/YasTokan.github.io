@@ -66,6 +66,35 @@
     outline-offset: 3px;
     border-radius: 2px;
   }
+
+  /* Avoid single-word last lines in body text. */
+  p,
+  li {
+    text-wrap: pretty;
+  }
+}
+
+/* Classic drop cap for an opening paragraph: a floated letter, or
+   initial-letter where the browser supports it. */
+.drop-cap::first-letter,
+.article-body > p:first-of-type::first-letter {
+  float: left;
+  margin: 0.08em 0.1em 0 0;
+  font-family: var(--font-serif);
+  font-size: 3.4em;
+  font-weight: 600;
+  line-height: 0.8;
+  color: var(--accent);
+}
+
+@supports (initial-letter: 2) or (-webkit-initial-letter: 2) {
+  .drop-cap::first-letter,
+  .article-body > p:first-of-type::first-letter {
+    float: none;
+    margin: 0 0.12em 0 0;
+    -webkit-initial-letter: 2;
+    initial-letter: 2;
+  }
 }
 
 /* Typography for Markdown-rendered articles. Kept outside @layer: in dev,
