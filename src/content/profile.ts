@@ -16,11 +16,9 @@ export const person: Person = {
   name: "Yasine Tokan",
   role: "Tech Lead / CTO",
   headline: "Full Stack, Applied AI & Cloud Architecture",
-  currentRole: "Tech Lead at Sharkhood Tech",
+  currentRole: "Tech Lead, Sharkhood Tech",
   intro:
-    "I've been writing software for eleven years. Right now I lead the web and backend teams at Sharkhood, where we run our AI on our own servers so company data never leaves the building.",
-  currently: "Building a self-hosted RAG platform at Sharkhood",
-  previously: ["dailypoint", "Top Spots", "ShoofBook"],
+    "Technical lead with eleven years of experience across web, mobile and cloud. Currently Tech Lead at Sharkhood Tech, leading the web and backend teams and building AI that runs on the company's own infrastructure.",
   description:
     "Technical lead with 11+ years shipping software across web, mobile, and cloud, owning architecture, standards, and delivery across full engineering teams.",
   location: "Dubai, UAE",

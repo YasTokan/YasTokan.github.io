@@ -4,14 +4,10 @@ export type Person = {
   role: string;
   /** Specialisms, used in the social preview image. */
   headline: string;
-  /** Shown under the name in the intro, e.g. "Tech Lead at Sharkhood Tech". */
+  /** Shown under the name in the intro, e.g. "Tech Lead, Sharkhood Tech". */
   currentRole: string;
-  /** First-person paragraph at the top of the home page. */
+  /** Short summary paragraph at the top of the home page. */
   intro: string;
-  /** What I'm working on now, shown under "Currently" in the intro. */
-  currently: string;
-  /** Companies listed under "Before" in the intro. */
-  previously: string[];
   /** Search and social description. */
   description: string;
   location: string;

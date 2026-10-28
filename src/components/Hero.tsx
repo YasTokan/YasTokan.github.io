@@ -1,43 +1,29 @@
-import Link from "next/link";
 import { person } from "@/content/profile";
 
 const linkClass =
   "underline decoration-muted/50 decoration-1 underline-offset-4 transition-colors hover:decoration-ink";
 
+/** Letterhead-style intro, like the top of a formal CV. */
 export function Hero() {
   return (
-    <section aria-labelledby="hero-heading" className="pt-16 pb-16 sm:pt-24 sm:pb-20">
+    <section aria-labelledby="hero-heading" className="pt-16 pb-16 text-center sm:pt-24 sm:pb-20">
       <h1
         id="hero-heading"
-        className="font-serif text-4xl font-semibold tracking-tight sm:text-5xl"
+        className="font-serif text-3xl font-semibold tracking-[0.14em] uppercase sm:text-5xl"
       >
         {person.name}
       </h1>
-      <p className="mt-2 text-lg text-muted">
-        {person.currentRole} ·{" "}
-        <span className="whitespace-nowrap">{person.location}</span>
+      {/* Role and location share a line on larger screens and stack on phones. */}
+      <p className="mt-4 text-lg text-muted">
+        <span className="block sm:inline">{person.currentRole}</span>
+        <span className="sr-only">, </span>
+        <span aria-hidden="true" className="hidden sm:inline"> · </span>
+        <span className="block sm:inline">{person.location}</span>
       </p>
 
-      <p className="mt-8 max-w-2xl text-lg leading-relaxed sm:text-xl sm:leading-relaxed">
-        {person.intro}
-      </p>
+      <hr className="mx-auto mt-8 max-w-xl border-muted/40" />
 
-      <dl className="mt-8 grid max-w-2xl grid-cols-[5.5rem_1fr] gap-x-4 gap-y-2 sm:grid-cols-[7rem_1fr]">
-        <dt className="text-muted">Currently</dt>
-        <dd>{person.currently}</dd>
-
-        <dt className="text-muted">Before</dt>
-        <dd>{person.previously.join(" · ")}</dd>
-
-        <dt className="text-muted">Writing</dt>
-        <dd>
-          <Link href="/articles/" className={linkClass}>
-            Notes on AI and big data →
-          </Link>
-        </dd>
-      </dl>
-
-      <p className="mt-8 flex flex-wrap gap-x-2 gap-y-1">
+      <p className="mt-6 flex flex-wrap justify-center gap-x-2 gap-y-1">
         <a href={`mailto:${person.email}`} className={linkClass}>
           {person.email}
         </a>
@@ -49,6 +35,10 @@ export function Hero() {
         <a href={person.cv} download className={linkClass}>
           CV (PDF)
         </a>
+      </p>
+
+      <p className="mx-auto mt-10 max-w-2xl text-lg leading-relaxed text-balance sm:text-xl sm:leading-relaxed">
+        {person.intro}
       </p>
     </section>
   );
