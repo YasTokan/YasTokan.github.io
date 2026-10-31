@@ -1,4 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Page not found",
+  // Replaces the site-wide "index" rule, which would contradict Next's noindex.
+  robots: { index: false, follow: true },
+};
 
 export default function NotFound() {
   return (
@@ -10,12 +17,14 @@ export default function NotFound() {
       <p className="mt-4 text-muted">
         It may have moved when the site was rebuilt.
       </p>
-      <Link
-        href="/"
-        className="mt-8 inline-block text-accent underline underline-offset-4"
-      >
-        Back to the home page
-      </Link>
+      <p className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-accent">
+        <Link href="/" className="underline underline-offset-4">
+          Back to the home page
+        </Link>
+        <Link href="/articles/" className="underline underline-offset-4">
+          Read the articles
+        </Link>
+      </p>
     </main>
   );
 }

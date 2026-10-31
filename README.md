@@ -17,12 +17,14 @@ All copy lives in [`src/content/profile.ts`](src/content/profile.ts): the hero, 
 
 To update the CV, replace `public/Yasine_Tokan_CV.pdf` and keep the same file name.
 
+Search settings are in the same file: `seoTitle` and `description` on `person`, plus the `keywords` and `expertise` lists. Keep the title under 60 characters and the description under 160.
+
 ## Write an article
 
 1. Add the article as Markdown in `src/content/articles/<slug>.md`. Start with `##` headings; the title comes from the index.
-2. Add an entry with the same `slug`, a title, a one-line summary and the dates to [`src/content/articles.ts`](src/content/articles.ts).
+2. Add an entry with the same `slug`, a title, a one-line summary, a topic, its search keywords and the dates to [`src/content/articles.ts`](src/content/articles.ts).
 
-The article appears at `/articles/<slug>/` and in the list at `/articles/`, newest first.
+The article appears at `/articles/<slug>/`, in the list at `/articles/` (newest first), and on the home page while it's one of the latest three.
 
 ## Build
 

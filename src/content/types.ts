@@ -1,14 +1,20 @@
 export type Person = {
   name: string;
-  /** Short role line shown above the name, e.g. "Tech Lead / CTO". */
+  givenName: string;
+  familyName: string;
+  /** GitHub handle, also used as an alternate name in search data. */
+  username: string;
+  /** Home page title in search results; keep it under 60 characters. */
+  seoTitle: string;
+  /** Short role line, e.g. "Tech Lead / CTO". */
   role: string;
-  /** Specialisms, used in the social preview image. */
+  /** Specialisms, used in the footer and the social preview image. */
   headline: string;
   /** Shown under the name in the intro, e.g. "Tech Lead, Sharkhood Tech". */
   currentRole: string;
   /** Short summary paragraph at the top of the home page. */
   intro: string;
-  /** Search and social description. */
+  /** Search and social description; keep it under 160 characters. */
   description: string;
   location: string;
   summary: string[];
@@ -79,6 +85,10 @@ export type Article = {
   slug: string;
   title: string;
   summary: string;
+  /** Groups related articles, e.g. "AI" or "Big data". */
+  topic: string;
+  /** Search phrases the article answers; used in its search data. */
+  keywords: string[];
   /** ISO dates (YYYY-MM-DD). */
   published: string;
   updated?: string;

@@ -14,13 +14,17 @@ import type {
 
 export const person: Person = {
   name: "Yasine Tokan",
+  givenName: "Yasine",
+  familyName: "Tokan",
+  username: "YasTokan",
+  seoTitle: "Yasine Tokan · Tech Lead / CTO in Dubai · Full Stack & AI",
   role: "Tech Lead / CTO",
   headline: "Full Stack, Applied AI & Cloud Architecture",
   currentRole: "Tech Lead, Sharkhood Tech",
   intro:
-    "Technical lead with eleven years of experience across web, mobile and cloud. Currently Tech Lead at Sharkhood Tech, leading the web and backend teams and building AI that runs on the company's own infrastructure.",
+    "Technical lead and full stack engineer with eleven years of experience across web, mobile and cloud. Currently Tech Lead at Sharkhood Tech, leading the web and backend teams and building self-hosted AI on the company's own infrastructure.",
   description:
-    "Technical lead with 11+ years shipping software across web, mobile, and cloud, owning architecture, standards, and delivery across full engineering teams.",
+    "Tech Lead in Dubai with 11+ years in full stack, applied AI and cloud architecture: self-hosted RAG platforms, private AI assistants and legacy modernisation.",
   location: "Dubai, UAE",
   summary: [
     "My work tends to land on two kinds of hard problems: moving large legacy systems forward without stopping the business running on top of them, and putting AI into production where the data isn't allowed to leave the building. That means self-hosted RAG platforms and assistants deployed for banking and enterprise clients.",
@@ -32,6 +36,52 @@ export const person: Person = {
   cv: "/Yasine_Tokan_CV.pdf",
   siteUrl: "https://yastokan.github.io",
 };
+
+/** Phrases people search for; used in the site's keywords tag. */
+export const keywords = [
+  "Yasine Tokan",
+  "Tech Lead Dubai",
+  "CTO Dubai",
+  "Full Stack Engineer Dubai",
+  "Lead Full Stack Developer UAE",
+  "Applied AI engineer",
+  "Self-hosted RAG",
+  "Private AI assistant",
+  "Self-hosted LLM",
+  "Legacy modernization",
+  "AngularJS migration",
+  "Engineering leadership",
+  "Cloud architecture",
+  "Angular",
+  "Next.js",
+  "NestJS",
+  ".NET Core",
+];
+
+/** Subjects listed in the search data that describes the person. */
+export const expertise = [
+  "Engineering leadership",
+  "Software architecture",
+  "Cloud architecture",
+  "Full stack development",
+  "Applied AI",
+  "Retrieval-augmented generation",
+  "Self-hosted LLMs",
+  "Vector databases",
+  "Legacy system modernisation",
+  "Microservices",
+  "Angular",
+  "React",
+  "Next.js",
+  "NestJS",
+  "Node.js",
+  ".NET Core",
+  "TypeScript",
+  "PostgreSQL",
+  "MongoDB",
+  "AWS",
+  "Azure",
+];
 
 export const focusAreas: FocusArea[] = [
   {
@@ -231,6 +281,7 @@ export const skillGroups: SkillGroup[] = [
     name: "Applied AI",
     skills: [
       "RAG",
+      "Self-hosted LLMs",
       "Vector databases",
       "Embeddings & model evaluation",
       "Ollama",
@@ -245,8 +296,10 @@ export const skillGroups: SkillGroup[] = [
     skills: [
       "Node.js",
       "NestJS",
+      "Express",
       "Fastify",
       ".NET Core",
+      "REST APIs",
       "Microservices",
       "WebSockets & MQTT",
       "OAuth & JWT",
@@ -278,6 +331,7 @@ export const skillGroups: SkillGroup[] = [
       "IIS",
       "Docker",
       "CI/CD",
+      "SaaS",
       "S3 & Azure Blob Storage",
       "GitHub, GitLab, Bitbucket",
     ],

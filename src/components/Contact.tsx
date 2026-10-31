@@ -9,9 +9,9 @@ export function Contact() {
   return (
     <Section id="contact" label="Contact">
       <p className="max-w-2xl text-lg leading-relaxed">
-        Email is the best way to reach me. I&apos;m always glad to talk about
-        engineering leadership, AI on private data, or a system that has become
-        hard to change.
+        I&apos;m based in Dubai, and email is the best way to reach me. I&apos;m
+        always glad to talk about engineering leadership, AI on private data, or
+        a system that has become hard to change.
       </p>
 
       <a
@@ -24,13 +24,13 @@ export function Contact() {
 
       <ul className="mt-8 flex flex-wrap gap-x-8 gap-y-3 text-sm">
         <li>
-          <a href={person.linkedin} target="_blank" rel="noopener noreferrer" className={linkClass}>
+          <a href={person.linkedin} target="_blank" rel="me noopener noreferrer" className={linkClass}>
             LinkedIn
             <ArrowUpRightIcon className="size-3.5" />
           </a>
         </li>
         <li>
-          <a href={person.github} target="_blank" rel="noopener noreferrer" className={linkClass}>
+          <a href={person.github} target="_blank" rel="me noopener noreferrer" className={linkClass}>
             GitHub
             <ArrowUpRightIcon className="size-3.5" />
           </a>

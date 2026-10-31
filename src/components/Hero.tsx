@@ -29,7 +29,7 @@ export function Hero() {
           {person.email}
         </a>
         <span aria-hidden="true" className="text-muted">·</span>
-        <a href={person.linkedin} target="_blank" rel="noopener noreferrer" className={linkClass}>
+        <a href={person.linkedin} target="_blank" rel="me noopener noreferrer" className={linkClass}>
           LinkedIn
         </a>
         <span aria-hidden="true" className="text-muted">·</span>

@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { JsonLd } from "@/components/JsonLd";
 import { formatDate, getArticles, getReadingMinutes } from "@/content/articles";
+import { articlesSchema } from "@/content/schema";
+import { sharedOpenGraph } from "@/content/seo";
+
+const title = "Articles on RAG, AI and Big Data";
+const description =
+  "Practical notes on RAG, AI agents and data systems, plus comparisons of AI models and big data engines like Hadoop and Spark, by Tech Lead Yasine Tokan.";
 
 export const metadata: Metadata = {
-  title: "Articles · Yasine Tokan",
-  description: "Notes on AI tools, big data, and the systems I work with.",
+  title,
+  description,
   alternates: { canonical: "/articles/" },
+  openGraph: { ...sharedOpenGraph, type: "website", url: "/articles/", title, description },
 };
 
 export default async function ArticlesPage() {
@@ -18,11 +26,12 @@ export default async function ArticlesPage() {
 
   return (
     <main id="main" className="mx-auto max-w-5xl px-4 pt-16 pb-24 sm:px-6 sm:pt-20">
+      <JsonLd data={articlesSchema(articles, description)} />
       <h1 className="font-serif text-4xl font-semibold tracking-tight sm:text-5xl">
         Articles
       </h1>
       <p className="mt-4 max-w-2xl text-lg text-muted">
-        Notes on AI tools, big data, and the systems I work with.
+        Notes on RAG, AI agents, data systems, and the tools I work with.
       </p>
 
       <ul className="mt-12 divide-y divide-rule border-y border-rule">
